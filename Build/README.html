@@ -1,0 +1,62 @@
+<h2>The idea behind the scene</h2>
+
+<p>The task is difficult in the way that we are dealing with users who have never used or used little the computer. They are smart people, thing is that the countrys internet support is not very good, so computerskill is not a usual thing. At the same time they usually have smartphones, so they are used to the mobile interface.</p>
+
+<p>The workflow is completed on the paper at the moment. Large files, bare minimum at the same time: they use to add stamps and signatures on the same paper what indicates the specific flow then.</p>
+
+<p>The idea is to keep it as close to the paperflow as possible - to keep the learning curve minimal. RIKs analysts insisted to keep workong on the table format. I oppose it: in my opinion there are thing you can not convert directly from paper to computer without losing in performance. Inserting data into a table is one of them.</p>
+
+<p>Instead I intend to use inputs as questionary. The inputs will look like fields on paper - bare underline. Very important is the organic animation of things, that form elements would respond to user and guide them through process. The process should feel like working on paper but have more guidance.</p>
+
+<p>Luckily,  ideas are in the air, Google is building his Material design what almost completely refers to my ideas toward particular design task.</p>
+
+<h2>Existing examples</h2>
+<p>Locals are building a <a href="http://sulicourt.com/home-2/">wordpress-page for court</a> what shall be linked or otherwise integrated with our system.</p>
+
+<p>Dubai has a proffesional <a href="http://www.dubaicourts.gov.ae/portal/page?_pageid=292,433242&amp;_dad=portal&amp;_schema=PORTAL">e-court system</a> -  we can learn some of that page.</p>
+
+<h2>Workflow</h2>
+<p>As an international project with participans from different locations/companies (I can count 3 in Estonia and 2 in Kurdistan) it needs speciflicly good toolset for collaboration. TFS is good for some things, I would add <a href="https://asana.com/">Asana</a> for tracking and <a href="https://slack.com/">Slack</a> for communicationg and Usersnap[https://usersnap.com/] for onscreen commenting. For all listed tools the testaccounts are created (named Kurdi Kohus), depends on project manager wether they will be used or not.</p>
+
+<p>Hanno has written about their tools for <a href="http://hanno.co/logbook/nine-tools-to-keep-our-remote-team-together">collaboration</a>, peek-in into their general workflow is <a href="http://playbook.hanno.co/">here</a>.
+Read about <a href="http://qcmny.com/tools-and-technology/3-collaboration-tools-cant-live-without/">Slack and Asana</a></p>
+
+<h2>Fonts and directions</h2>
+<p>We go with the bulletproofed <a href="http://www.google.com/design/spec/style/typography.html#">Google fonts</a>: Roboto (light, Normal, Medium e.g. 300, 400, 500) for english version, Noto for arabic and kurdish. Thats for the webpage. All the documents influenced by MS Word and possibly sent by email shall use unicode fonts.</p>
+
+<p>Other suggestionst for <a href="http://stackoverflow.com/questions/7185106/what-are-my-web-font-choices-for-arabic">arabic webfonts</a> by community, in Google fonts are arabic-persian fonts under <a href="http://www.google.com/fonts/earlyaccess">early access fonts</a>. Note that arabic and kurdish letters are not the same.</p>
+
+<p>Pay attention that rtl-writing starts from end - in our understanding. They take the file and start to fill it from end. </p>
+
+<p>As we are going with SASS version, there is a helper for <a href="http://www.matanich.com/2013/09/06/rtl-css-with-sass/">rtl-support</a></p>
+
+<h2>Colors</h2>
+<p>The color pallette should be nordic and unobtrusive - was the clients wish. The sample pallettes are in <a href="http://coolors.co/092327-0b5351-00a9a5-b5c2b7-8c93a8">Coolor account</a>.</p>
+
+<h2>List of used plugins and methods</h2>
+
+<ul>
+  <li>frontpage and first user manual page scroll based on <a href="https://github.com/alvarotrigo/pagePiling.js#pagepilingjs">pagePiling.js</a></li>
+  <li>bubbles for guide tips - <a href="http://blog.tommoor.com/crumble/">crumble</a></li>
+  <li>general animation of elements on pagescroll - <a href="http://mynameismatthieu.com/WOW/">wow.js</a>. A decent <a href="https://www.box.com/notes/">example</a> about it is Boxnotes.</li>
+  <li><a href="http://davidwalsh.name/fullscreen">HTML5 fullscreen API</a> Explained in detail <a href="http://www.hongkiat.com/blog/html5-fullscreen-api/">here</a></li>
+</ul>
+
+<h2>Maybe-plugins</h2>
+<ul>
+  <li>svg interaction to replace flash <a href="http://snapsvg.io/">snap.svg</a></li>
+  <li>resource of <a href="http://ninodezign.com/25-free-jquery-plugins-for-doing-guided-tours-through-a-website/">guide plugins</a></li>
+</ul>
+
+<h2>Framework and UI examples to use as base</h2>
+<ul>
+  <li><a href="https://ethn.io/22910">Questionary</a></li>
+  <li>inputs will look like <a href="http://codepen.io/sevilayha/full/IdGKH/">this</a></li>
+  <li>the style is used in <a href="http://www.polymer-project.org/components/paper-elements/demo.html#paper-shadow">Paper Elements</a></li>
+  <li>Polymer tutorial by <a href="http://www.sitepoint.com/introduction-to-web-components-and-polymer-tutorial/">Sitepoint</a></li>
+  <li>sample admin themes to get started: <a href="http://bootbundle.herokuapp.com/resources">Bootbundle app</a>, <a href="http://demo.bootstraptor.com/bs_deal.html">bootstraptor</a> (less-based) and <a href="http://wrapbootstrap.com/preview/WB07061TJ">Detail Admin</a>. And cool angular-template <a href="http://flatfull.com/themes/angulr/#/app/docs">Flafull</a> - pay attention to ui-jq what allows you to call the jQuery function or plugin specified on the element.</li>
+</ul>
+
+<h2>Usability testing</h2>
+<p><a href="http://ui-patterns.com/blog/complete-review-ux-usability-tools-website#ab_testing">This</a> article giver probably a pretty good overview of available tools. Session recording app for windows would be <a href="http://www.sketchman-studio.com/usability-studio/">Usability Studio</a> - as local computers have built-in camera, the implementation would be easy.</p>
+

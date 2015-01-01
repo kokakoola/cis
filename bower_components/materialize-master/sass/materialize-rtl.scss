@@ -1,0 +1,9 @@
+@import '../../bi-app-sass/bi-app/bi-app-rtl';
+@import 'materialize';
+
+html {
+  font-family: "NotoKufi", "Roboto", sans-serif;
+  direction: rtl;
+  writing-mode: rl-tb;
+}
+

@@ -1,0 +1,153 @@
+<h2>Bi App SASS</h2>
+<p>bi-app lets you write your stylesheets once, and have them compiled into 2 different stylesheets one for <code>left-to-right</code> layout, and the other for <code>right-to-left</code> layouts </p>
+
+<h2>Why</h2>
+<p>usually when writing stylesheets for bi-directional sites/apps, both <code>ltr</code> &amp; <code>rtl</code> stylesheets mostly will look the same, except for direction related properties (<code>float, text-align, padding, margin ..etc</code> ), so when you write a <code>float: left</code> in some <code>ltr</code> stylesheet, you’ll have to write it again as <code>float: right</code> for the <code>rtl</code> one</p>
+
+<p>when using <strong>bi-app-sass</strong> , all you have to do is to write your stylesheets once using a predefined mixins for those direction related properties, and once you compile your stylesheets, you’ll have a ready two stylesheets for your bi-directional app</p>
+
+<h2>How to use it</h2>
+<p>create three sass files
+<code>js
+app-ltr.scss    // ltr interface to be compiled
+app-rtl.scss    // rtl interface
+_app.scss       // private file where you will write your styles (won't be compiled)
+</code>
+in the <code>app-ltr.scss</code> only include the following
+<code>css
+@import 'bi-app-ltr';
+@import 'app';
+</code></p>
+
+<p>same for <code>app-rtl.scss</code>
+<code>css
+@import 'bi-app-rtl';
+@import 'app';
+</code></p>
+
+<p>now you can write your styles in <code>_app.scss</code>, using bi-app mixins, as you were styling for only <code>ltr</code> layouts, and the <code>rtl</code> styles will be compiled automatically!
+<code>css
+.foo {
+  display: block;
+  @include float(left);
+  @include border-left(1px solid white);
+  ...
+}
+</code></p>
+
+<p>the result will be ..</p>
+
+<p>in <code>app-ltr.css</code>
+<code>css
+.foo {
+  display: block;
+  float: left;
+  border-left: 1px solid white;
+  ...
+}
+</code></p>
+
+<p>in <code>app-rtl.css</code>
+<code>css
+.foo {
+  display: block;
+  float: right;
+  border-right: 1px solid white;
+  ...
+}
+</code>
+## Installing via Bower
+<code>
+bower install bi-app-sass
+</code></p>
+
+<h2>Installing via Yeoman</h2>
+<p><code>
+yeoman install bi-app-sass
+</code></p>
+
+<h2>Reference</h2>
+<p>a list of available mixins for CSS properties
+```
+// padding
+padding-left(distance)
+padding-right(distance)
+padding(top, right, bottom, left)</p>
+
+<p>// margin
+margin-left(distance)
+margin-right(distance)
+margin(top, right, bottom, left)</p>
+
+<p>// float
+float(direction)			// left || right || none</p>
+
+<p>// text align
+text-align(direction)		// left || right || center</p>
+
+<p>// clear
+clear(direction)			// left || right || both</p>
+
+<p>// left / right
+left(distance)
+right(distance)</p>
+
+<p>// border
+border-left(border-style)
+border-right(border-style)</p>
+
+<p>// border width
+border-left-width(width)
+border-right-width(width)
+border-width(top, right, bottom, left)</p>
+
+<p>// border style
+border-left-style(style)
+border-right-style(style)
+border-style(top, right, bottom, left)</p>
+
+<p>// border color
+border-left-color(color)
+border-right-color(color)
+border-color(top, right, bottom, left)</p>
+
+<p>// border radius
+border-top-left-radius(radius)
+border-top-right-radius(radius)
+border-bottom-left-radius(radius)
+border-bottom-right-radius(radius)
+border-left-radius(radius)
+border-right-radius(radius)
+border-top-radius(radius)
+border-bottom-radius(radius)
+border-radius(topLeft, topRight, bottomRight, bottomLeft)</p>
+
+<p>// ltr / rtl contents
+rtl
+ltr
+```</p>
+
+<h2>Handling Special Cases</h2>
+
+<p>whenever you face a special case, the <code>rtl</code> &amp; <code>ltr</code> mixins will give you hand :)</p>
+
+<p>```
+.some-class {
+    @include rtl {
+      // what you write here, will appear only in rtl stylesheets
+      background-image: url(‘rtl/some-image.jpg’);
+      background-position: -10px 30px;
+    }</p>
+
+<pre><code>@include ltr {
+  background-image: url('ltr/some-image.jpg');
+  background-position: 100% 50%;
+} } ```
+</code></pre>
+
+<h2>Credits</h2>
+<p>created by Anas Nakawa <a href="//github.com/anasnakawa">github</a>, <a href="//twitter.com/anasnakawa">twitter</a>,<br />
+inspired by Victor Zamfir <a href="//github.com/viczam">github</a>, <a href="//twitter.com/victorzamfir">Victor Zamfir</a></p>
+
+<h2>License</h2>
+<p>Released under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a></p>

@@ -1,0 +1,109 @@
+/*
+Error: Undefined mixin 'left'.
+        on line 37 of /Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/components/_navbar.scss, in `left'
+        from line 37 of /Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/components/_navbar.scss
+        from line 18 of /Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/materialize.scss
+
+32: @import "../.sass-cache/4f15d15a8bdc0f555022ea37a14b0de283e6c60a/_table_of_contents.scssc";;
+33: @import "../js/sideNav.js";;
+34: @import "../.sass-cache/4f15d15a8bdc0f555022ea37a14b0de283e6c60a/_preloader.scssc";;
+35: @import "../js/slider.js";;
+36: @import "../.sass-cache/1b00ca2d56116569536e4dce524447d4512a5e90/_default.scssc";;
+37: @import "../.sass-cache/1b00ca2d56116569536e4dce524447d4512a5e90/_default.date.scssc";;
+38: @import "../.sass-cache/1b00ca2d56116569536e4dce524447d4512a5e90/_default.time.scssc";;
+
+Backtrace:
+/Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/components/_navbar.scss:37:in `left'
+/Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/components/_navbar.scss:37
+/Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/materialize.scss:18
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:98:in `block in with_mixin'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:98:in `with_mixin'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:502:in `visit_media'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
+/usr/local/rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/gems/listen-2.7.11/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'left'.\A         on line 37 of /Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/components/_navbar.scss, in `left'\A         from line 37 of /Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/components/_navbar.scss\A         from line 18 of /Volumes/Data/Documents/Work/NG/CIS/CIS-2/bower_components/materialize-master/sass/materialize.scss\A \A 32: @import \"components/table_of_contents\";\A 33: @import \"components/sideNav\";\A 34: @import \"components/preloader\";\A 35: @import \"components/slider\";\A 36: @import \"components/date_picker/default.scss\";\A 37: @import \"components/date_picker/default.date.scss\";\A 38: @import \"components/date_picker/default.time.scss\";"; }

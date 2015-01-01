@@ -1,0 +1,54 @@
+<script src='../bower_components/jquery/dist/jquery.min.js'></script>
+<script src='../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'></script>
+<script src='../js/materialize.js'></script>
+<script src='../js/init.js'></script>
+<script src='../bower_components/pagepiling.js/jquery.pagepiling.js'></script>
+
+<script>
+  $(document).ready(function() {
+
+    // change stylesheet oncklick
+    // default, ltr stylsheet
+    $("#Kurdish").click(function(event) {
+      event.preventDefault();
+      $("link[rel=stylesheet]").attr({href : "css/app-rtl.css"});
+      $('.nav-mobile > .btn-medium').removeClass('active');
+      $(this).addClass('active');
+      return false;
+    });
+     
+    // rtl stylesheet
+    $("#English").click(function(event) {
+      event.preventDefault();
+      $("link[rel=stylesheet]").attr({href : "css/app-ltr.css"});
+      $('.nav-mobile > .btn-medium').removeClass('active');
+      $(this).addClass('active');
+      return false;
+    });
+
+    // front login
+    $('.forgot-pass').click(function(event) {
+      $(".pr-wrap").toggleClass("show-pass-reset");
+    }); 
+    
+    $('.pass-reset-submit').click(function(event) {
+      $(".pr-wrap").removeClass("show-pass-reset");
+    }); 
+
+    // init  Pagepiling
+    // $('#page').pagepiling({
+    //   direction: 'horizontal',
+    //     verticalCentered: true,
+    //   keyboardScrolling: true,
+    //   sectionSelector: '.foo',
+    //   navigation: {
+    //     'textColor': '#ccc',
+    //     'bulletsColor': '#fff',
+    //     'position': 'right',
+    //     'tooltips': ['section1', 'section2', 'section3', 'section4']
+    //   }
+    // });
+  });
+
+
+</script>
