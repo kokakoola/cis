@@ -35,7 +35,7 @@ The color pallette should be nordic and unobtrusive - was the clients wish. The 
 - svg interaction to replace flash [snap.svg](http://snapsvg.io/)
 - resource of [guide plugins](http://ninodezign.com/25-free-jquery-plugins-for-doing-guided-tours-through-a-website/)
 
-## Framework and UI examples to use as base
+## Framework and UI examples to use as base 
 - [Questionary](https://ethn.io/22910)
 - inputs will look like [this](http://codepen.io/sevilayha/full/IdGKH/)
 -  the style is used in [Paper Elements](http://www.polymer-project.org/components/paper-elements/demo.html#paper-shadow)
