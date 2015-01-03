@@ -1,19 +1,10 @@
-## The idea behind the scene
-
-The task is difficult in the way that we are dealing with users who have never used or used little the computer. They are smart people, thing is that the countrys internet support is not very good, so computerskill is not a usual thing. At the same time they usually have smartphones, so they are used to the mobile interface.
-
-The workflow is completed on the paper at the moment. Large files, bare minimum at the same time: they use to add stamps and signatures on the same paper what indicates the specific flow then.
-
-The idea is to keep it as close to the paperflow as possible - to keep the learning curve minimal. RIKs analysts insisted to keep workong on the table format. I oppose it: in my opinion there are thing you can not convert directly from paper to computer without losing in performance. Inserting data into a table is one of them.
-
-Instead I intend to use inputs as questionary. The inputs will look like fields on paper - bare underline. Very important is the organic animation of things, that form elements would respond to user and guide them through process. The process should feel like working on paper but have more guidance.
-
-Luckily,  ideas are in the air, Google is building his Material design what almost completely refers to my ideas toward particular design task.
+## Wiki
+Look into [wiki](https://github.com/kokakoola/cis/wiki) to get a better overview.
 
 ## Existing examples 
-Locals are building a [wordpress-page for court](http://sulicourt.com/home-2/) what shall be linked or otherwise integrated with our system.
+Locals (Aktors hired) are building a [wordpress-page for court](http://sulicourt.com/home-2/) what shall be linked or otherwise integrated with our system.
 
-Dubai has a proffesional [e-court system](http://www.dubaicourts.gov.ae/portal/page?_pageid=292,433242&_dad=portal&_schema=PORTAL) -  we can learn some of that page.
+Dubai has a proffesional [e-court system](http://www.dubaicourts.gov.ae/portal/page?_pageid=292,433242&_dad=portal&_schema=PORTAL) -  we can learn some of that page as it is a role model for client.
 
 ## Workflow
 As an international project with participans from different locations/companies (I can count 3 in Estonia and 2 in Kurdistan) it needs speciflicly good toolset for collaboration. TFS is good for some things, I would add [Asana](https://asana.com/) for tracking and [Slack](https://slack.com/) for communicationg and Usersnap[https://usersnap.com/] for onscreen commenting. For all listed tools the testaccounts are created (named Kurdi Kohus), depends on project manager wether they will be used or not.
@@ -28,7 +19,7 @@ Other suggestionst for [arabic webfonts](http://stackoverflow.com/questions/7185
 
 Pay attention that rtl-writing starts from end - in our understanding. They take the file and start to fill it from end. 
 
-As we are going with SASS version, there is a helper for [rtl-support](http://www.matanich.com/2013/09/06/rtl-css-with-sass/)
+As we are going with scss version, there is a helper for [rtl-support](http://www.matanich.com/2013/09/06/rtl-css-with-sass/)
 
 ## Colors
 The color pallette should be nordic and unobtrusive - was the clients wish. The sample pallettes are in [Coolor account](http://coolors.co/092327-0b5351-00a9a5-b5c2b7-8c93a8).

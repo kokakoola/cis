@@ -1,30 +1,76 @@
-<script src='../bower_components/jquery/dist/jquery.min.js'></script>
-<script src='../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'></script>
-<script src='../js/materialize.js'></script>
-<script src='../js/init.js'></script>
-<script src='../bower_components/pagepiling.js/jquery.pagepiling.js'></script>
+<script src='../assets/bower_components/jquery/dist/jquery.min.js'></script>
+<script src='../assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js'></script>
+<script src='../assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js'></script>
+<script src='../assets/bower_components/materialize/bin/materialize.js'></script>
+<script src='../assets/javascript/app/init.js'></script>
+<script src='../assets/bower_components/pagepiling.js/jquery.pagepiling.js'></script>
+<script src='../assets/javascript/vendor/wow.js'></script>
+<script src='../assets/javascript/app/fullscreen.js'></script>
 
 <script>
+
+  // wow.js init
+  new WOW().init();
+  
+
+  // Animate css functions
+  // http://www.telegraphicsinc.com/2013/07/how-to-use-animate-css/
+  function animationHover(element, animation){
+  element = $(element);
+  element.hover(
+    function() {
+      element.addClass('animated ' + animation);        
+    },
+    function(){
+      //wait for animation to finish before removing classes
+      window.setTimeout( function(){
+          element.removeClass('animated ' + animation);
+      }, 2000);         
+    });
+  }
+
+  function animationClick(element, animation){
+    element = $(element);
+    element.click(
+      function() {
+          element.addClass('animated ' + animation);        
+          //wait for animation to finish before removing classes
+          window.setTimeout( function(){
+              element.removeClass('animated ' + animation);
+          }, 2000);         
+
+      });
+  }
+
+// START DOCREADY
   $(document).ready(function() {
 
     // change stylesheet oncklick
     // default, ltr stylsheet
     $("#Kurdish").click(function(event) {
       event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "css/app-rtl.css"});
-      $('.nav-mobile > .btn-medium').removeClass('active');
-      $(this).addClass('active');
+      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-rtl.css"});
+      $('ul.nav-mobile > li.active').removeClass('active');
+      $(this).parent().addClass('active');
       return false;
     });
      
     // rtl stylesheet
     $("#English").click(function(event) {
       event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "css/app-ltr.css"});
-      $('.nav-mobile > .btn-medium').removeClass('active');
-      $(this).addClass('active');
+      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-ltr.css"});
+      $('ul.nav-mobile > li.active').removeClass('active');
+      $(this).parent().addClass('active');
       return false;
     });
+
+
+    $(document).ready(function(){
+        $('.mdi-content-add').each(function() {
+            animationClick(this, 'rotateIn');
+        });
+    });
+
 
     // front login
     $('.forgot-pass').click(function(event) {
@@ -48,7 +94,9 @@
     //     'tooltips': ['section1', 'section2', 'section3', 'section4']
     //   }
     // });
-  });
+
+  }); // END DOCREADY
+
 
 
 </script>

@@ -1,26 +1,69 @@
-<!-- @javascript jquery.min bootstrap materialize init jquery.pagepiling -->
+<!-- @javascript jquery.min transition collapse materialize init jquery.pagepiling wow fullscreen -->
 
 <script>
+
+  // wow.js init
+  new WOW().init();
+  
+
+  // Animate css functions
+  // http://www.telegraphicsinc.com/2013/07/how-to-use-animate-css/
+  function animationHover(element, animation){
+  element = $(element);
+  element.hover(
+    function() {
+      element.addClass('animated ' + animation);        
+    },
+    function(){
+      //wait for animation to finish before removing classes
+      window.setTimeout( function(){
+          element.removeClass('animated ' + animation);
+      }, 2000);         
+    });
+  }
+
+  function animationClick(element, animation){
+    element = $(element);
+    element.click(
+      function() {
+          element.addClass('animated ' + animation);        
+          //wait for animation to finish before removing classes
+          window.setTimeout( function(){
+              element.removeClass('animated ' + animation);
+          }, 2000);         
+
+      });
+  }
+
+// START DOCREADY
   $(document).ready(function() {
 
     // change stylesheet oncklick
     // default, ltr stylsheet
     $("#Kurdish").click(function(event) {
       event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "css/app-rtl.css"});
-      $('.nav-mobile > .btn-medium').removeClass('active');
-      $(this).addClass('active');
+      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-rtl.css"});
+      $('ul.nav-mobile > li.active').removeClass('active');
+      $(this).parent().addClass('active');
       return false;
     });
      
     // rtl stylesheet
     $("#English").click(function(event) {
       event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "css/app-ltr.css"});
-      $('.nav-mobile > .btn-medium').removeClass('active');
-      $(this).addClass('active');
+      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-ltr.css"});
+      $('ul.nav-mobile > li.active').removeClass('active');
+      $(this).parent().addClass('active');
       return false;
     });
+
+
+    $(document).ready(function(){
+        $('.mdi-content-add').each(function() {
+            animationClick(this, 'rotateIn');
+        });
+    });
+
 
     // front login
     $('.forgot-pass').click(function(event) {
@@ -44,7 +87,9 @@
     //     'tooltips': ['section1', 'section2', 'section3', 'section4']
     //   }
     // });
-  });
+
+  }); // END DOCREADY
+
 
 
 </script>

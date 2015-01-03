@@ -1,0 +1,9 @@
+// MATERIALIZE
+//**********************************
+
+
+@import '../bower_components/bi-app-sass/bi-app/bi-app-rtl';
+@import '_bi-app-for-materialize.scss'; 
+html {
+  text-align: right;
+}

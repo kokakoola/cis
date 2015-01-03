@@ -1,1 +1,2 @@
-bower_components/materialize-master/sass/*
+assets/bower_components/materialize/sass/*
+assets/sass/*
