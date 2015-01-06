@@ -1,2679 +1,2679 @@
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-lighten-5 {
   color: #fdeaeb !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.lighten-4 {
   background-color: #f8c1c3 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-lighten-4 {
   color: #f8c1c3 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.lighten-3 {
   background-color: #f3989b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-lighten-3 {
   color: #f3989b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.lighten-2 {
-  background-color: #ee6e73 !important;
+  background-color: #A9CBB7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-lighten-2 {
-  color: #ee6e73 !important;
+  color: #A9CBB7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.lighten-1 {
   background-color: #ea454b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-lighten-1 {
   color: #ea454b !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red {
-  background-color: #e51c23 !important;
+  background-color: #A9CBB7 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text {
-  color: #e51c23 !important;
+  color: #A9CBB7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.darken-1 {
   background-color: #d0181e !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-darken-1 {
   color: #d0181e !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.darken-2 {
   background-color: #b9151b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-darken-2 {
   color: #b9151b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.darken-3 {
   background-color: #a21318 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-darken-3 {
   color: #a21318 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.darken-4 {
   background-color: #8b1014 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.lighten-5 {
   background-color: #FFEBEE !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-lighten-5 {
   color: #FFEBEE !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.lighten-4 {
   background-color: #FFCDD2 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-lighten-4 {
   color: #FFCDD2 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.lighten-3 {
   background-color: #EF9A9A !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-lighten-3 {
   color: #EF9A9A !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.lighten-2 {
   background-color: #E57373 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-lighten-2 {
   color: #E57373 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.lighten-1 {
   background-color: #EF5350 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-lighten-1 {
   color: #EF5350 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .red {
   background-color: #F44336 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .red-text {
   color: #F44336 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.darken-1 {
   background-color: #E53935 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-darken-1 {
   color: #E53935 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.darken-2 {
   background-color: #D32F2F !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-darken-2 {
   color: #D32F2F !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.darken-3 {
   background-color: #C62828 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-darken-3 {
   color: #C62828 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.darken-4 {
   background-color: #B71C1C !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-darken-4 {
   color: #B71C1C !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.accent-1 {
   background-color: #FF8A80 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-accent-1 {
   color: #FF8A80 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.accent-2 {
   background-color: #FF5252 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-accent-2 {
   color: #FF5252 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.accent-3 {
   background-color: #FF1744 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-accent-3 {
   color: #FF1744 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .red.accent-4 {
   background-color: #D50000 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .red-text.text-accent-4 {
   color: #D50000 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.lighten-5 {
   background-color: #fce4ec !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-lighten-5 {
   color: #fce4ec !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.lighten-4 {
   background-color: #f8bbd0 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-lighten-4 {
   color: #f8bbd0 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.lighten-3 {
   background-color: #f48fb1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-lighten-3 {
   color: #f48fb1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.lighten-2 {
   background-color: #f06292 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-lighten-2 {
   color: #f06292 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.lighten-1 {
   background-color: #ec407a !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-lighten-1 {
   color: #ec407a !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .pink {
   background-color: #e91e63 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text {
   color: #e91e63 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.darken-1 {
   background-color: #d81b60 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-darken-1 {
   color: #d81b60 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.darken-2 {
   background-color: #c2185b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-darken-2 {
   color: #c2185b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.darken-3 {
   background-color: #ad1457 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-darken-3 {
   color: #ad1457 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.darken-4 {
   background-color: #880e4f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-darken-4 {
   color: #880e4f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.accent-1 {
   background-color: #ff80ab !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-accent-1 {
   color: #ff80ab !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.accent-2 {
   background-color: #ff4081 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-accent-2 {
   color: #ff4081 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.accent-3 {
   background-color: #f50057 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-accent-3 {
   color: #f50057 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .pink.accent-4 {
   background-color: #c51162 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .pink-text.text-accent-4 {
   color: #c51162 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.lighten-5 {
   background-color: #f3e5f5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-lighten-5 {
   color: #f3e5f5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.lighten-4 {
   background-color: #e1bee7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-lighten-4 {
   color: #e1bee7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.lighten-3 {
   background-color: #ce93d8 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-lighten-3 {
   color: #ce93d8 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.lighten-2 {
   background-color: #ba68c8 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-lighten-2 {
   color: #ba68c8 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.lighten-1 {
   background-color: #ab47bc !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-lighten-1 {
   color: #ab47bc !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .purple {
   background-color: #9c27b0 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text {
   color: #9c27b0 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.darken-1 {
   background-color: #8e24aa !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-darken-1 {
   color: #8e24aa !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.darken-2 {
   background-color: #7b1fa2 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-darken-2 {
   color: #7b1fa2 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.darken-3 {
   background-color: #6a1b9a !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-darken-3 {
   color: #6a1b9a !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.darken-4 {
   background-color: #4a148c !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-darken-4 {
   color: #4a148c !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.accent-1 {
   background-color: #ea80fc !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-accent-1 {
   color: #ea80fc !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.accent-2 {
   background-color: #e040fb !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-accent-2 {
   color: #e040fb !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.accent-3 {
   background-color: #d500f9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-accent-3 {
   color: #d500f9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .purple.accent-4 {
   background-color: #aa00ff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .purple-text.text-accent-4 {
   color: #aa00ff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.lighten-5 {
   background-color: #ede7f6 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-lighten-5 {
   color: #ede7f6 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.lighten-4 {
   background-color: #d1c4e9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-lighten-4 {
   color: #d1c4e9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.lighten-3 {
   background-color: #b39ddb !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-lighten-3 {
   color: #b39ddb !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.lighten-2 {
   background-color: #9575cd !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.lighten-1 {
   background-color: #7e57c2 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-lighten-1 {
   color: #7e57c2 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple {
   background-color: #673ab7 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text {
   color: #673ab7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.darken-1 {
   background-color: #5e35b1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-darken-1 {
   color: #5e35b1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.darken-2 {
   background-color: #512da8 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-darken-2 {
   color: #512da8 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.darken-3 {
   background-color: #4527a0 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-darken-3 {
   color: #4527a0 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.darken-4 {
   background-color: #311b92 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-darken-4 {
   color: #311b92 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.accent-1 {
   background-color: #b388ff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-accent-1 {
   color: #b388ff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.accent-2 {
   background-color: #7c4dff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-accent-2 {
   color: #7c4dff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.accent-3 {
   background-color: #651fff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-accent-3 {
   color: #651fff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple.accent-4 {
   background-color: #6200ea !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-purple-text.text-accent-4 {
   color: #6200ea !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.lighten-5 {
   background-color: #e8eaf6 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-lighten-5 {
   color: #e8eaf6 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.lighten-4 {
   background-color: #c5cae9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-lighten-4 {
   color: #c5cae9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.lighten-3 {
   background-color: #9fa8da !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-lighten-3 {
   color: #9fa8da !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.lighten-2 {
   background-color: #7986cb !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-lighten-2 {
   color: #7986cb !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.lighten-1 {
   background-color: #5c6bc0 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-lighten-1 {
   color: #5c6bc0 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .indigo {
   background-color: #3f51b5 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text {
   color: #3f51b5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.darken-1 {
   background-color: #3949ab !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-darken-1 {
   color: #3949ab !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.darken-2 {
   background-color: #303f9f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-darken-2 {
   color: #303f9f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.darken-3 {
   background-color: #283593 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-darken-3 {
   color: #283593 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.darken-4 {
   background-color: #1a237e !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-darken-4 {
   color: #1a237e !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.accent-1 {
   background-color: #8c9eff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-accent-1 {
   color: #8c9eff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.accent-2 {
   background-color: #536dfe !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-accent-2 {
   color: #536dfe !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.accent-3 {
   background-color: #3d5afe !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-accent-3 {
   color: #3d5afe !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .indigo.accent-4 {
   background-color: #304ffe !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .indigo-text.text-accent-4 {
   color: #304ffe !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.lighten-5 {
   background-color: #E3F2FD !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-lighten-5 {
   color: #E3F2FD !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.lighten-4 {
   background-color: #BBDEFB !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-lighten-4 {
   color: #BBDEFB !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.lighten-3 {
   background-color: #90CAF9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-lighten-3 {
   color: #90CAF9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.lighten-2 {
   background-color: #64B5F6 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-lighten-2 {
   color: #64B5F6 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
-.blue.lighten-1, .collection .active {
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
+.blue.lighten-1 {
   background-color: #42A5F5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-lighten-1 {
   color: #42A5F5 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .blue {
   background-color: #2196F3 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text {
   color: #2196F3 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.darken-1 {
   background-color: #1E88E5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-darken-1 {
   color: #1E88E5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.darken-2 {
   background-color: #1976D2 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-darken-2 {
   color: #1976D2 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.darken-3 {
   background-color: #1565C0 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-darken-3 {
   color: #1565C0 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.darken-4 {
   background-color: #0D47A1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-darken-4 {
   color: #0D47A1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.accent-1 {
   background-color: #82B1FF !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-accent-1 {
   color: #82B1FF !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.accent-2 {
   background-color: #448AFF !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-accent-2 {
   color: #448AFF !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.accent-3 {
   background-color: #2979FF !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-accent-3 {
   color: #2979FF !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue.accent-4 {
   background-color: #2962FF !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-text.text-accent-4 {
   color: #2962FF !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.lighten-5 {
   background-color: #e1f5fe !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-lighten-5 {
   color: #e1f5fe !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.lighten-4 {
   background-color: #b3e5fc !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-lighten-4 {
   color: #b3e5fc !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.lighten-3 {
   background-color: #81d4fa !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-lighten-3 {
   color: #81d4fa !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.lighten-2 {
   background-color: #4fc3f7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-lighten-2 {
   color: #4fc3f7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.lighten-1 {
   background-color: #29b6f6 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-lighten-1 {
   color: #29b6f6 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue {
   background-color: #03a9f4 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text {
   color: #03a9f4 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.darken-1 {
   background-color: #039be5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-darken-1 {
   color: #039be5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.darken-2 {
   background-color: #0288d1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-darken-2 {
   color: #0288d1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.darken-3 {
   background-color: #0277bd !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-darken-3 {
   color: #0277bd !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.darken-4 {
   background-color: #01579b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-darken-4 {
   color: #01579b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.accent-1 {
   background-color: #80d8ff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-accent-1 {
   color: #80d8ff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.accent-2 {
   background-color: #40c4ff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-accent-2 {
   color: #40c4ff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.accent-3 {
   background-color: #00b0ff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-accent-3 {
   color: #00b0ff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue.accent-4 {
   background-color: #0091ea !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-blue-text.text-accent-4 {
   color: #0091ea !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.lighten-5 {
   background-color: #e0f7fa !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-lighten-5 {
   color: #e0f7fa !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.lighten-4 {
   background-color: #b2ebf2 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-lighten-4 {
   color: #b2ebf2 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.lighten-3 {
   background-color: #80deea !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-lighten-3 {
   color: #80deea !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.lighten-2 {
   background-color: #4dd0e1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.lighten-1 {
   background-color: #26c6da !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-lighten-1 {
   color: #26c6da !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .cyan {
   background-color: #00bcd4 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text {
   color: #00bcd4 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.darken-1 {
   background-color: #00acc1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-darken-1 {
   color: #00acc1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.darken-2 {
   background-color: #0097a7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-darken-2 {
   color: #0097a7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.darken-3 {
   background-color: #00838f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-darken-3 {
   color: #00838f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.darken-4 {
   background-color: #006064 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-darken-4 {
   color: #006064 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.accent-1 {
   background-color: #84ffff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-accent-1 {
   color: #84ffff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.accent-2 {
   background-color: #18ffff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-accent-2 {
   color: #18ffff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.accent-3 {
   background-color: #00e5ff !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-accent-3 {
   color: #00e5ff !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .cyan.accent-4 {
   background-color: #00b8d4 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .cyan-text.text-accent-4 {
   color: #00b8d4 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.lighten-5 {
   background-color: #e0f2f1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-lighten-5 {
   color: #e0f2f1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.lighten-4 {
   background-color: #b2dfdb !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-lighten-4 {
   color: #b2dfdb !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.lighten-3 {
   background-color: #80cbc4 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-lighten-3 {
   color: #80cbc4 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.lighten-2 {
   background-color: #4db6ac !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-lighten-2 {
   color: #4db6ac !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.lighten-1 {
   background-color: #26a69a !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-lighten-1 {
   color: #26a69a !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .teal {
   background-color: #009688 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text {
   color: #009688 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.darken-1 {
   background-color: #00897b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-darken-1 {
   color: #00897b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.darken-2 {
   background-color: #00796b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-darken-2 {
   color: #00796b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.darken-3 {
   background-color: #00695c !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-darken-3 {
   color: #00695c !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.darken-4 {
   background-color: #004d40 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-darken-4 {
   color: #004d40 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.accent-1 {
   background-color: #a7ffeb !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-accent-1 {
   color: #a7ffeb !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.accent-2 {
   background-color: #64ffda !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-accent-2 {
   color: #64ffda !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.accent-3 {
   background-color: #1de9b6 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-accent-3 {
   color: #1de9b6 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .teal.accent-4 {
   background-color: #00bfa5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .teal-text.text-accent-4 {
   color: #00bfa5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.lighten-5 {
   background-color: #E8F5E9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-lighten-5 {
   color: #E8F5E9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.lighten-4 {
   background-color: #C8E6C9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-lighten-4 {
   color: #C8E6C9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.lighten-3 {
   background-color: #A5D6A7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.lighten-2 {
   background-color: #81C784 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-lighten-2 {
   color: #81C784 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.lighten-1 {
   background-color: #66BB6A !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-lighten-1 {
   color: #66BB6A !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .green {
   background-color: #4CAF50 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .green-text {
   color: #4CAF50 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.darken-1 {
   background-color: #43A047 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-darken-1 {
   color: #43A047 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.darken-2 {
   background-color: #388E3C !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-darken-2 {
   color: #388E3C !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.darken-3 {
   background-color: #2E7D32 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-darken-3 {
   color: #2E7D32 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.darken-4 {
   background-color: #1B5E20 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-darken-4 {
   color: #1B5E20 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.accent-1 {
   background-color: #B9F6CA !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-accent-1 {
   color: #B9F6CA !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.accent-2 {
   background-color: #69F0AE !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-accent-2 {
   color: #69F0AE !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.accent-3 {
   background-color: #00E676 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-accent-3 {
   color: #00E676 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .green.accent-4 {
   background-color: #00C853 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .green-text.text-accent-4 {
   color: #00C853 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.lighten-5 {
   background-color: #f1f8e9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-lighten-5 {
   color: #f1f8e9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.lighten-4 {
   background-color: #dcedc8 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-lighten-4 {
   color: #dcedc8 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.lighten-3 {
   background-color: #c5e1a5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-lighten-3 {
   color: #c5e1a5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.lighten-2 {
   background-color: #aed581 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-lighten-2 {
   color: #aed581 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.lighten-1 {
   background-color: #9ccc65 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-lighten-1 {
   color: #9ccc65 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .light-green {
   background-color: #8bc34a !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text {
   color: #8bc34a !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.darken-1 {
   background-color: #7cb342 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-darken-1 {
   color: #7cb342 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.darken-2 {
   background-color: #689f38 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-darken-2 {
   color: #689f38 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.darken-3 {
   background-color: #558b2f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-darken-3 {
   color: #558b2f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.darken-4 {
   background-color: #33691e !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-darken-4 {
   color: #33691e !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.accent-1 {
   background-color: #ccff90 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-accent-1 {
   color: #ccff90 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.accent-2 {
   background-color: #b2ff59 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-accent-2 {
   color: #b2ff59 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.accent-3 {
   background-color: #76ff03 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-accent-3 {
   color: #76ff03 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .light-green.accent-4 {
   background-color: #64dd17 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .light-green-text.text-accent-4 {
   color: #64dd17 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.lighten-5 {
   background-color: #f9fbe7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-lighten-5 {
   color: #f9fbe7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.lighten-4 {
   background-color: #f0f4c3 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-lighten-4 {
   color: #f0f4c3 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.lighten-3 {
   background-color: #e6ee9c !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-lighten-3 {
   color: #e6ee9c !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.lighten-2 {
   background-color: #dce775 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-lighten-2 {
   color: #dce775 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.lighten-1 {
   background-color: #d4e157 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-lighten-1 {
   color: #d4e157 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .lime {
   background-color: #cddc39 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text {
   color: #cddc39 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.darken-1 {
   background-color: #c0ca33 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-darken-1 {
   color: #c0ca33 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.darken-2 {
   background-color: #afb42b !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-darken-2 {
   color: #afb42b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.darken-3 {
   background-color: #9e9d24 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-darken-3 {
   color: #9e9d24 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.darken-4 {
   background-color: #827717 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-darken-4 {
   color: #827717 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.accent-1 {
   background-color: #f4ff81 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-accent-1 {
   color: #f4ff81 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.accent-2 {
   background-color: #eeff41 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-accent-2 {
   color: #eeff41 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.accent-3 {
   background-color: #c6ff00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-accent-3 {
   color: #c6ff00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .lime.accent-4 {
   background-color: #aeea00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .lime-text.text-accent-4 {
   color: #aeea00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.lighten-5 {
   background-color: #fffde7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-lighten-5 {
   color: #fffde7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.lighten-4 {
   background-color: #fff9c4 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-lighten-4 {
   color: #fff9c4 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.lighten-3 {
   background-color: #fff59d !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-lighten-3 {
   color: #fff59d !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.lighten-2 {
   background-color: #fff176 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-lighten-2 {
   color: #fff176 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.lighten-1 {
   background-color: #ffee58 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-lighten-1 {
   color: #ffee58 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .yellow {
   background-color: #ffeb3b !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text {
   color: #ffeb3b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.darken-1 {
   background-color: #fdd835 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-darken-1 {
   color: #fdd835 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.darken-2 {
   background-color: #fbc02d !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-darken-2 {
   color: #fbc02d !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.darken-3 {
   background-color: #f9a825 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-darken-3 {
   color: #f9a825 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.darken-4 {
   background-color: #f57f17 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-darken-4 {
   color: #f57f17 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.accent-1 {
   background-color: #ffff8d !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-accent-1 {
   color: #ffff8d !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.accent-2 {
   background-color: #ffff00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-accent-2 {
   color: #ffff00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.accent-3 {
   background-color: #ffea00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-accent-3 {
   color: #ffea00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .yellow.accent-4 {
   background-color: #ffd600 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .yellow-text.text-accent-4 {
   color: #ffd600 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.lighten-5 {
   background-color: #fff8e1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-lighten-5 {
   color: #fff8e1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.lighten-4 {
   background-color: #ffecb3 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-lighten-4 {
   color: #ffecb3 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.lighten-3 {
   background-color: #ffe082 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-lighten-3 {
   color: #ffe082 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.lighten-2 {
   background-color: #ffd54f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-lighten-2 {
   color: #ffd54f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.lighten-1 {
   background-color: #ffca28 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-lighten-1 {
   color: #ffca28 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .amber {
   background-color: #ffc107 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text {
   color: #ffc107 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.darken-1 {
   background-color: #ffb300 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-darken-1 {
   color: #ffb300 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.darken-2 {
   background-color: #ffa000 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-darken-2 {
   color: #ffa000 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.darken-3 {
   background-color: #ff8f00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-darken-3 {
   color: #ff8f00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.darken-4 {
   background-color: #ff6f00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-darken-4 {
   color: #ff6f00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.accent-1 {
   background-color: #ffe57f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-accent-1 {
   color: #ffe57f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.accent-2 {
   background-color: #ffd740 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-accent-2 {
   color: #ffd740 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.accent-3 {
   background-color: #ffc400 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-accent-3 {
   color: #ffc400 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .amber.accent-4 {
   background-color: #ffab00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .amber-text.text-accent-4 {
   color: #ffab00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.lighten-5 {
   background-color: #fff3e0 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-lighten-5 {
   color: #fff3e0 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.lighten-4 {
   background-color: #ffe0b2 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-lighten-4 {
   color: #ffe0b2 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.lighten-3 {
   background-color: #ffcc80 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-lighten-3 {
   color: #ffcc80 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.lighten-2 {
   background-color: #ffb74d !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-lighten-2 {
   color: #ffb74d !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.lighten-1 {
   background-color: #ffa726 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-lighten-1 {
   color: #ffa726 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .orange {
   background-color: #ff9800 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text {
   color: #ff9800 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.darken-1 {
   background-color: #fb8c00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-darken-1 {
   color: #fb8c00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.darken-2 {
   background-color: #f57c00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-darken-2 {
   color: #f57c00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.darken-3 {
   background-color: #ef6c00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-darken-3 {
   color: #ef6c00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.darken-4 {
   background-color: #e65100 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-darken-4 {
   color: #e65100 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.accent-1 {
   background-color: #ffd180 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-accent-1 {
   color: #ffd180 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.accent-2 {
   background-color: #ffab40 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-accent-2 {
   color: #ffab40 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.accent-3 {
   background-color: #ff9100 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-accent-3 {
   color: #ff9100 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .orange.accent-4 {
   background-color: #ff6d00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .orange-text.text-accent-4 {
   color: #ff6d00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.lighten-5 {
   background-color: #fbe9e7 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-lighten-5 {
   color: #fbe9e7 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.lighten-4 {
   background-color: #ffccbc !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-lighten-4 {
   color: #ffccbc !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.lighten-3 {
   background-color: #ffab91 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-lighten-3 {
   color: #ffab91 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.lighten-2 {
   background-color: #ff8a65 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.lighten-1 {
   background-color: #ff7043 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-lighten-1 {
   color: #ff7043 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange {
   background-color: #ff5722 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text {
   color: #ff5722 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.darken-1 {
   background-color: #f4511e !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-darken-1 {
   color: #f4511e !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.darken-2 {
   background-color: #e64a19 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-darken-2 {
   color: #e64a19 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.darken-3 {
   background-color: #d84315 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-darken-3 {
   color: #d84315 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.darken-4 {
   background-color: #bf360c !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-darken-4 {
   color: #bf360c !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.accent-1 {
   background-color: #ff9e80 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-accent-1 {
   color: #ff9e80 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.accent-2 {
   background-color: #ff6e40 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-accent-2 {
   color: #ff6e40 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.accent-3 {
   background-color: #ff3d00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-accent-3 {
   color: #ff3d00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange.accent-4 {
   background-color: #dd2c00 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .deep-orange-text.text-accent-4 {
   color: #dd2c00 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.lighten-5 {
   background-color: #efebe9 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-lighten-5 {
   color: #efebe9 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.lighten-4 {
   background-color: #d7ccc8 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-lighten-4 {
   color: #d7ccc8 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.lighten-3 {
   background-color: #bcaaa4 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-lighten-3 {
   color: #bcaaa4 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.lighten-2 {
   background-color: #a1887f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-lighten-2 {
   color: #a1887f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.lighten-1 {
   background-color: #8d6e63 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-lighten-1 {
   color: #8d6e63 !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .brown {
   background-color: #795548 !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text {
   color: #795548 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.darken-1 {
   background-color: #6d4c41 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-darken-1 {
   color: #6d4c41 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.darken-2 {
   background-color: #5d4037 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-darken-2 {
   color: #5d4037 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.darken-3 {
   background-color: #4e342e !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-darken-3 {
   color: #4e342e !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .brown.darken-4 {
   background-color: #3e2723 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .brown-text.text-darken-4 {
   color: #3e2723 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.lighten-5 {
   background-color: #eceff1 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-lighten-5 {
   color: #eceff1 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.lighten-4 {
   background-color: #cfd8dc !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-lighten-4 {
   color: #cfd8dc !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.lighten-3 {
   background-color: #b0bec5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-lighten-3 {
   color: #b0bec5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.lighten-2 {
   background-color: #90a4ae !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.lighten-1 {
   background-color: #78909c !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-lighten-1 {
   color: #78909c !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey {
   background-color: #607d8b !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text {
   color: #607d8b !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.darken-1 {
   background-color: #546e7a !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-darken-1 {
   color: #546e7a !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.darken-2 {
   background-color: #455a64 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-darken-2 {
   color: #455a64 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.darken-3 {
   background-color: #37474f !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-darken-3 {
   color: #37474f !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey.darken-4 {
   background-color: #263238 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .blue-grey-text.text-darken-4 {
   color: #263238 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.lighten-5 {
   background-color: #fafafa !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-lighten-5 {
   color: #fafafa !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.lighten-4 {
   background-color: #f5f5f5 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-lighten-4 {
   color: #f5f5f5 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.lighten-3 {
   background-color: #eeeeee !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-lighten-3 {
   color: #eeeeee !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.lighten-2 {
   background-color: #e0e0e0 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-lighten-2 {
   color: #e0e0e0 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.lighten-1 {
   background-color: #bdbdbd !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-lighten-1 {
   color: #bdbdbd !important;
 }
 
-/* line 369, ../bower_components/materialize/sass/components/_color.scss */
+/* line 383, ../bower_components/materialize/sass/components/_color.scss */
 .grey {
   background-color: #9e9e9e !important;
 }
 
-/* line 372, ../bower_components/materialize/sass/components/_color.scss */
+/* line 386, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text {
   color: #9e9e9e !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.darken-1 {
   background-color: #757575 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-darken-1 {
   color: #757575 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.darken-2 {
   background-color: #616161 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-darken-2 {
   color: #616161 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.darken-3 {
   background-color: #424242 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-darken-3 {
   color: #424242 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .grey.darken-4 {
   background-color: #212121 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .grey-text.text-darken-4 {
   color: #212121 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .shades.black {
   background-color: #000000 !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .shades-text.text-black {
   color: #000000 !important;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_color.scss */
+/* line 391, ../bower_components/materialize/sass/components/_color.scss */
 .shades.white {
   background-color: #FFFFFF !important;
 }
 
-/* line 380, ../bower_components/materialize/sass/components/_color.scss */
+/* line 394, ../bower_components/materialize/sass/components/_color.scss */
 .shades-text.text-white {
   color: #FFFFFF !important;
 }
 
-/* line 389, ../bower_components/materialize/sass/components/_color.scss */
+/* line 403, ../bower_components/materialize/sass/components/_color.scss */
 .black {
   background-color: #000000 !important;
 }
 
-/* line 392, ../bower_components/materialize/sass/components/_color.scss */
+/* line 406, ../bower_components/materialize/sass/components/_color.scss */
 .black-text {
   color: #000000 !important;
 }
 
-/* line 389, ../bower_components/materialize/sass/components/_color.scss */
+/* line 403, ../bower_components/materialize/sass/components/_color.scss */
 .white {
   background-color: #FFFFFF !important;
 }
 
-/* line 392, ../bower_components/materialize/sass/components/_color.scss */
+/* line 406, ../bower_components/materialize/sass/components/_color.scss */
 .white-text {
   color: #FFFFFF !important;
 }
@@ -2683,8 +2683,10 @@
 /*** Collapsible ***/
 /*** Forms ***/
 /*** Global ***/
+/*** SideNav ***/
 /*** Toasts ***/
 /*** Typography ***/
+/*** Collections ***/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -3142,166 +3144,125 @@ a {
   text-decoration: none;
 }
 
-/* line 35, ../bower_components/materialize/sass/components/_global.scss */
-.no-select, input[type=range], input[type=range] + .thumb {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* line 46, ../bower_components/materialize/sass/components/_global.scss */
-.left-align {
-  text-align: left;
-}
-
-/* line 49, ../bower_components/materialize/sass/components/_global.scss */
-.right-align {
-  text-align: right;
-}
-
-/* line 52, ../bower_components/materialize/sass/components/_global.scss */
-.center, .center-align {
-  text-align: center;
-}
-
-/* line 56, ../bower_components/materialize/sass/components/_global.scss */
-.left {
-  float: left;
-}
-
-/* line 59, ../bower_components/materialize/sass/components/_global.scss */
-.right {
-  float: right;
-}
-
-/* line 63, ../bower_components/materialize/sass/components/_global.scss */
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 69, ../bower_components/materialize/sass/components/_global.scss */
+/* line 34, ../bower_components/materialize/sass/components/_global.scss */
 .valign-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 74, ../bower_components/materialize/sass/components/_global.scss */
+/* line 39, ../bower_components/materialize/sass/components/_global.scss */
 .valign-wrapper .valign {
   display: block;
 }
 
-/* line 80, ../bower_components/materialize/sass/components/_global.scss */
+/* line 45, ../bower_components/materialize/sass/components/_global.scss */
 ul {
   padding: 0;
 }
 
-/* line 83, ../bower_components/materialize/sass/components/_global.scss */
+/* line 48, ../bower_components/materialize/sass/components/_global.scss */
 li {
   list-style-type: none;
 }
 
-/* line 89, ../bower_components/materialize/sass/components/_global.scss */
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, ul.collapsible {
+/* line 54, ../bower_components/materialize/sass/components/_global.scss */
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, ul.side-nav.full,
+ul.side-nav.fixed {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-/* line 92, ../bower_components/materialize/sass/components/_global.scss */
+/* line 57, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover, .modal {
   -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* line 95, ../bower_components/materialize/sass/components/_global.scss */
+/* line 60, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-2 {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 98, ../bower_components/materialize/sass/components/_global.scss */
+/* line 63, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-3 {
   -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 101, ../bower_components/materialize/sass/components/_global.scss */
+/* line 66, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-4 {
   -webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
 }
 
-/* line 104, ../bower_components/materialize/sass/components/_global.scss */
+/* line 69, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-5 {
   -webkit-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   -moz-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
 }
 
-/* line 110, ../bower_components/materialize/sass/components/_global.scss */
+/* line 75, ../bower_components/materialize/sass/components/_global.scss */
 .divider {
   height: 1px;
   overflow: hidden;
   background-color: #e0e0e0;
 }
 
-/* line 119, ../bower_components/materialize/sass/components/_global.scss */
+/* line 84, ../bower_components/materialize/sass/components/_global.scss */
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
   border-left: 5px solid #EF9A9A;
 }
 
-/* line 127, ../bower_components/materialize/sass/components/_global.scss */
+/* line 92, ../bower_components/materialize/sass/components/_global.scss */
 i {
   line-height: inherit;
 }
-/* line 130, ../bower_components/materialize/sass/components/_global.scss */
+/* line 95, ../bower_components/materialize/sass/components/_global.scss */
 i.left {
   float: left;
   margin-right: 15px;
 }
-/* line 134, ../bower_components/materialize/sass/components/_global.scss */
+/* line 99, ../bower_components/materialize/sass/components/_global.scss */
 i.right {
   float: right;
   margin-left: 15px;
 }
-/* line 138, ../bower_components/materialize/sass/components/_global.scss */
+/* line 103, ../bower_components/materialize/sass/components/_global.scss */
 i.small {
   font-size: 2rem;
 }
-/* line 141, ../bower_components/materialize/sass/components/_global.scss */
+/* line 106, ../bower_components/materialize/sass/components/_global.scss */
 i.medium {
   font-size: 4rem;
 }
-/* line 144, ../bower_components/materialize/sass/components/_global.scss */
+/* line 109, ../bower_components/materialize/sass/components/_global.scss */
 i.large {
   font-size: 6rem;
 }
 
-/* line 150, ../bower_components/materialize/sass/components/_global.scss */
+/* line 115, ../bower_components/materialize/sass/components/_global.scss */
 img.responsive-img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 157, ../bower_components/materialize/sass/components/_global.scss */
+/* line 122, ../bower_components/materialize/sass/components/_global.scss */
 .parallax-container {
   position: relative;
   overflow: hidden;
   height: 500px;
 }
 
-/* line 163, ../bower_components/materialize/sass/components/_global.scss */
+/* line 128, ../bower_components/materialize/sass/components/_global.scss */
 .parallax {
   position: absolute;
   top: 0;
@@ -3310,7 +3271,7 @@ img.responsive-img {
   bottom: 0;
   z-index: -1;
 }
-/* line 171, ../bower_components/materialize/sass/components/_global.scss */
+/* line 136, ../bower_components/materialize/sass/components/_global.scss */
 .parallax img {
   display: none;
   position: absolute;
@@ -3319,111 +3280,111 @@ img.responsive-img {
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 179, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 144, ../bower_components/materialize/sass/components/_global.scss */
   .parallax-container {
     height: auto;
   }
 
-  /* line 182, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 147, ../bower_components/materialize/sass/components/_global.scss */
   .parallax {
     position: relative;
     width: 100%;
   }
-  /* line 186, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 151, ../bower_components/materialize/sass/components/_global.scss */
   .parallax img {
     position: relative;
   }
 }
-/* line 194, ../bower_components/materialize/sass/components/_global.scss */
+/* line 159, ../bower_components/materialize/sass/components/_global.scss */
 .pin-top, .pin-bottom {
   position: relative;
 }
 
-/* line 197, ../bower_components/materialize/sass/components/_global.scss */
+/* line 162, ../bower_components/materialize/sass/components/_global.scss */
 .pinned {
   position: fixed;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 204, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 169, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 210, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 175, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 216, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 181, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-med-and-up {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 222, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 187, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 228, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 193, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-large-only, nav a.button-collapse {
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 235, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 200, ../bower_components/materialize/sass/components/_global.scss */
   .center-on-small-only {
     text-align: center;
   }
 }
 
-/* line 244, ../bower_components/materialize/sass/components/_global.scss */
+/* line 209, ../bower_components/materialize/sass/components/_global.scss */
 footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73;
+  background-color: #A9CBB7;
 }
-/* line 249, ../bower_components/materialize/sass/components/_global.scss */
+/* line 214, ../bower_components/materialize/sass/components/_global.scss */
 footer .footer-copyright {
   line-height: 50px;
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(51, 51, 51, 0.08);
 }
 
-/* line 258, ../bower_components/materialize/sass/components/_global.scss */
+/* line 223, ../bower_components/materialize/sass/components/_global.scss */
 table, th, td {
   border: none;
 }
 
-/* line 262, ../bower_components/materialize/sass/components/_global.scss */
+/* line 227, ../bower_components/materialize/sass/components/_global.scss */
 table {
   width: 100%;
   display: table;
 }
 @media only screen and (max-width: 600px) {
-  /* line 267, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 232, ../bower_components/materialize/sass/components/_global.scss */
   table thead tr th, table tbody tr td {
     text-align: center;
   }
 }
-/* line 273, ../bower_components/materialize/sass/components/_global.scss */
+/* line 238, ../bower_components/materialize/sass/components/_global.scss */
 table.bordered tr {
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 278, ../bower_components/materialize/sass/components/_global.scss */
+/* line 243, ../bower_components/materialize/sass/components/_global.scss */
 table.striped tbody tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
-/* line 285, ../bower_components/materialize/sass/components/_global.scss */
+/* line 250, ../bower_components/materialize/sass/components/_global.scss */
 table.hoverable tbody tr {
   -webkit-transition: background-color 0.25s ease;
   -moz-transition: background-color 0.25s ease;
@@ -3431,21 +3392,21 @@ table.hoverable tbody tr {
   -ms-transition: background-color 0.25s ease;
   transition: background-color 0.25s ease;
 }
-/* line 287, ../bower_components/materialize/sass/components/_global.scss */
+/* line 252, ../bower_components/materialize/sass/components/_global.scss */
 table.hoverable tbody tr:hover {
   background-color: #f2f2f2;
 }
-/* line 294, ../bower_components/materialize/sass/components/_global.scss */
+/* line 259, ../bower_components/materialize/sass/components/_global.scss */
 table.centered thead tr th, table.centered tbody tr td {
   text-align: center;
 }
 
-/* line 302, ../bower_components/materialize/sass/components/_global.scss */
+/* line 267, ../bower_components/materialize/sass/components/_global.scss */
 thead {
   border-bottom: 1px solid #878787;
 }
 
-/* line 306, ../bower_components/materialize/sass/components/_global.scss */
+/* line 271, ../bower_components/materialize/sass/components/_global.scss */
 td, th {
   padding: 15px 5px;
   display: table-cell;
@@ -3454,25 +3415,25 @@ td, th {
   border-radius: 2px;
 }
 
-/* line 315, ../bower_components/materialize/sass/components/_global.scss */
+/* line 280, ../bower_components/materialize/sass/components/_global.scss */
 .collection {
-  background-color: #FFF;
-  margin: 0 0 1rem 0;
+  background-color: #fff;
+  margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
 }
-/* line 321, ../bower_components/materialize/sass/components/_global.scss */
+/* line 286, ../bower_components/materialize/sass/components/_global.scss */
 .collection .collection-item {
   line-height: 1.5rem;
   padding: 10px 20px;
   margin: 0px;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 326, ../bower_components/materialize/sass/components/_global.scss */
+/* line 291, ../bower_components/materialize/sass/components/_global.scss */
 .collection .collection-item:last-child {
   border-bottom: none;
 }
-/* line 331, ../bower_components/materialize/sass/components/_global.scss */
+/* line 295, ../bower_components/materialize/sass/components/_global.scss */
 .collection a.collection-item {
   display: block;
   -webkit-transition: 0.25s;
@@ -3481,34 +3442,39 @@ td, th {
   -ms-transition: 0.25s;
   transition: 0.25s;
 }
-/* line 335, ../bower_components/materialize/sass/components/_global.scss */
+/* line 299, ../bower_components/materialize/sass/components/_global.scss */
 .collection a.collection-item:not(.active):hover {
-  background-color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.08);
 }
-/* line 342, ../bower_components/materialize/sass/components/_global.scss */
+/* line 306, ../bower_components/materialize/sass/components/_global.scss */
 .collection.with-header .collection-header {
   border-bottom: 1px solid #e0e0e0;
   padding: 10px 20px;
 }
-/* line 346, ../bower_components/materialize/sass/components/_global.scss */
+/* line 310, ../bower_components/materialize/sass/components/_global.scss */
 .collection.with-header .collection-item {
   padding-left: 30px;
 }
-/* line 356, ../bower_components/materialize/sass/components/_global.scss */
+/* line 314, ../bower_components/materialize/sass/components/_global.scss */
+.collection .active {
+  background-color: #42A5F5;
+  color: #BBDEFB;
+}
+/* line 318, ../bower_components/materialize/sass/components/_global.scss */
 .collection .secondary-content {
   float: right;
 }
-/* line 362, ../bower_components/materialize/sass/components/_global.scss */
+/* line 323, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination {
   display: inline-block;
 }
-/* line 365, ../bower_components/materialize/sass/components/_global.scss */
+/* line 326, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination ul {
   background-color: transparent;
   font-size: 0;
   display: inline-block;
 }
-/* line 371, ../bower_components/materialize/sass/components/_global.scss */
+/* line 331, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li {
   display: inline;
   font-weight: 500;
@@ -3516,21 +3482,21 @@ td, th {
   padding: 0px;
   font-size: 1rem;
 }
-/* line 378, ../bower_components/materialize/sass/components/_global.scss */
+/* line 338, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li a {
   padding: 0px 5px;
 }
-/* line 381, ../bower_components/materialize/sass/components/_global.scss */
+/* line 341, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li.active {
   background-color: #03a9f4;
   color: #FFF;
 }
-/* line 385, ../bower_components/materialize/sass/components/_global.scss */
+/* line 345, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li:hover {
   background-color: #e1f5fe;
 }
 
-/* line 395, ../bower_components/materialize/sass/components/_global.scss */
+/* line 354, ../bower_components/materialize/sass/components/_global.scss */
 span.badge {
   min-width: 3rem;
   padding: 0 6px;
@@ -3543,7 +3509,7 @@ span.badge {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 405, ../bower_components/materialize/sass/components/_global.scss */
+/* line 364, ../bower_components/materialize/sass/components/_global.scss */
 span.badge.new {
   font-weight: 300;
   font-size: 0.8rem;
@@ -3554,20 +3520,12 @@ span.badge.new {
   border-radius: 2px;
   background-clip: padding-box;
 }
-/* line 412, ../bower_components/materialize/sass/components/_global.scss */
+/* line 371, ../bower_components/materialize/sass/components/_global.scss */
 span.badge.new:after {
   content: " new";
 }
 
-/* line 417, ../bower_components/materialize/sass/components/_global.scss */
-img.circle {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  background-clip: padding-box;
-}
-
-/* line 422, ../bower_components/materialize/sass/components/_global.scss */
+/* line 377, ../bower_components/materialize/sass/components/_global.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -3575,13 +3533,66 @@ img.circle {
   height: 0;
   overflow: hidden;
 }
-/* line 429, ../bower_components/materialize/sass/components/_global.scss */
+/* line 384, ../bower_components/materialize/sass/components/_global.scss */
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/*******************
+  Utility Classes
+*******************/
+/* line 398, ../bower_components/materialize/sass/components/_global.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 401, ../bower_components/materialize/sass/components/_global.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 404, ../bower_components/materialize/sass/components/_global.scss */
+.center, .center-align {
+  text-align: center;
+}
+
+/* line 408, ../bower_components/materialize/sass/components/_global.scss */
+.left {
+  float: left;
+}
+
+/* line 411, ../bower_components/materialize/sass/components/_global.scss */
+.right {
+  float: right;
+}
+
+/* line 416, ../bower_components/materialize/sass/components/_global.scss */
+.no-select, input[type=range], input[type=range] + .thumb {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 426, ../bower_components/materialize/sass/components/_global.scss */
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+
+/* line 430, ../bower_components/materialize/sass/components/_global.scss */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @font-face {
@@ -7710,7 +7721,7 @@ img.circle {
 /* line 1, ../bower_components/materialize/sass/components/_navbar.scss */
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #A9CBB7;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -7729,14 +7740,15 @@ nav a.button-collapse {
   float: left;
   position: relative;
   z-index: 1;
+  height: 56px;
 }
-/* line 22, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 23, ../bower_components/materialize/sass/components/_navbar.scss */
 nav a.button-collapse i {
   font-size: 2.7rem;
   height: 56px;
   line-height: 56px;
 }
-/* line 29, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 30, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .brand-logo {
   position: absolute;
   color: #fff;
@@ -7745,7 +7757,7 @@ nav .brand-logo {
   padding: 0;
 }
 @media only screen and (max-width: 992px) {
-  /* line 29, ../bower_components/materialize/sass/components/_navbar.scss */
+  /* line 30, ../bower_components/materialize/sass/components/_navbar.scss */
   nav .brand-logo {
     left: 0;
     width: 100%;
@@ -7753,17 +7765,17 @@ nav .brand-logo {
     z-index: 0;
   }
 }
-/* line 43, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 44, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
-/* line 49, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 50, ../bower_components/materialize/sass/components/_navbar.scss */
 nav ul {
   margin: 0;
   float: right;
 }
-/* line 53, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 54, ../bower_components/materialize/sass/components/_navbar.scss */
 nav ul li {
   float: left;
   padding: 0px;
@@ -7773,22 +7785,22 @@ nav ul li {
   -ms-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-/* line 58, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 59, ../bower_components/materialize/sass/components/_navbar.scss */
 nav ul li:hover, nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 62, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 63, ../bower_components/materialize/sass/components/_navbar.scss */
 nav ul a {
   font-size: 1rem;
   color: #fff;
   display: block;
   padding: 0px 15px;
 }
-/* line 69, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 70, ../bower_components/materialize/sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
-/* line 76, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 77, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
@@ -7798,19 +7810,19 @@ nav .input-field input {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 83, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 84, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=date]:valid {
   border: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 89, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 90, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 93, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 94, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: color 0.3s;
@@ -7819,11 +7831,11 @@ nav .input-field label i {
   -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 97, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 98, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #fff;
 }
-/* line 98, ../bower_components/materialize/sass/components/_navbar.scss */
+/* line 99, ../bower_components/materialize/sass/components/_navbar.scss */
 nav .input-field label.active {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -7833,13 +7845,13 @@ nav .input-field label.active {
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 107, ../bower_components/materialize/sass/components/_navbar.scss */
-  nav, nav .nav-wrapper i, nav a.button-collapse i {
+  /* line 108, ../bower_components/materialize/sass/components/_navbar.scss */
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
   }
 
-  /* line 111, ../bower_components/materialize/sass/components/_navbar.scss */
+  /* line 112, ../bower_components/materialize/sass/components/_navbar.scss */
   nav .nav-wrapper i {
     font-size: 2rem;
   }
@@ -8229,21 +8241,21 @@ small {
   }
 }
 
-/* line 2, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 3, ../bower_components/materialize/sass/components/_cards.scss */
 .card-panel {
   padding: 1rem;
-  margin: 8px 0;
+  margin: 0.5rem 0 1rem 0;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   background-clip: padding-box;
 }
 
-/* line 9, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 10, ../bower_components/materialize/sass/components/_cards.scss */
 .card {
   position: relative;
   overflow: hidden;
-  margin-top: 10px;
+  margin: 0.5rem 0 1rem 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -8252,17 +8264,17 @@ small {
   border-radius: 2px;
   background-clip: padding-box;
 }
-/* line 18, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 19, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-title {
   color: #fff;
   font-size: 24px;
   font-weight: 300;
 }
-/* line 22, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 23, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-title.activator {
   cursor: pointer;
 }
-/* line 27, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 28, ../bower_components/materialize/sass/components/_cards.scss */
 .card a {
   color: #ffab40;
   margin-right: 16px;
@@ -8273,38 +8285,38 @@ small {
   transition: color 0.3s ease;
   text-transform: uppercase;
 }
-/* line 33, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 34, ../bower_components/materialize/sass/components/_cards.scss */
 .card a:hover {
   color: #ffd8a6;
 }
-/* line 37, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 38, ../bower_components/materialize/sass/components/_cards.scss */
 .card.small {
   height: 300px;
   position: relative;
 }
-/* line 41, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 42, ../bower_components/materialize/sass/components/_cards.scss */
 .card.small .card-image {
   overflow: hidden;
   height: 150px;
 }
-/* line 45, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 46, ../bower_components/materialize/sass/components/_cards.scss */
 .card.small .card-content {
   overflow: hidden;
   height: 150px;
 }
-/* line 49, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 50, ../bower_components/materialize/sass/components/_cards.scss */
 .card.small .card-action {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
-/* line 58, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 59, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-image {
   position: relative;
   overflow: hidden;
 }
-/* line 63, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 64, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-image img {
   -webkit-border-radius: 2px 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
@@ -8318,14 +8330,14 @@ small {
   width: 100%;
   z-index: -1;
 }
-/* line 74, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 75, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-image .card-title {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 16px;
 }
-/* line 83, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 84, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-content {
   padding: 16px;
   -webkit-border-radius: 0 0 2px 2px;
@@ -8336,21 +8348,21 @@ small {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 88, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 89, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-content p {
   margin: 0;
   color: inherit;
 }
-/* line 92, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 93, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-content .card-title {
   line-height: 48px;
 }
-/* line 97, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 98, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-action {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 16px;
 }
-/* line 102, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 103, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-reveal {
   padding: 16px;
   position: absolute;
@@ -8361,7 +8373,7 @@ small {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 109, ../bower_components/materialize/sass/components/_cards.scss */
+/* line 110, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
@@ -8418,7 +8430,7 @@ small {
   padding: 0px 25px;
   font-size: 1.1rem;
   font-weight: 300;
-  color: #FFF;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8482,7 +8494,7 @@ ul.tabs li.tab {
 }
 /* line 26, ../bower_components/materialize/sass/components/_tabs.scss */
 ul.tabs li.tab a {
-  color: #ee6e73;
+  color: #e2eee7;
   display: block;
   width: 100%;
   height: 100%;
@@ -8501,7 +8513,7 @@ ul.tabs .indicator {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #ee6e73;
+  background-color: #A9CBB7;
   will-change: left, right;
 }
 
@@ -8567,27 +8579,28 @@ ul.tabs li.tab {
   line-height: 36px;
   text-transform: uppercase;
   border: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* line 13, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 15, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-large:disabled, .btn-floating:disabled {
   background-color: #DFDFDF;
   box-shadow: none;
   color: #9F9F9F;
 }
-/* line 18, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 20, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn.disabled:hover, .disabled.btn-large:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover {
   background-color: #DFDFDF;
   color: #9F9F9F;
 }
 
-/* line 25, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 27, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
   font-size: 1.3rem;
   line-height: inherit;
 }
 
-/* line 32, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 34, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn, .btn-large {
   text-decoration: none;
   color: #FFF;
@@ -8601,12 +8614,12 @@ ul.tabs li.tab {
   transition: 0.2s ease-out;
   cursor: pointer;
 }
-/* line 42, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 44, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn:hover, .btn-large:hover {
   background-color: #39a1f4;
 }
 
-/* line 49, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 51, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating {
   display: inline-block;
   position: relative;
@@ -8627,7 +8640,7 @@ ul.tabs li.tab {
   transition: 0.3s;
   cursor: pointer;
 }
-/* line 63, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 65, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating i {
   width: inherit;
   display: inline-block;
@@ -8636,34 +8649,34 @@ ul.tabs li.tab {
   font-size: 1.6rem;
   line-height: 37px;
 }
-/* line 75, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 77, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating.btn-large {
   width: 55.5px;
   height: 55.5px;
 }
-/* line 78, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 80, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating.btn-large i {
   line-height: 55.5px;
 }
 
-/* line 85, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 87, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-flat {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
 }
-/* line 91, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 93, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-flat.disabled {
   color: #b3b3b3;
 }
 
-/* line 97, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 99, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-large {
   height: 54px;
   line-height: 56px;
 }
-/* line 102, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 104, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-large i {
   font-size: 1.6rem;
 }
@@ -8676,20 +8689,22 @@ ul.tabs li.tab {
   margin: 0px;
   min-width: 100px;
   z-index: 1000;
+  max-height: 50%;
+  opacity: 0;
   will-change: width, height;
 }
-/* line 12, ../bower_components/materialize/sass/components/_dropdown.scss */
+/* line 14, ../bower_components/materialize/sass/components/_dropdown.scss */
 .dropdown-content li {
   cursor: pointer;
   font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.87);
   line-height: 1.5rem;
 }
-/* line 18, ../bower_components/materialize/sass/components/_dropdown.scss */
+/* line 20, ../bower_components/materialize/sass/components/_dropdown.scss */
 .dropdown-content li:hover {
-  background-color: rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.06);
 }
-/* line 22, ../bower_components/materialize/sass/components/_dropdown.scss */
+/* line 24, ../bower_components/materialize/sass/components/_dropdown.scss */
 .dropdown-content li > a, .dropdown-content li > span {
   display: block;
   padding: 1rem 1rem;
@@ -8922,14 +8937,15 @@ ul.tabs li.tab {
   margin-bottom: 0px;
 }
 
-/* line 6, ../bower_components/materialize/sass/components/_collapsible.scss */
-ul.collapsible {
+/* line 1, ../bower_components/materialize/sass/components/_collapsible.scss */
+.collapsible {
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
+  margin: 0.5rem 0 1rem 0;
 }
-/* line 12, ../bower_components/materialize/sass/components/_collapsible.scss */
-ul.collapsible li {
+/* line 8, ../bower_components/materialize/sass/components/_collapsible.scss */
+.collapsible li {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -8937,7 +8953,7 @@ ul.collapsible li {
   transition: 0.3s;
 }
 
-/* line 17, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 13, ../bower_components/materialize/sass/components/_collapsible.scss */
 .collapsible-header {
   display: block;
   cursor: pointer;
@@ -8947,7 +8963,7 @@ ul.collapsible li {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
-/* line 26, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 22, ../bower_components/materialize/sass/components/_collapsible.scss */
 .collapsible-header i {
   width: 2rem;
   font-size: 1.6rem;
@@ -8958,7 +8974,7 @@ ul.collapsible li {
   margin-right: 1rem;
 }
 
-/* line 37, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 33, ../bower_components/materialize/sass/components/_collapsible.scss */
 .collapsible-body {
   overflow: hidden;
   display: none;
@@ -8967,24 +8983,24 @@ ul.collapsible li {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 43, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 39, ../bower_components/materialize/sass/components/_collapsible.scss */
 .collapsible-body p {
   margin: 0;
   padding: 2rem;
 }
 
-/* line 56, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 52, ../bower_components/materialize/sass/components/_collapsible.scss */
 ul.side-nav ul.collapsible {
   border: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 60, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 56, ../bower_components/materialize/sass/components/_collapsible.scss */
 ul.side-nav ul.collapsible li {
   padding: 0;
 }
-/* line 63, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 59, ../bower_components/materialize/sass/components/_collapsible.scss */
 ul.side-nav .collapsible-header {
   background-color: transparent;
   border: none;
@@ -8992,21 +9008,21 @@ ul.side-nav .collapsible-header {
   height: inherit;
   margin: 0 1rem;
 }
-/* line 70, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 66, ../bower_components/materialize/sass/components/_collapsible.scss */
 ul.side-nav .collapsible-header i {
   line-height: inherit;
 }
-/* line 73, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 69, ../bower_components/materialize/sass/components/_collapsible.scss */
 ul.side-nav .collapsible-body {
   border: 0;
   background-color: #FFF;
 }
-/* line 77, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 73, ../bower_components/materialize/sass/components/_collapsible.scss */
 ul.side-nav .collapsible-body li a {
   margin: 0 1rem 0 2rem;
 }
 
-/* line 82, ../bower_components/materialize/sass/components/_collapsible.scss */
+/* line 78, ../bower_components/materialize/sass/components/_collapsible.scss */
 li.no-padding {
   padding: 0 !important;
 }
@@ -9023,7 +9039,7 @@ li.no-padding {
 }
 /* line 6, ../bower_components/materialize/sass/components/_materialbox.scss */
 .materialboxed:hover {
-  will-change: left, top;
+  will-change: left, top, width, height;
 }
 /* line 7, ../bower_components/materialize/sass/components/_materialbox.scss */
 .materialboxed:hover:not(.active) {
@@ -9042,13 +9058,16 @@ li.no-padding {
 /* line 18, ../bower_components/materialize/sass/components/_materialbox.scss */
 #materialbox-overlay {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #292929;
   z-index: 999;
+  will-change: opacity;
 }
 
-/* line 25, ../bower_components/materialize/sass/components/_materialbox.scss */
+/* line 29, ../bower_components/materialize/sass/components/_materialbox.scss */
 .materialbox-caption {
   position: fixed;
   display: none;
@@ -9243,7 +9262,7 @@ textarea {
 }
 
 /***************
-  Radio Buttons 
+  Radio Buttons
 ***************/
 /* Remove default Radio Buttons */
 /* line 143, ../bower_components/materialize/sass/components/_form.scss */
@@ -9374,7 +9393,7 @@ textarea {
 }
 
 /***************
-   Checkboxes 
+   Checkboxes
 ***************/
 /* CUSTOM CSS CHECKBOXES */
 /* line 238, ../bower_components/materialize/sass/components/_form.scss */
@@ -9461,12 +9480,15 @@ form p:last-child {
   -o-transform: rotateZ(40deg);
   transform: rotateZ(40deg);
   -webkit-backface-visibility: hidden;
-  -webkit-transform-origin: 20% 40%;
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
 
 /* disabled checkbox */
-/* line 302, ../bower_components/materialize/sass/components/_form.scss */
+/* line 301, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:disabled:not(:checked) + label:before,
 [type="checkbox"]:disabled:checked + label:before {
   top: 0;
@@ -9483,20 +9505,20 @@ form p:last-child {
   transform: rotateZ(0deg);
 }
 
-/* line 312, ../bower_components/materialize/sass/components/_form.scss */
+/* line 311, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:disabled + label {
   color: rgba(0, 0, 0, 0.26);
 }
 
-/* line 315, ../bower_components/materialize/sass/components/_form.scss */
+/* line 314, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:disabled:not(:checked) + label:hover:before {
   border-color: rgba(0, 0, 0, 0.26);
 }
 
 /***************
-  Select Field 
+  Select Field
 ***************/
-/* line 325, ../bower_components/materialize/sass/components/_form.scss */
+/* line 324, ../bower_components/materialize/sass/components/_form.scss */
 .select-wrapper span.select-dropdown {
   position: relative;
   cursor: pointer;
@@ -9514,56 +9536,56 @@ form p:last-child {
   display: block;
   position: relative;
 }
-/* line 342, ../bower_components/materialize/sass/components/_form.scss */
+/* line 341, ../bower_components/materialize/sass/components/_form.scss */
 .select-wrapper span.select-dropdown:after {
   position: absolute;
   right: 0;
   font-size: 23px;
 }
 
-/* line 351, ../bower_components/materialize/sass/components/_form.scss */
+/* line 350, ../bower_components/materialize/sass/components/_form.scss */
 select {
   display: none;
 }
 
-/* line 352, ../bower_components/materialize/sass/components/_form.scss */
+/* line 351, ../bower_components/materialize/sass/components/_form.scss */
 select.browser-default {
   display: block;
 }
 
-/* line 356, ../bower_components/materialize/sass/components/_form.scss */
+/* line 355, ../bower_components/materialize/sass/components/_form.scss */
 select:disabled {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 359, ../bower_components/materialize/sass/components/_form.scss */
+/* line 358, ../bower_components/materialize/sass/components/_form.scss */
 .select-wrapper span.select-dropdown.disabled {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 362, ../bower_components/materialize/sass/components/_form.scss */
+/* line 361, ../bower_components/materialize/sass/components/_form.scss */
 .select-dropdown li.disabled {
   color: rgba(0, 0, 0, 0.3);
 }
-/* line 365, ../bower_components/materialize/sass/components/_form.scss */
+/* line 364, ../bower_components/materialize/sass/components/_form.scss */
 .select-dropdown li.disabled:hover {
   background-color: transparent;
 }
 
 /***************
-      Range 
+      Range
 ***************/
-/* line 373, ../bower_components/materialize/sass/components/_form.scss */
+/* line 372, ../bower_components/materialize/sass/components/_form.scss */
 .range-field {
   position: relative;
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_form.scss */
+/* line 376, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range], input[type=range] + .thumb {
   cursor: pointer;
 }
 
-/* line 382, ../bower_components/materialize/sass/components/_form.scss */
+/* line 381, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] {
   position: relative;
   background-color: transparent;
@@ -9574,7 +9596,7 @@ input[type=range] {
   padding: 0;
 }
 
-/* line 391, ../bower_components/materialize/sass/components/_form.scss */
+/* line 390, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb {
   position: absolute;
   border: none;
@@ -9595,7 +9617,7 @@ input[type=range] + .thumb {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 404, ../bower_components/materialize/sass/components/_form.scss */
+/* line 403, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb .value {
   display: block;
   width: 30px;
@@ -9608,11 +9630,11 @@ input[type=range] + .thumb .value {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 413, ../bower_components/materialize/sass/components/_form.scss */
+/* line 412, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb.active {
   border-radius: 50% 50% 50% 0;
 }
-/* line 416, ../bower_components/materialize/sass/components/_form.scss */
+/* line 415, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb.active .value {
   color: #fff;
   margin-left: -1px;
@@ -9620,24 +9642,24 @@ input[type=range] + .thumb.active .value {
   font-size: 10px;
 }
 
-/* line 426, ../bower_components/materialize/sass/components/_form.scss */
+/* line 425, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus {
   outline: none;
 }
 
-/* line 433, ../bower_components/materialize/sass/components/_form.scss */
+/* line 432, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] {
   -webkit-appearance: none;
 }
 
-/* line 437, ../bower_components/materialize/sass/components/_form.scss */
+/* line 436, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-webkit-slider-runnable-track {
   height: 3px;
   background: #c2c0c2;
   border: none;
 }
 
-/* line 443, ../bower_components/materialize/sass/components/_form.scss */
+/* line 442, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: none;
@@ -9654,26 +9676,26 @@ input[type=range]::-webkit-slider-thumb {
   transition: 0.3s;
 }
 
-/* line 455, ../bower_components/materialize/sass/components/_form.scss */
+/* line 454, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-webkit-slider-runnable-track {
   background: #ccc;
 }
 
-/* line 460, ../bower_components/materialize/sass/components/_form.scss */
+/* line 459, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] {
   /* fix for FF unable to apply focus style bug  */
   border: 1px solid white;
   /*required for proper track sizing in FF*/
 }
 
-/* line 467, ../bower_components/materialize/sass/components/_form.scss */
+/* line 466, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-moz-range-track {
   height: 3px;
   background: #ddd;
   border: none;
 }
 
-/* line 473, ../bower_components/materialize/sass/components/_form.scss */
+/* line 472, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-moz-range-thumb {
   border: none;
   height: 14px;
@@ -9684,18 +9706,18 @@ input[type=range]::-moz-range-thumb {
 }
 
 /*hide the outline behind the border*/
-/* line 483, ../bower_components/materialize/sass/components/_form.scss */
+/* line 482, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:-moz-focusring {
   outline: 1px solid white;
   outline-offset: -1px;
 }
 
-/* line 488, ../bower_components/materialize/sass/components/_form.scss */
+/* line 487, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-moz-range-track {
   background: #ccc;
 }
 
-/* line 493, ../bower_components/materialize/sass/components/_form.scss */
+/* line 492, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-track {
   height: 3px;
   /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
@@ -9707,17 +9729,17 @@ input[type=range]::-ms-track {
   color: transparent;
 }
 
-/* line 506, ../bower_components/materialize/sass/components/_form.scss */
+/* line 505, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-fill-lower {
   background: #777;
 }
 
-/* line 509, ../bower_components/materialize/sass/components/_form.scss */
+/* line 508, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-fill-upper {
   background: #ddd;
 }
 
-/* line 512, ../bower_components/materialize/sass/components/_form.scss */
+/* line 511, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-thumb {
   border: none;
   height: 14px;
@@ -9726,12 +9748,12 @@ input[type=range]::-ms-thumb {
   background: #0f9d58;
 }
 
-/* line 519, ../bower_components/materialize/sass/components/_form.scss */
+/* line 518, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-ms-fill-lower {
   background: #888;
 }
 
-/* line 522, ../bower_components/materialize/sass/components/_form.scss */
+/* line 521, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-ms-fill-upper {
   background: #ccc;
 }
@@ -9739,7 +9761,7 @@ input[type=range]:focus::-ms-fill-upper {
 /***************************
    Text Inputs + Textarea
 ****************************/
-/* line 530, ../bower_components/materialize/sass/components/_form.scss */
+/* line 529, ../bower_components/materialize/sass/components/_form.scss */
 select {
   background-color: #fffafa;
   width: 100%;
@@ -9775,13 +9797,13 @@ ul.table-of-contents a {
 ul.table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 19px;
-  border-left: 1px solid #ea4a4f;
+  border-left: 1px solid #c9ded2;
 }
 /* line 27, ../bower_components/materialize/sass/components/_table_of_contents.scss */
 ul.table-of-contents a.active {
   font-weight: 500;
   padding-left: 18px;
-  border-left: 2px solid #ea4a4f;
+  border-left: 2px solid #c9ded2;
 }
 
 @media only screen and (max-width: 992px) {
@@ -9791,78 +9813,112 @@ ul.table-of-contents a.active {
     width: 240px;
     left: -250px;
     top: 0;
-    height: 120%;
+    bottom: 0;
     background-color: #FFF;
     z-index: 999;
-    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     will-change: left;
   }
-  /* line 15, ../bower_components/materialize/sass/components/_sideNav.scss */
-  ul.side-nav.right {
+  /* line 14, ../bower_components/materialize/sass/components/_sideNav.scss */
+  ul.side-nav.right-aligned {
     will-change: right;
     right: -250px;
     left: auto;
   }
-  /* line 22, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 20, ../bower_components/materialize/sass/components/_sideNav.scss */
+  ul.side-nav .collapsible {
+    margin: 0;
+  }
+  /* line 25, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav li {
     float: none;
     padding: 0 15px;
+    width: 240px;
   }
-  /* line 26, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 29, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav li:hover, ul.side-nav li.active {
     background-color: #ddd;
   }
-  /* line 28, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 31, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav a {
     color: #444;
   }
 }
-/* line 34, ../bower_components/materialize/sass/components/_sideNav.scss */
-ul.side-nav.full {
+/* line 39, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.full,
+ul.side-nav.fixed {
   position: fixed;
   width: 240px;
   left: -250px;
   top: 0;
-  height: 120%;
+  bottom: 0;
   margin: 0;
   background-color: #FFF;
   z-index: 999;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   will-change: left;
 }
-/* line 48, ../bower_components/materialize/sass/components/_sideNav.scss */
-ul.side-nav.full.right {
+/* line 54, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.full.right-aligned,
+ul.side-nav.fixed.right-aligned {
   will-change: right;
   right: -250px;
   left: auto;
 }
-/* line 54, ../bower_components/materialize/sass/components/_sideNav.scss */
-ul.side-nav.full li {
+/* line 60, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.full .collapsible,
+ul.side-nav.fixed .collapsible {
+  margin: 0;
+}
+/* line 64, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.full li,
+ul.side-nav.fixed li {
   float: none;
   line-height: 64px;
   padding: 0 15px;
-  -webkit-transition: background-color 0.3s;
-  -moz-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  -ms-transition: background-color 0.3s;
-  transition: background-color 0.3s;
+  width: 240px;
+  -webkit-transition: background-color 0s;
+  -moz-transition: background-color 0s;
+  -o-transition: background-color 0s;
+  -ms-transition: background-color 0s;
+  transition: background-color 0s;
 }
-/* line 60, ../bower_components/materialize/sass/components/_sideNav.scss */
-ul.side-nav.full li:hover, ul.side-nav.full li.active {
+/* line 72, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.full li:hover, ul.side-nav.full li.active,
+ul.side-nav.fixed li:hover,
+ul.side-nav.fixed li.active {
   background-color: #ddd;
 }
-/* line 62, ../bower_components/materialize/sass/components/_sideNav.scss */
-ul.side-nav.full a {
+/* line 74, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.full a,
+ul.side-nav.fixed a {
   display: block;
   padding: 0 15px;
   color: #444;
 }
 
-/* line 69, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 83, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.fixed {
+  left: 0;
+  position: fixed;
+}
+/* line 88, ../bower_components/materialize/sass/components/_sideNav.scss */
+ul.side-nav.fixed.right-aligned {
+  will-change: right;
+  right: 0;
+  left: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 97, ../bower_components/materialize/sass/components/_sideNav.scss */
+  ul.side-nav.fixed {
+    left: -250px;
+  }
+  /* line 100, ../bower_components/materialize/sass/components/_sideNav.scss */
+  ul.side-nav.fixed.right-aligned {
+    right: -250px;
+    left: auto;
+  }
+}
+/* line 108, ../bower_components/materialize/sass/components/_sideNav.scss */
 #sidenav-overlay {
   position: fixed;
   top: 0px;
@@ -11261,11 +11317,36 @@ ul.side-nav.full a {
   border-radius: 50%;
   background-clip: padding-box; }
 
+.container {
+  max-width: none; }
+
+nav {
+  background: transparent;
+  border-top: 4px solid #37474f; }
+
 nav ul a {
   position: relative; }
 
 .container.wide {
   width: 95%; }
+
+main {
+  background: #F0F0F0; }
+
+.main-banner {
+  background: url(../images/bg-10.jpg) no-repeat bottom center;
+  background-size: cover;
+  margin-top: -65px;
+  height: 300px; }
+
+.card-onbanner {
+  margin-top: -200px; }
+
+.card.large {
+  padding: 10px 30px; }
+
+.section.with-table {
+  background: #fff; }
 
 @font-face {
   font-family: "NotoKufi";
@@ -11428,12 +11509,12 @@ ul.table-of-contents a {
 ul.table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 19px;
-  border-left: 1px solid #ea4a4f;
+  border-left: 1px solid #c9ded2;
 }
 /* line 107, ../sass/_bi-app-for-materialize.scss */
 ul.table-of-contents a.active {
   padding-left: 18px;
-  border-left: 2px solid #ea4a4f;
+  border-left: 2px solid #c9ded2;
 }
 
 /* line 116, ../sass/_bi-app-for-materialize.scss */

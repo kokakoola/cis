@@ -1,6 +1,6 @@
 {
   "name": "Materialize",
-  "version": "0.94.0",
+  "version": "0.94.1",
   "description": "A modern responsive front-end framework based on Material Design",
   "keywords": [
     "css",
@@ -52,14 +52,14 @@
     "jquery": ">=2.1.1"
   },
   "homepage": "https://github.com/Dogfalo/materialize",
-  "_release": "0.94.0",
+  "_release": "0.94.1",
   "_resolution": {
     "type": "version",
-    "tag": "v0.94.0",
-    "commit": "6bfe3b23a4208a219aeb3bf5873595de2e559842"
+    "tag": "v0.94.1",
+    "commit": "0af5e8a6c0a8a00b3443d6547b37d0f47e30accf"
   },
   "_source": "git://github.com/Dogfalo/materialize.git",
-  "_target": "~0.94.0",
+  "_target": "~0.94.1",
   "_originalSource": "materialize",
   "_direct": true
 }

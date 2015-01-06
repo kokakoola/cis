@@ -1,8 +1,20 @@
+// emptly
 .new.badge.circle {
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
 border-radius: 50%;
 background-clip: padding-box;
+}
+
+// fix
+.container {
+  max-width: none;
+}
+
+
+nav {
+  background: transparent;
+  border-top: 4px solid #37474f;
 }
 
 nav ul a {
@@ -11,4 +23,29 @@ nav ul a {
 
 .container.wide {
   width: 95%;
+}
+
+main {
+  background: #F0F0F0;
+
+}
+
+.main-banner {
+  background:  url(images/bg-10.jpg) no-repeat bottom center;
+  background-size: cover;
+  margin-top: -65px;
+  height: 300px;
+
+}
+
+.card-onbanner {
+  margin-top: -200px;
+}
+
+.card.large {
+  padding: 10px 30px;
+}
+
+.section.with-table {
+  background: #fff;
 }
