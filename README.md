@@ -1,4 +1,6 @@
 ## Wiki
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kokakoola/cis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Look into [wiki](https://github.com/kokakoola/cis/wiki) to get a better overview.
 
 ## Existing examples 
