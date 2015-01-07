@@ -1,3 +1,6 @@
+// CIS colors
+$light: #F0F0F0;
+
 /*** Buttons ***/
 $button-background-disabled: #DFDFDF;
 $button-color: color("blue", "base") !default;
@@ -23,7 +26,7 @@ $collapsible-border-color: #ddd !default;
 /*** Forms ***/
 // Text Inputs + Textarea
 $border-color: color("grey", "base") !default;
-$highlight-color: color("blue", "base") !default;
+$highlight-color: color("lime", "base");
 $label-font-size: .8rem !default;
 
 // Radio Buttons

@@ -1,26 +1,89 @@
 <div class="row">
-  <div class="col s7">
-
+  <div class="col s12">
+    <label for="">Date and type of the case</label>
+  </div>
+  <div class="col s12 m5">
+    <input type="date" id="date" class="datepicker">
+  </div>
+  <div class="col s12 m6">
     <select required>
-      <option value="" disabled selected>Choose the type of the case </option>
+      <option value="" disabled selected>Type of the case </option>
       <option value="1">Option 1</option>
       <option value="2">Option 2</option>
       <option value="3">Option 3</option>
     </select>
   </div>
-  <div class="input-field col s7">
-    <input id="claimant1" type="text" class="validate" required>
-    <label for="claimant1">Claimant</label>
+</div>
+<div class="row">
+  <div class="col s12">
+    <label for="">Claimants</label>
   </div>
-  <div class="input-field col s7 collapse" id="collapseClaimant2">
-    <input id="claimant2" type="text" class="validate"required>
-    <label for="claimant2">Claimant No2</label>
+  <div id="claimants" >
+    <div class="input-field col s12 m5">
+      <input id="claimant" type="text" class="validate">
+      <label for="claimant">Claimant</label>
+    </div>
+    <div class="input-field col s12 m6">
+      <input id="claimantAddress" type="text" class="validate">
+      <label for="claimantAddress">Address</label>
+    </div>
   </div>
   <div class="col s1">
-    <button class="btn btn-floating btn-large waves-effect waves-dark blue-grey" type="button" data-toggle="collapse" data-target="#collapseClaimant2" aria-expanded="false" aria-controls="collapseExample">
+    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputClaimant">
       <i class="mdi-content-add animated rotateIn"></i>
     </button>
-
   </div>
-
 </div>
+<div class="row">
+  <div class="col s12">
+    <label for="">Defendants</label>
+  </div>
+  <div id="defendants">
+    <div class="input-field col s12 m5">
+      <input id="defendant" type="text" class="validate">
+      <label for="defendant">Defendant</label>
+    </div>
+    <div class="input-field col s12 m6">
+      <input id="defendantAddress" type="text" class="validate">
+      <label for="defendantAddress">Address</label>
+    </div>
+  </div>
+  <div class="col s1">
+    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputDefendant">
+      <i class="mdi-content-add animated rotateIn"></i>
+    </button>
+  </div>
+</div>
+<div class="row">
+  <div class="col s12">
+    <label for="">Select judge</label>
+  </div>
+  <div class="col s12 m5">
+    <select required>
+      <option value="" disabled selected>Judge Roman </option>
+      <option value="1">Judge Else</option>
+      <option value="2">Judge Other</option>
+      <option value="3">Judge Judge</option>
+    </select>
+  </div>
+  <div class="input-field col s12 m5">
+    <input id="claimValue" type="text" class="validate">
+    <label for="claimValue">Claim value</label>
+  </div>
+  <div class="col m2">
+    <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
+  </div>
+</div>
+<div class="row">
+  <div class="col s11">
+    <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="#">This is a link</a></p>
+  </div>
+</div>
+<div class="row">
+  <div class="input-field col s11">
+    <textarea class="materialize-textarea" required></textarea>
+    <label>Notes</label>
+  </div>
+</div>
+

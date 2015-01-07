@@ -39,7 +39,7 @@ label {
   input[type=email]:focus + label,
   input[type=date]:focus + label,
   textarea:focus + label {
-    color: $highlight-color;
+    color: ("indigo", "base");
   }
 
   input[type=text].valid,

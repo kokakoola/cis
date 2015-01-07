@@ -1,0 +1,119 @@
+// emptly
+.new.badge.circle {
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+background-clip: padding-box;
+}
+
+// MATERIALIZE OVERRIDES
+// **************************************
+html {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family:  "Roboto", "NotoKufi", sans-serif;
+}
+
+.container {
+  width: 75%;
+  max-width: none;
+}
+
+.container.wide {
+  width: 95%;
+}
+
+// FRAME
+// ****************************************
+main {
+  background: $light;
+}
+
+.section.with-table {
+  background: #fff;
+}
+
+// FRONTPAGE
+// ***************************************
+
+.full-bg {
+  background: url(images/frontbg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// HEADER
+// ****************************************
+
+nav .brand-logo {
+  @include float(left);
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: transparent url(images/cis-logo.svg) no-repeat center center;
+  background-size: 45px 45px;
+  text-indent: 65px;
+  @include margin-right(40px);
+}
+
+.no-svg nav .brand-logo {
+  background-image: url(images/cis-logo.png) no-repeat;
+}
+
+nav {
+  // background: transparent;
+  border-top: 4px solid #37474f;
+}
+
+nav ul a {
+  position: relative;
+}
+
+:-webkit-full-screen .mdi-navigation-fullscreen:before {
+  content: "\e8a0";
+}
+:-moz-full-screen .mdi-navigation-fullscreen:before {
+  content: "\e8a0";
+}
+
+.count {
+  position: absolute;
+  top: 10px;
+  @include left(58%);
+  background: #35BAC4;
+  padding: 0px 5px;
+  border-radius: 30px;
+  color: #FFF;
+  line-height: 16px;
+  z-index: 9999;
+  text-align: center;
+  font-size: 11px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+
+// CONTENT 
+// *********************************
+.main-banner {
+  background:  url(images/bg-10.jpg) no-repeat bottom center;
+  background-size: cover;
+  margin-top: -65px;
+  height: 300px;
+}
+
+.card-onbanner {
+  margin-top: -200px;
+}
+
+.card.large {
+  padding: 10px 30px;
+}
+
+.input-field label {
+  color: #444;
+}
+
