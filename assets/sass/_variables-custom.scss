@@ -1,9 +1,37 @@
 // CIS colors
-$light: #F0F0F0;
+$coolors: (
+  "mauve": #5E565A,
+  "orange": #FF934F,
+  "lime": #F7FF58,
+  "water": #A9CBB7,
+  "beige": #EFECCA,
+  "light": #F0F0F0 
+  );
+
+  $color-mauve: #5E565A;
+  $color-orange: #FF934F;
+  $color-lime: #F7FF58;
+  $color-water: #A9CBB7;
+  $color-beige: #EFECCA;
+  $color-light: #F0F0F0;
+
+  .color-mauve { color: #5E565A; }
+  .color-orange { color: #FF934F; }
+  .color-lime { color: #F7FF58; }
+  .color-water { color: #A9CBB7; }
+  .color-beige { color: #EFECCA; }
+  .color-light { color: #F0F0F0; }
+
+  .bg-mauve { background-color: #5E565A; }
+  .bg-orange { background-color: #FF934F; }
+  .bg-lime { background-color: #F7FF58; }
+  .bg-water { background-color: #A9CBB7; }
+  .bg-beige { background-color: #EFECCA; }
+  .bg-light { background-color: #F0F0F0; }
 
 /*** Buttons ***/
 $button-background-disabled: #DFDFDF;
-$button-color: color("blue", "base") !default;
+$button-color: $color-mauve;
 $button-color-disabled: #9F9F9F;
 $button-color-flat: #343434;
 $button-color-raised: #FFF;

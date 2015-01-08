@@ -28,7 +28,7 @@ The color pallette should be nordic and unobtrusive - was the clients wish. The 
 
 ## List of used plugins and methods
 
-- upload images with [dropzone](http://www.dropzonejs.com/), documentation for .NET [here](http://venkatbaggu.com/file-upload-in-asp-net-mvc-using-dropzone-js-and-html5/)
+- upload images with [dropzone](http://www.dropzonejs.com/), documentation for .NET [here](http://venkatbaggu.com/file-upload-in-asp-net-mvc-using-dropzone-js-and-html5/) and use with other [forms](https://github.com/enyo/dropzone/wiki/Combine-normal-form-with-Dropzone)
 - frontpage and first user manual page scroll based on [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js#pagepilingjs)
 - bubbles for guide tips - [crumble](http://blog.tommoor.com/crumble/)
 - general animation of elements on pagescroll - [wow.js](http://mynameismatthieu.com/WOW/). A decent [example](https://www.box.com/notes/) about it is Boxnotes.
