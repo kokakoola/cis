@@ -8,6 +8,31 @@ border-radius: 50%;
 background-clip: padding-box;
 }
 
+// HELPERS
+// ***************************************
+.hidden {
+  display: none;
+}
+.no-pad {
+  padding: 0;
+}
+.no-pad-bot {
+  padding-bottom: 0;
+}
+.no-pad-top {
+  padding-top: 0;
+}
+
+.no-marg {
+  margin: 0;
+}
+.no-marg-bot {
+  margin-bottom: 0;
+}
+.no-marg-top {
+  margin-top: 0;
+}
+
 // MATERIALIZE OVERRIDES
 // **************************************
 html {
@@ -25,10 +50,23 @@ html {
   width: 95%;
 }
 
+
+
 // FRAME
 // ****************************************
 main {
   background: $color-light;
+}
+
+// fixed footer flex
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+main {
+   flex: 1 0 auto;
 }
 
 .section.with-table {
@@ -37,66 +75,128 @@ main {
 
 // FRONTPAGE
 // ***************************************
+.front-fullscreen {
+ position: fixed;
+ top: 20px;
+ left: 40px;
+ font-size: 4rem;
+}
 
 .full-bg {
-  background: url(images/frontbg.png) no-repeat center center fixed; 
+  background: url('assets/images/frontbg.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: lighten($color-mauve, 30%);
+  background-blend-mode: multiply;
+
+  input[type=text] {
+    padding:4px 15px; 
+    border:1px solid $color-light; 
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    opacity: 0.6;
+    height: 2rem;
+    max-width: 400px;
+  }
+  input[type=text]:focus {border-color:#333; }
+
 }
 
-// HEADER
-// ****************************************
-
-nav .brand-logo {
-  @include float(left);
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background: transparent url(images/cis-logo.svg) no-repeat center center;
-  background-size: 45px 45px;
-  text-indent: 65px;
-  @include margin-right(40px);
+.second-background {
+background: linear-gradient(229deg, #a24bcf, #4b79cf, #4bc5cf);
+background-size: 600% 600%;
+-webkit-animation: second 30s ease infinite;
+-moz-animation: second 30s ease infinite;
+-o-animation: second 30s ease infinite;
+animation: second 30s ease infinite;
+@-webkit-keyframes second {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
-
-.no-svg nav .brand-logo {
-  background-image: url(images/cis-logo.png) no-repeat;
+@-moz-keyframes second {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
-
-nav {
-  // background: transparent;
-  border-top: 4px solid #37474f;
+@-o-keyframes second {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
-
-nav ul a {
-  position: relative;
+@keyframes second {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
+} 
 
-:-webkit-full-screen .mdi-navigation-fullscreen:before {
-  content: "\e8a0";
-}
-:-moz-full-screen .mdi-navigation-fullscreen:before {
-  content: "\e8a0";
-}
-
-.count {
+.section.pagepiling {
+  height: 100%;
   position: absolute;
-  top: 10px;
-  @include left(58%);
-  background: #35BAC4;
-  padding: 0px 5px;
-  border-radius: 30px;
-  color: #FFF;
-  line-height: 16px;
-  z-index: 9999;
-  text-align: center;
-  font-size: 11px;
+  width: 100%;
+  display: table;
+
+  .middlecontent {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+  }
 }
-.icon-block {
-  padding: 0 15px;
+
+
+#menu {
+  position: fixed;
+  top: 0;
+  z-index: 3;
 }
+
+  /* Defining each section background and styles
+  * --------------------------------------- */
+  #section1{
+    background-image: url(imgs/bg1.jpg);
+  }
+  #section2{
+    background-color: $color-light;
+    padding: 6% 0 0 0;
+  }
+  #section3{
+    background-image: url(imgs/bg3.jpg);
+    padding: 6% 0 0 0;
+  }
+  #section3 h1{
+    color: #000;
+  }
+  #section1 h1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30px;
+    color: #fff;
+  }
+  #section2 .intro{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30px;
+  }
+  #section2 h1,
+  #section2 p{
+    text-shadow: 1px 5px 20px #000;
+  }
+  #section3 h1,
+  #section3 p{
+    text-shadow: 1px 5px 20px #000;
+    color: #fff;
+  }
+  #infoMenu li a{
+      color: #fff;
+  }
 
 // CONTENT 
 // *********************************
@@ -108,7 +208,7 @@ nav ul a {
 }
 
 .card-onbanner {
-  margin-top: -200px;
+  margin-top: -220px;
 }
 
 .card.large {
@@ -118,4 +218,35 @@ nav ul a {
 .input-field label {
   color: #444;
 }
+
+// Table style
+// **********************
+table {
+  max-width: 1400px;
+  .btn-flat {
+  @include padding-left(.5rem);
+  @include padding-right(5px);
+  i.right {
+    color: color('grey', 'base');
+    }
+  }
+  th.sorting_desc .btn-flat i {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    }
+  &.dataTable thead th, 
+  &.dataTable thead td {
+    padding: 0;
+  }
+  a { white-space: nowrap }
+}
+
+div.dataTables_wrapper {
+  width: 95%;
+  margin: 0 auto;
+  overflow-y: hidden; 
+}
+
 

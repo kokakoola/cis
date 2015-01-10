@@ -17,9 +17,7 @@
 
   <script src='assets/javascript/vendor/modernizr-2.6.2.min.js'></script>
 
-  <link rel='stylesheet' href='assets/css/vendor/animate.css'>
-<link rel='stylesheet' href='assets/css/vendor/dropzone.css'>
-<link rel='stylesheet' href='assets/stylesheets/app-ltr.css'>
+  <link rel='stylesheet' href='assets/stylesheets/app-ltr.css'>
 <link rel='stylesheet' href='assets/stylesheets/app-rtl.css'>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -819,6 +817,7 @@
   </footer>
 
 <script src='assets/bower_components/jquery/dist/jquery.min.js'></script>
+<script src='assets/javascript/app/animate-css.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js'></script>
@@ -829,66 +828,36 @@
 <script src='assets/javascript/vendor/wow.js'></script>
 <script src='assets/javascript/app/fullscreen.js'></script>
 
+<!-- jquery.dataTables -->
 <script>
 
-  // wow.js init
-  new WOW().init();
-  
+// NOTYFICATION
+$(".notificationLink").click(function(){
+  $("#notification_count").fadeOut("slow");
+  return false;
+});
 
-  // Animate css functions
-  // http://www.telegraphicsinc.com/2013/07/how-to-use-animate-css/
-  function animationHover(element, animation){
-  element = $(element);
-  element.hover(
-    function() {
-      element.addClass('animated ' + animation);        
-    },
-    function(){
-      //wait for animation to finish before removing classes
-      window.setTimeout( function(){
-          element.removeClass('animated ' + animation);
-      }, 2000);         
-    });
-  }
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
-  function animationClick(element, animation){
-    element = $(element);
-    element.click(
-      function() {
-          element.addClass('animated ' + animation);        
-          //wait for animation to finish before removing classes
-          window.setTimeout( function(){
-              element.removeClass('animated ' + animation);
-          }, 2000);         
+    if (scroll >= 40) {
+        $("nav").addClass("scrolled");
+    } else {
+        $("nav").removeClass("scrolled");
+    }
+});
 
-      });
-  }
+// Language switcher
+$(".language").click(function(){
+  var theValue = $(this).attr('data-value');
+  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+theValue+'.css'});
+  $('li.active').removeClass('active');
+  $(this).parent().addClass('active');
+  return false;
+});
 
 // START DOCREADY
   $(document).ready(function() {
-
-    // change stylesheet oncklick
-    // default, ltr stylsheet
-    $("#Kurdish").click(function(event) {
-      event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-rtl.css"});
-      $('ul.nav-mobile > li.active').removeClass('active');
-      $(this).parent().addClass('active');
-      return false;
-    });
-     
-    // rtl stylesheet
-    $("#English").click(function(event) {
-      event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-ltr.css"});
-      $('ul.nav-mobile > li.active').removeClass('active');
-      $(this).parent().addClass('active');
-      return false;
-    });
-
-    $('.mdi-content-add').each(function() {
-        animationClick(this, 'rotateIn');
-    });
 
     // front login
     $('.forgot-pass').click(function(event) {
@@ -899,19 +868,7 @@
       $(".pr-wrap").removeClass("show-pass-reset");
     }); 
 
-    // init  Pagepiling
-    // $('#page').pagepiling({
-    //   direction: 'horizontal',
-    //     verticalCentered: true,
-    //   keyboardScrolling: true,
-    //   sectionSelector: '.foo',
-    //   navigation: {
-    //     'textColor': '#ccc',
-    //     'bulletsColor': '#fff',
-    //     'position': 'right',
-    //     'tooltips': ['section1', 'section2', 'section3', 'section4']
-    //   }
-    // });
+
 
 // http://jsfiddle.net/jaredwilli/tZPg4/4/
 // Add Input
@@ -942,11 +899,24 @@
 
     });
 
+
   }); // END DOCREADY
+
 
 </script>
 
-
+ <!-- Usersnap widget -->
+<script type="text/javascript">
+// (function() {
+// var s = document.createElement("script");
+// s.type = "text/javascript";
+// s.async = true;
+// s.src = '//api.usersnap.com/load/'+
+//         '1ea495c4-875c-43d6-a897-82e131526bbc.js';
+// var x = document.getElementsByTagName('script')[0];
+// x.parentNode.insertBefore(s, x);
+// })();
+</script>
 
   </body>
 </html>

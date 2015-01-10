@@ -1,111 +1,36 @@
 <!-- $title CIS | Home -->
 <!-- $bodyClass home -->
 <!-- @include head -->
-<!-- @include header -->
 
 <main>
-  <div class="section no-pad-bot full-bg" id="index-banner">
+  <div class="section pagepiling full-bg">
+    <a href="#!" class="front-fullscreen" onclick="toggleFullScreen()"><i class="mdi-navigation-fullscreen"></i></a>
     <div class="container">
-      <br><br>
-      <h1 class="header center white-text">Starting Now!</h1>
-      <div class="row center">
-        <h5 class="header col s12 light white-text">
-          Presidency of Sulaimania region Appeal Court  <br>
-          سەرۆکایاتی دادگای تێهەڵجوونەوەی ناوچه‌ى سلێمانی  <br>
-          رئاسة محكمة الاستئناف منطقة السليمانية  
-        </h5>
-      </div>
-      <div class="row center">
-        <a href="registry.html" id="download-button" class="btn-large waves-effect waves-dark deep-orange darken-4">Get Started</a>
-      </div>
-      <br><br>
-      <div class="wow rotateIn">
-        Content to Reveal Here
-      </div>
-
-      <section >
-        <div class="container">
-          <div class="row">
-            <div class="col s10 ">
-              <!-- @include login -->
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-
-  
-
-  <!--   Card with reveal   -->
-  <div class="container">
-<!-- @include bs-collapse -->
-    <div class="row">
-      <div class="col s8">
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title <i class="mdi-navigation-more-vert right"></i></span>
-            <p><a href="#">This is a link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-        </div>
+      
+      <div class="col s5 offset-s3 center">
+        <h3 class="white-text">
+          <img src="assets/images/cis-logo.svg" alt="" width="70" height="70">
+          <br>
+          <span style="font-size: 55%;">Welcome to Sulaymaniah</span>
+          <br>
+          Court Info System 
+        </h3>
+        <div class="divider white"></div>
+        <h6 class="white-text">Please login:</h6>
+        <br>
+        <input type="text" value="" placeholder="Name">
+        <br>
+        <input type="text" value="" placeholder="Password">
+        <br>
+        <a href="registry.html" class="btn-large waves-effect waves-dark deep-orange darken-4 wow rotateIn">Login</a>
+        <br>
+        <a href="">Forgot Password?</a>
       </div>
     </div>
   </div>
-  
-  <div class="container">
-    <div class="section">
 
-      <!--   Input div   -->
-
-      <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="col s5">
-              <select required>
-                <option value="" disabled selected>Choose the type of the case </option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-              </select>
-            </div>
-            <div class="input-field col s6">
-              <input id="claimant1" type="text" required>
-              <label for="claimant1">Claimant</label>
-            </div>
-            <div class="col s1">
-              <a class="btn-floating btn-large waves-effect waves-dark blue-grey wow rotateIn" id="addField"><i class="mdi-content-add animated rotateIn"></i></a>
-            </div>
-            <div class="input-field col s6 offset-s5">
-              <input id="claimant2" type="text" required>
-              <label for="claimant2">Claimant No2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="username" type="text" required>
-              <label for="username">Username</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" required>
-              <label for="password">Password</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" required>
-              <label for="email">Email</label>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <!--   Icon Section   -->
+  <div class="section">
+    <div class="container">
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -136,12 +61,6 @@
       </div>
       
     </div>
-    <br><br>
-
-    
-  </div>
-  <div class="container wide">
-    <!-- @include table -->
   </div>
 </main>
 

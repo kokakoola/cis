@@ -17,9 +17,7 @@
 
   <script src='assets/javascript/vendor/modernizr-2.6.2.min.js'></script>
 
-  <link rel='stylesheet' href='assets/css/vendor/animate.css'>
-<link rel='stylesheet' href='assets/css/vendor/dropzone.css'>
-<link rel='stylesheet' href='assets/stylesheets/app-ltr.css'>
+  <link rel='stylesheet' href='assets/stylesheets/app-ltr.css'>
 <link rel='stylesheet' href='assets/stylesheets/app-rtl.css'>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,83 +50,111 @@
       
 
     </head>
-    <body class="register" role="document">
+    <body class="registry" role="document">
     <!--[if lt IE 10]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-<!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!">one</a></li>
-  <li><a href="#!">two</a></li>
-  <li class="divider"></li>
-  <li><a href="#!">three</a></li>
-</ul>
-
-<ul id="dropdown2" class="dropdown-content">
-  <li><a href="#!">one</a></li>
-  <li><a href="#!">two</a></li>
-  <li class="divider"></li>
-  <li><a href="#!">three</a></li>
-</ul>
-
-<nav>
-  <div class="container">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#" id="Kurdish" class="btn-medium waves-effect ">rtl</a></li>
-        <li><a href="#" id="English" class="btn-medium waves-effect ">ltr</a></li>
-        <li><a href="#" onclick="toggleFullScreen()"><i class="mdi-navigation-fullscreen"></i></a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown2"><i class="mdi-social-notifications"></i><span class="count">4</span></a></li>
-        <li>
-          <ul class="collapsible collapsible-accordion">
-            <li>
-              <div class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></div>
-              <div class="collapsible-body">
-                <ul class="collection">
-                  <a href="#!" class="collection-item">Alan<span class="badge">1</span></a>
-                  <a href="#!" class="collection-item">Alan<span class="new badge">4</span></a>
-                  <a href="#!" class="collection-item">Alan</a>
-                  <a href="#!" class="collection-item">Alan<span class="badge">14</span></a>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="mdi-action-settings"></i></a></li>
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-
-    </div>
-    <ul id="slide-out" class="side-nav full">
-      <li><a href="#!">First Sidebar Link</a></li>
-      <li><a href="#!">Second Sidebar Link</a></li>
-      <li class="no-padding">
-        <ul class="collapsible collapsible-accordion">
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper container">
+      <div class="col s12">
+        <a href="index.html" class="brand-logo"></a>
+        <ul class="side-nav" id="nav-mobile">
+          <!-- <li class="active">
+            <a href="#!" id="Kurdish" data-value="rtl" class="btn-medium waves-effect language">sorani</a>
+          </li>
           <li>
-            <div class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></div>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#!">First Dropdown Link</a></li>
-                <li><a href="#!">Second Dropdown Link</a></li>
-                <li><a href="#!">Third Dropdown Link</a></li>
-                <li><a href="#!">Fourth Dropdown Link</a></li>
-              </ul>
-            </div>
+            <a href="#!" id="English" data-value="ltr" class="btn-medium waves-effect language">english</a>
+          </li> -->
+          <li>
+            <a href="#!" onclick="toggleFullScreen()"><i class="mdi-navigation-fullscreen"></i></a>
+          </li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="languageDropdown"><i class="mdi-action-language"></i></a>
+          </li>
+          <li><a class="dropdown-button notificationLink" href="#!" data-activates="notificationsDropdown"><i class="mdi-social-notifications"></i><span class="count" id="notification_count">6</span></a>
+          </li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="personDropdown"><!-- <img class="responsive-img circle" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"> -->Halat Ahmed<i class="mdi-navigation-arrow-drop-down right"></i></a>
           </li>
         </ul>
-      </li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-foo"><i class="mdi-navigation-menu"></i></a>
-  </div>
-</nav>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Dropdown Structure -->
+
+<!-- language dropdown -->
+<ul id="languageDropdown" class="navbar dropdown-content">
+  <li class="active"><a href="#!" id="Kurdish" data-value="rtl" class="btn-medium waves-effect language">sorani</a></li>
+  <li><a href="#!" id="English" data-value="ltr" class="btn-medium waves-effect language">english</a></li>
+</ul>
+
+<!-- profile dropdown -->
+<ul id="personDropdown" class="navbar dropdown-content">
+  <li><a href="#!">Profile</a></li>
+  <li><a href="#!">Settings</a></li>
+  <li class="divider"></li>
+  <li><a href="#!"><i class="mdi-action-exit-to-app right"></i>Log out</a></li>
+</ul>
+
+<!-- notifications dropdown -->
+<div class="navbar dropdown-content notification-container" id="notificationsDropdown">
+  <ul class="collection with-header">
+    <li class="collection-header"><h5>Notifications</h5></li>
+    <li class="collection-item">
+      <div><a href="#!">
+          <span class="new badge orange">Drafts</span> <small>1 hour ago <br>You have 4 new drafts to finish</small>
+      </a></div>
+    </li>
+    <li class="collection-item">
+      <div><a href="#!">
+          <span class="new badge green">What is this?</span> <small>1 hour ago <br>You have 4 new drafts to finish</small>
+      </a></div>
+    </li>
+    <li class="collection-item">
+      <div><a href="#!">
+          <span class="new badge red">Drafts</span> <small>1 hour ago <br>You have 4 new drafts to finish </small>
+      </a><a href="#!" class="secondary-content"><i class="mdi-action-alarm-on text-red"></i></a></div>
+    </li>
+    <li class="collection-item">
+      <div><a href="#!">
+          <span class="new badge pink">Drafts</span> <small>1 hour ago <br>You have 4 new drafts to finish</small>
+      </a></div>
+    </li>
+  </ul>
+</div>
+
+
 
 <main>
 
   <div class="section main-banner no-pad-bot">
     <div class="container">
       <br><br>
+      <!-- slide out panel -->
+<ul id="slide-out" class="side-nav full">
+  <li><a href="#!">First Sidebar Link</a></li>
+  <li><a href="#!">Second Sidebar Link</a></li>
+  <li class="no-padding">
+    <ul class="collapsible collapsible-accordion">
+      <li>
+        <div class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></div>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#!">First Dropdown Link</a></li>
+            <li><a href="#!">Second Dropdown Link</a></li>
+            <li><a href="#!">Third Dropdown Link</a></li>
+            <li><a href="#!">Fourth Dropdown Link</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+<a href="#" data-activates="slide-out" class="button-foo"><i class="mdi-navigation-menu"></i></a>
       <!-- <h4 class="header orange-text text-darken-2">Prime registry</h4> -->
     </div>
   </div>
@@ -146,7 +172,7 @@
     <span class="card-title grey-text text-darken-4">24756/5794374NHS <i class="mdi-navigation-close close right" data-target="#cancelEntry"  data-dismiss="alert"></i> </span>
     <div class="divider"></div>
     <br><br>
-    <div class="row">
+    <div class="row no-pad-bot">
   <div class="col s12">
     <label for="">Date and type of the case</label>
   </div>
@@ -162,8 +188,9 @@
     </select>
   </div>
 </div>
-<div class="row">
-  <div class="col s12">
+
+<div class="row no-pad-bot">
+  <div class="col s1">
     <label for="">Claimants</label>
   </div>
   <div id="claimants" >
@@ -171,7 +198,7 @@
       <input id="claimant" type="text" class="validate">
       <label for="claimant">Claimant</label>
     </div>
-    <div class="input-field col s12 m6">
+    <div class="input-field col s12 m5">
       <input id="claimantAddress" type="text" class="validate">
       <label for="claimantAddress">Address</label>
     </div>
@@ -182,7 +209,8 @@
     </button>
   </div>
 </div>
-<div class="row">
+
+<div class="row no-pad-bot">
   <div class="col s12">
     <label for="">Defendants</label>
   </div>
@@ -202,7 +230,8 @@
     </button>
   </div>
 </div>
-<div class="row">
+
+<div class="row no-pad-bot">
   <div class="col s12">
     <label for="">Add other kind of participants</label>
   </div>
@@ -215,7 +244,7 @@
     </select>
   </div>
 </div>
-<div class="row">
+<div class="row hidden">
   <div class="col s12">
     <label for="">Lawyer(s)</label>
   </div>
@@ -235,7 +264,8 @@
     </button>
   </div>
 </div>
-<div class="row">
+
+<div class="row no-pad-bot">
   <div class="col s12">
     <label for="">Select judge</label>
   </div>
@@ -252,7 +282,8 @@
     <label for="claimValue">Claim value</label>
   </div>
 </div>
-<div class="row">
+
+<div class="row no-pad-bot">
   <div class="col s12">
     <label for="">Documents</label>
   </div>
@@ -266,7 +297,8 @@
     </div>
   </div>
 </div>
-<div class="row">
+
+<div class="row no-pad-bot">
   <div class="input-field col s11">
     <textarea class="materialize-textarea" required></textarea>
     <label>Notes</label>
@@ -274,31 +306,28 @@
 </div>
 
 
+
   </div>
-  <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
+  
   <div class="card-action right">
 
-  <a class="waves-effect waves-blue-gray btn-flat">Cancel</a>
+    <a class="waves-effect waves-blue-gray btn-flat">Cancel</a>
 
-  <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Send to judge
-    <i class="mdi-content-send"></i>
-  </button>
-  <button class="btn bg-water waves-effect waves-dark" type="submit" name="action">Sign as judge
-    <i class="mdi-editor-border-color"></i>
-  </button>
-  <button class="btn bg-mauve waves-effect waves-dark" type="submit" name="action">Save for later
-    <i class="mdi-content-save"></i>
-  </button>
-  
+    <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Send to judge
+      <i class="mdi-content-send"></i>
+    </button>
+    <button class="btn bg-water waves-effect waves-dark" type="submit" name="action">Sign as judge
+      <i class="mdi-editor-border-color"></i>
+    </button>
+    <button class="btn bg-mauve waves-effect waves-dark" type="submit" name="action">Save for later
+      <i class="mdi-content-save"></i>
+    </button>
+    
   </div>
 </div>
         </div>
       </div>
     </div>
-    <br><br>
   </div>
 
   <div class="section">
@@ -308,57 +337,11 @@
   </div>
   <div class="section with-table">
     <div class="container wide">
-      <div class="section">
-  <form action="">
-    <table class="hoverable">
-      <thead>
-        <tr>
-          <th> <a class='dropdown-button btn btn-flat' href='#' data-activates='dropdown3'>Bulk edit</a>
-             <ul id='dropdown3' class='dropdown-content'>
-              <li><input type="checkbox" id="testM" /><label for="testM">label</label></li>
-              <li><a href="#!">two</a></li>
-              <li class="divider"></li>
-              <li><a href="#!">three</a></li>
-            </ul>
-        
-          </th>
-          <th data-field="edit">Edit</th>
-          <th data-field="id">Name</th>
-          <th data-field="name">Item Name</th>
-          <th data-field="price">Item Price</th>
-        </tr>
-      </thead>
-    
-      <tbody>
-        <tr>
-          <td><input type="checkbox" id="test5" /><label for="test5"></label></td>
-          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
-          <td>Alvin</td>
-          <td>Eclair</td>
-          <td>$0.87</td>
-        </tr>
-        <tr>
-          <td>    <input type="checkbox" id="test6" checked="checked" />
-          <label for="test6"></label></td>
-          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
-          <td>Alan</td>
-          <td>Jellybean</td>
-          <td>$3.76</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
-          <td>Jonathan</td>
-          <td>Lollipop</td>
-          <td>$7.00</td>
-        </tr>
-      </tbody>
-    </table>
-  </form>
-</div>
+
     </div>
   </div>
 </main>
+
 
   <footer class="grey section">
     <div class="container">
@@ -397,6 +380,7 @@
   </footer>
 
 <script src='assets/bower_components/jquery/dist/jquery.min.js'></script>
+<script src='assets/javascript/app/animate-css.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js'></script>
@@ -407,66 +391,36 @@
 <script src='assets/javascript/vendor/wow.js'></script>
 <script src='assets/javascript/app/fullscreen.js'></script>
 
+<!-- jquery.dataTables -->
 <script>
 
-  // wow.js init
-  new WOW().init();
-  
+// NOTYFICATION
+$(".notificationLink").click(function(){
+  $("#notification_count").fadeOut("slow");
+  return false;
+});
 
-  // Animate css functions
-  // http://www.telegraphicsinc.com/2013/07/how-to-use-animate-css/
-  function animationHover(element, animation){
-  element = $(element);
-  element.hover(
-    function() {
-      element.addClass('animated ' + animation);        
-    },
-    function(){
-      //wait for animation to finish before removing classes
-      window.setTimeout( function(){
-          element.removeClass('animated ' + animation);
-      }, 2000);         
-    });
-  }
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
-  function animationClick(element, animation){
-    element = $(element);
-    element.click(
-      function() {
-          element.addClass('animated ' + animation);        
-          //wait for animation to finish before removing classes
-          window.setTimeout( function(){
-              element.removeClass('animated ' + animation);
-          }, 2000);         
+    if (scroll >= 40) {
+        $("nav").addClass("scrolled");
+    } else {
+        $("nav").removeClass("scrolled");
+    }
+});
 
-      });
-  }
+// Language switcher
+$(".language").click(function(){
+  var theValue = $(this).attr('data-value');
+  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+theValue+'.css'});
+  $('li.active').removeClass('active');
+  $(this).parent().addClass('active');
+  return false;
+});
 
 // START DOCREADY
   $(document).ready(function() {
-
-    // change stylesheet oncklick
-    // default, ltr stylsheet
-    $("#Kurdish").click(function(event) {
-      event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-rtl.css"});
-      $('ul.nav-mobile > li.active').removeClass('active');
-      $(this).parent().addClass('active');
-      return false;
-    });
-     
-    // rtl stylesheet
-    $("#English").click(function(event) {
-      event.preventDefault();
-      $("link[rel=stylesheet]").attr({href : "assets/stylesheets/app-ltr.css"});
-      $('ul.nav-mobile > li.active').removeClass('active');
-      $(this).parent().addClass('active');
-      return false;
-    });
-
-    $('.mdi-content-add').each(function() {
-        animationClick(this, 'rotateIn');
-    });
 
     // front login
     $('.forgot-pass').click(function(event) {
@@ -477,19 +431,7 @@
       $(".pr-wrap").removeClass("show-pass-reset");
     }); 
 
-    // init  Pagepiling
-    // $('#page').pagepiling({
-    //   direction: 'horizontal',
-    //     verticalCentered: true,
-    //   keyboardScrolling: true,
-    //   sectionSelector: '.foo',
-    //   navigation: {
-    //     'textColor': '#ccc',
-    //     'bulletsColor': '#fff',
-    //     'position': 'right',
-    //     'tooltips': ['section1', 'section2', 'section3', 'section4']
-    //   }
-    // });
+
 
 // http://jsfiddle.net/jaredwilli/tZPg4/4/
 // Add Input
@@ -520,11 +462,24 @@
 
     });
 
+
   }); // END DOCREADY
+
 
 </script>
 
-
+ <!-- Usersnap widget -->
+<script type="text/javascript">
+// (function() {
+// var s = document.createElement("script");
+// s.type = "text/javascript";
+// s.async = true;
+// s.src = '//api.usersnap.com/load/'+
+//         '1ea495c4-875c-43d6-a897-82e131526bbc.js';
+// var x = document.getElementsByTagName('script')[0];
+// x.parentNode.insertBefore(s, x);
+// })();
+</script>
 
   </body>
 </html>
