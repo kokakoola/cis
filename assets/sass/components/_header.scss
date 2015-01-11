@@ -8,23 +8,12 @@ span.badge.new:after {
   content: " ";
 }
 
-.navbar-fixed {
-  height: $navbar-height;
-}
 
-@media only screen and (min-width: 601px) {
-  nav, 
-  nav .nav-wrapper i, 
-  nav a.button-collapse, 
-  nav a.button-collapse i {
-  height: $navbar-height;
-  line-height: 40px;
-  }
-}
+
 
 @media only screen and (min-width: 601px) {
   nav .nav-wrapper i {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   }
 }
 
@@ -46,15 +35,27 @@ nav .brand-logo {
   background-image: url(images/cis-logo.png) no-repeat;
 }
 
-nav {
-  background: transparent;
-  box-shadow: none;
-  border-bottom: 1px solid darken($color-light, 30%);
-  transition: 0.3s;
+nav .responsive-img {
+  padding-top: 5px;
+}
 
-  &.scrolled {
-    background: #37474f;
-    border-bottom-color: transparent;
+@media only screen and (min-width: 601px) {
+  nav,
+  nav .nav-wrapper i, 
+  nav a.button-collapse, 
+  nav a.button-collapse i {
+    background: transparent;
+    box-shadow: none;
+    // border-bottom: 1px solid darken($color-light, 30%);
+    transition: 0.3s;
+    height: $navbar-height;
+    line-height: $navbar-height;
+    &.scrolled {
+      background: #37474f;
+      border-bottom-color: transparent;
+      height: $navbar-height-after;
+      line-height: $navbar-height-after;
+    }
   }
 }
 

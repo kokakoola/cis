@@ -1,12 +1,10 @@
-<div class="card large white alert-dismissible wow zoomInUp" id="cancelEntry">
+<div class="card large white collapse wow zoomInUp" id="formEntry">
   <div class="card-content" >
-      <div class="col s12">
-    <label for="">Case Number</label>
-  </div>
     <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
-    <span class="card-title grey-text text-darken-4">24756/5794374NHS <i class="mdi-navigation-close close right" data-target="#cancelEntry"  data-dismiss="alert"></i> </span>
+    <span class="card-title grey-text text-darken-4">Add new Case </span>
     <div class="divider"></div>
-    <br><br>
+    <br>
+  
     <!-- @include registry-form -->
   </div>
   
@@ -20,9 +18,9 @@
     <button class="btn bg-water waves-effect waves-dark" type="submit" name="action">Sign as judge
       <i class="mdi-editor-border-color"></i>
     </button>
-    <button class="btn bg-mauve waves-effect waves-dark" type="submit" name="action">Save for later
+    <a class="btn bg-mauve waves-effect waves-dark" id="saveFor" data-toggle="collapse" href="#formEntry">Save for later
       <i class="mdi-content-save"></i>
-    </button>
+    </a>
     
   </div>
 </div>

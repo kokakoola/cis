@@ -3,6 +3,14 @@
 ## Wiki
 Look into [wiki](https://github.com/kokakoola/cis/wiki) to get a better overview.
 
+## List of used plugins and methods
+
+- upload images with [dropzone](http://www.dropzonejs.com/), documentation for .NET [here](http://venkatbaggu.com/file-upload-in-asp-net-mvc-using-dropzone-js-and-html5/) and use with other [forms](https://github.com/enyo/dropzone/wiki/Combine-normal-form-with-Dropzone)
+- frontpage and first user manual page scroll based on [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js#pagepilingjs)
+- bubbles for guide tips - [crumble](http://blog.tommoor.com/crumble/)
+- general animation of elements on pagescroll - [wow.js](http://mynameismatthieu.com/WOW/). A decent [example](https://www.box.com/notes/) about it is Boxnotes.
+- [HTML5 fullscreen API](http://davidwalsh.name/fullscreen) Explained in detail [here](http://www.hongkiat.com/blog/html5-fullscreen-api/)
+
 ## Existing examples 
 Locals (Aktors hired) are building a [wordpress-page for court](http://sulicourt.com/home-2/) what shall be linked or otherwise integrated with our system.
 
@@ -25,14 +33,6 @@ As we are going with scss version, there is a helper for [rtl-support](http://ww
 
 ## Colors
 The color pallette should be nordic and unobtrusive - was the clients wish. The sample pallettes are in [Coolor account](http://coolors.co/092327-0b5351-00a9a5-b5c2b7-8c93a8).
-
-## List of used plugins and methods
-
-- upload images with [dropzone](http://www.dropzonejs.com/), documentation for .NET [here](http://venkatbaggu.com/file-upload-in-asp-net-mvc-using-dropzone-js-and-html5/) and use with other [forms](https://github.com/enyo/dropzone/wiki/Combine-normal-form-with-Dropzone)
-- frontpage and first user manual page scroll based on [pagePiling.js](https://github.com/alvarotrigo/pagePiling.js#pagepilingjs)
-- bubbles for guide tips - [crumble](http://blog.tommoor.com/crumble/)
-- general animation of elements on pagescroll - [wow.js](http://mynameismatthieu.com/WOW/). A decent [example](https://www.box.com/notes/) about it is Boxnotes.
-- [HTML5 fullscreen API](http://davidwalsh.name/fullscreen) Explained in detail [here](http://www.hongkiat.com/blog/html5-fullscreen-api/)
 
 ## Maybe-plugins
 - svg interaction to replace flash [snap.svg](http://snapsvg.io/)

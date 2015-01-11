@@ -1,7 +1,7 @@
 (function($){
   $(function(){
 
-    $(".button-foo").sideNav({edge: 'right', menuWidth: 240, activationWidth: 70});
+    $(".callSlideout").sideNav({edge: 'right', menuWidth: 440, activationWidth: 70});
     $('select').material_select();
     $(".dropdown-button").dropdown({
       hover: false
@@ -17,22 +17,21 @@
           this.set('select', [date.getFullYear(), date.getMonth() + 1, date.getDate()]);
         }
     });
+
     // wow.js init
     new WOW().init();
 
+    // skillset.js init
+    $("#skillset").skillset({
+      object:object,
+      duration:40
+    });
+
     // init  dataTables
-    // $('table').dataTable({
-    //   "scrollX": true
+    // $('table.registry').DataTable({
     // });
 
-    $('.home').pagepiling({
-        touchSensitivity: 5,
-        sectionSelector: '.pagepiling',
-        verticalCentered: true,
-        menu: '#menu',
-        anchors: ['Start', 'page2', 'page3'],
-        navigation: false
-    });
+
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

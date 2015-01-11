@@ -1,32 +1,38 @@
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper container">
-      <div class="col s12">
-        <a href="index.html" class="brand-logo"></a>
-        <ul class="side-nav" id="nav-mobile">
-          <!-- <li class="active">
-            <a href="#!" id="Kurdish" data-value="rtl" class="btn-medium waves-effect language">sorani</a>
-          </li>
-          <li>
-            <a href="#!" id="English" data-value="ltr" class="btn-medium waves-effect language">english</a>
-          </li> -->
-          <li>
-            <a href="#!" onclick="toggleFullScreen()"><i class="mdi-navigation-fullscreen"></i></a>
-          </li>
-          <li>
-            <a class="dropdown-button" href="#!" data-activates="languageDropdown"><i class="mdi-action-language"></i></a>
-          </li>
-          <li><a class="dropdown-button notificationLink" href="#!" data-activates="notificationsDropdown"><i class="mdi-social-notifications"></i><span class="count" id="notification_count">6</span></a>
-          </li>
-          <li>
-            <a class="dropdown-button" href="#!" data-activates="personDropdown"><!-- <img class="responsive-img circle" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"> -->Halat Ahmed<i class="mdi-navigation-arrow-drop-down right"></i></a>
-          </li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      </div>
+      <ul class="side-nav" id="nav-mobile">
+        <!-- <li class="active">
+          <a href="#!" id="Kurdish" data-value="rtl" class="btn-medium waves-effect language">sorani</a>
+        </li>
+        <li>
+          <a href="#!" id="English" data-value="ltr" class="btn-medium waves-effect language">english</a>
+        </li> -->
+        <li>
+          <a href="#" data-activates="slide-out" class="callSlideout"><i class="mdi-av-equalizer"></i></a>
+        </li>
+        <li>
+          <a href="#!" onclick="toggleFullScreen()"><i class="mdi-navigation-fullscreen"></i></a>
+        </li>
+        <li>
+          <a class="dropdown-button" href="#!" data-activates="languageDropdown"><i class="mdi-action-language"></i></a>
+        </li>
+        <li><a class="dropdown-button notificationLink" href="#!" data-activates="notificationsDropdown"><i class="mdi-social-notifications"></i><span class="count" id="notification_count">6</span></a>
+        </li>
+        <li>
+          <a class="dropdown-button" href="#!" data-activates="personDropdown"><!-- <img class="responsive-img circle" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"> -->Halat Ahmed<i class="mdi-navigation-arrow-drop-down right"></i></a>
+        </li>
+        <li>
+          <a href="index.html"><img class="responsive-img" src="assets/images/cis-logo.svg" alt="" height="30" width="30" style="padding-top: 5px;"></a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
   </nav>
 </div>
+
+
+
 
 <!-- Dropdown Structure -->
 
@@ -70,4 +76,6 @@
     </li>
   </ul>
 </div>
+
+<!-- @include side-slideout -->
 

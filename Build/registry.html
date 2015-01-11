@@ -57,32 +57,38 @@
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper container">
-      <div class="col s12">
-        <a href="index.html" class="brand-logo"></a>
-        <ul class="side-nav" id="nav-mobile">
-          <!-- <li class="active">
-            <a href="#!" id="Kurdish" data-value="rtl" class="btn-medium waves-effect language">sorani</a>
-          </li>
-          <li>
-            <a href="#!" id="English" data-value="ltr" class="btn-medium waves-effect language">english</a>
-          </li> -->
-          <li>
-            <a href="#!" onclick="toggleFullScreen()"><i class="mdi-navigation-fullscreen"></i></a>
-          </li>
-          <li>
-            <a class="dropdown-button" href="#!" data-activates="languageDropdown"><i class="mdi-action-language"></i></a>
-          </li>
-          <li><a class="dropdown-button notificationLink" href="#!" data-activates="notificationsDropdown"><i class="mdi-social-notifications"></i><span class="count" id="notification_count">6</span></a>
-          </li>
-          <li>
-            <a class="dropdown-button" href="#!" data-activates="personDropdown"><!-- <img class="responsive-img circle" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"> -->Halat Ahmed<i class="mdi-navigation-arrow-drop-down right"></i></a>
-          </li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      </div>
+      <ul class="side-nav" id="nav-mobile">
+        <!-- <li class="active">
+          <a href="#!" id="Kurdish" data-value="rtl" class="btn-medium waves-effect language">sorani</a>
+        </li>
+        <li>
+          <a href="#!" id="English" data-value="ltr" class="btn-medium waves-effect language">english</a>
+        </li> -->
+        <li>
+          <a href="#" data-activates="slide-out" class="callSlideout"><i class="mdi-av-equalizer"></i></a>
+        </li>
+        <li>
+          <a href="#!" onclick="toggleFullScreen()"><i class="mdi-navigation-fullscreen"></i></a>
+        </li>
+        <li>
+          <a class="dropdown-button" href="#!" data-activates="languageDropdown"><i class="mdi-action-language"></i></a>
+        </li>
+        <li><a class="dropdown-button notificationLink" href="#!" data-activates="notificationsDropdown"><i class="mdi-social-notifications"></i><span class="count" id="notification_count">6</span></a>
+        </li>
+        <li>
+          <a class="dropdown-button" href="#!" data-activates="personDropdown"><!-- <img class="responsive-img circle" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"> -->Halat Ahmed<i class="mdi-navigation-arrow-drop-down right"></i></a>
+        </li>
+        <li>
+          <a href="index.html"><img class="responsive-img" src="assets/images/cis-logo.svg" alt="" height="30" width="30" style="padding-top: 5px;"></a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
   </nav>
 </div>
+
+
+
 
 <!-- Dropdown Structure -->
 
@@ -127,15 +133,12 @@
   </ul>
 </div>
 
-
-
-<main>
-
-  <div class="section main-banner no-pad-bot">
-    <div class="container">
-      <br><br>
-      <!-- slide out panel -->
+<!-- slide out panel -->
 <ul id="slide-out" class="side-nav full">
+  <li>
+    
+<div id="skillset" class="column"> </div>
+  </li>
   <li><a href="#!">First Sidebar Link</a></li>
   <li><a href="#!">Second Sidebar Link</a></li>
   <li class="no-padding">
@@ -154,32 +157,37 @@
     </ul>
   </li>
 </ul>
-<a href="#" data-activates="slide-out" class="button-foo"><i class="mdi-navigation-menu"></i></a>
-      <!-- <h4 class="header orange-text text-darken-2">Prime registry</h4> -->
+
+<main>
+
+  <div class="main-banner">
+    <div class="container">
+      <br>
+      
+      <h4 class="header orange-text text-darken-2 right">Prime registry</h4>
     </div>
   </div>
 
-  <div class="section card-onbanner">
+  <div class="card-onbanner">
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <div class="card large white alert-dismissible wow zoomInUp" id="cancelEntry">
+          
+          <div class="card large white collapse wow zoomInUp" id="formEntry">
   <div class="card-content" >
-      <div class="col s12">
-    <label for="">Case Number</label>
-  </div>
     <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
-    <span class="card-title grey-text text-darken-4">24756/5794374NHS <i class="mdi-navigation-close close right" data-target="#cancelEntry"  data-dismiss="alert"></i> </span>
+    <span class="card-title grey-text text-darken-4">Add new Case </span>
     <div class="divider"></div>
-    <br><br>
-    <div class="row no-pad-bot">
-  <div class="col s12">
+    <br>
+  
+    <div class="row">
+  <div class="col m1">
     <label for="">Date and type of the case</label>
   </div>
   <div class="col s12 m5">
     <input type="date" id="date" class="datepicker">
   </div>
-  <div class="col s12 m6">
+  <div class="col s12 m5">
     <select required>
       <option value="" disabled selected>Type of the case </option>
       <option value="1">Option 1</option>
@@ -189,14 +197,14 @@
   </div>
 </div>
 
-<div class="row no-pad-bot">
-  <div class="col s1">
+<div class="row">
+  <div class="col m1">
     <label for="">Claimants</label>
   </div>
   <div id="claimants" >
     <div class="input-field col s12 m5">
       <input id="claimant" type="text" class="validate">
-      <label for="claimant">Claimant</label>
+      <label for="claimant">Claimants full name</label>
     </div>
     <div class="input-field col s12 m5">
       <input id="claimantAddress" type="text" class="validate">
@@ -210,42 +218,43 @@
   </div>
 </div>
 
-<div class="row no-pad-bot">
-  <div class="col s12">
+<div class="row">
+  <div class="col m1">
     <label for="">Defendants</label>
   </div>
   <div id="defendants">
     <div class="input-field col s12 m5">
       <input id="defendant" type="text" class="validate">
-      <label for="defendant">Defendant</label>
+      <label for="defendant">Defendants full name</label>
     </div>
-    <div class="input-field col s12 m6">
+    <div class="input-field col s12 m5">
       <input id="defendantAddress" type="text" class="validate">
       <label for="defendantAddress">Address</label>
     </div>
   </div>
   <div class="col s1">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputDefendant">
+    <button class="btn btn-floating waves-effect waves-dark blue-grey right" type="button" id="addInputDefendant">
       <i class="mdi-content-add animated rotateIn"></i>
     </button>
   </div>
 </div>
 
-<div class="row no-pad-bot">
-  <div class="col s12">
+<div class="row">
+  <div class="col m1">
     <label for="">Add other kind of participants</label>
   </div>
   <div class="col s12 m5">
     <select required>
       <option value="" disabled selected>Select what kind </option>
       <option value="1">Lawyer</option>
-      <option value="2">Else</option>
-      <option value="3">Other</option>
+      <option value="2">Parent</option>
+      <option value="3">Legal guardian</option>
+      <option value="4">Other</option>
     </select>
   </div>
 </div>
 <div class="row hidden">
-  <div class="col s12">
+  <div class="col m1">
     <label for="">Lawyer(s)</label>
   </div>
   <div id="lawyers">
@@ -253,20 +262,20 @@
       <input id="lawyer" type="text" class="validate">
       <label for="lawyer">Lawyer</label>
     </div>
-    <div class="input-field col s12 m6">
+    <div class="input-field col s12 m5">
       <input id="lawyerAddress" type="text" class="validate">
       <label for="lawyerAddress">Address</label>
     </div>
   </div>
   <div class="col s1">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputDefendant">
+    <button class="btn btn-floating waves-effect waves-dark blue-grey right" type="button" id="addInputDefendant">
       <i class="mdi-content-add animated rotateIn"></i>
     </button>
   </div>
 </div>
 
-<div class="row no-pad-bot">
-  <div class="col s12">
+<div class="row">
+  <div class="col m1">
     <label for="">Select judge</label>
   </div>
   <div class="col s12 m5">
@@ -277,17 +286,17 @@
       <option value="3">Judge Judge</option>
     </select>
   </div>
-  <div class="input-field col s12 m6">
+  <div class="input-field col s12 m5">
     <input id="claimValue" type="text" class="validate">
     <label for="claimValue">Claim value</label>
   </div>
 </div>
 
 <div class="row no-pad-bot">
-  <div class="col s12">
+  <div class="col m1">
     <label for="">Documents</label>
   </div>
-  <div class="col s11 center">
+  <div class="col s10 center">
     <div class="card-panel bg-light valign-wrapper" id="dropzone">
       <form action="http://www.torrentplease.com/dropzone.php" class="dropzone dz-clickable" id="demo-upload">
         <div class="dropzone-previews"></div>
@@ -298,9 +307,9 @@
   </div>
 </div>
 
-<div class="row no-pad-bot">
+<div class="row">
   <div class="input-field col s11">
-    <textarea class="materialize-textarea" required></textarea>
+    <textarea class="materialize-textarea"></textarea>
     <label>Notes</label>
   </div>
 </div>
@@ -319,62 +328,185 @@
     <button class="btn bg-water waves-effect waves-dark" type="submit" name="action">Sign as judge
       <i class="mdi-editor-border-color"></i>
     </button>
-    <button class="btn bg-mauve waves-effect waves-dark" type="submit" name="action">Save for later
+    <a class="btn bg-mauve waves-effect waves-dark" id="saveFor" data-toggle="collapse" href="#formEntry">Save for later
       <i class="mdi-content-save"></i>
-    </button>
+    </a>
     
   </div>
 </div>
+          <div class="card large grey lighten-2">
+  <div class="card-content" >
+<!--     <span class="card-title grey-text text-darken-4">Search in cases </span>
+    <div class="divider"></div>
+    <br><br> -->
+    <div class="row">
+  <div class="input-field col s12 m3">
+      <input id="caseNumber" type="text" class="validate">
+      <label for="caseNumber">Case number</label>
+    </div>
+  <div class="col s12 m3">
+    <select>
+      <option value="" disabled selected>Type of the case </option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+  </div>
+  <div class="input-field col s12 m3">
+    <input id="claimant" type="text" class="validate">
+    <label for="claimant">Claimant name</label>
+  </div>
+  <div class="input-field col s12 m3">
+    <input id="defendant" type="text" class="validate">
+    <label for="defendant">Defendant name</label>
+  </div>
+</div>
+
+
+
+
+
+
+  </div>
+  <div class="card-action left">
+      <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action">rejected
+    </button>
+      <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action">new
+    </button>
+      <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action">all
+    </button>
+  </div>
+  
+  <div class="card-action right">
+
+    <a class="waves-effect waves-blue-gray btn-flat">Cancel</a>
+
+    <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Search
+      <i class="mdi-action-search right"></i>
+    </button>
+  </div>
+</div>
+<a class="btn-floating btn-large waves-effect waves-light red adds-form" data-toggle="collapse" href="#formEntry"><i class="mdi-content-add"></i></a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="section">
+<!--   <div class="section">
     <div class="container">
       <h4 class="header orange-text text-darken-2">Prime registry</h4>
     </div>
-  </div>
-  <div class="section with-table">
+  </div> -->
+  <div class="with-table card">
     <div class="container wide">
-
+ <form action="">
+  <div class="wide-table-wrapper">
+    <table class="hoverable bordered registry">
+      <thead>
+        <tr>
+          <!-- <th> <a class='dropdown-button btn btn-flat' href='#' data-activates='dropdown3'>Bulk edit</a>
+             <ul id='dropdown3' class='dropdown-content'>
+              <li><input type="checkbox" id="testM" /><label for="testM">label</label></li>
+              <li><a href="#!">two</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">three</a></li>
+            </ul>
+          </th> -->
+          <th data-field="status" class="sorting">Status <i class="mdi-content-filter-list"></i></th>
+          <th data-field="date" class="sorting">Date <i class="mdi-content-filter-list"></i></th>
+          <th data-field="casenumber" class="sorting"><i class="mdi-content-filter-list right"></i>Case number</th>
+          <th data-field="casetype" class="sorting"><i class="mdi-content-filter-list right"></i>Case type</th>
+          <th data-field="claimants"><i class="mdi-content-filter-list right"></i>Claimant</th>
+          <th data-field="defendants"><i class="mdi-content-filter-list right"></i>Defendant</th>
+          <th data-field="paticipants"><i class="mdi-content-filter-list right"></i>Participants</th>
+          <th data-field="judge"><i class="mdi-content-filter-list right"></i>Judge</th>
+          <th data-field="edit"><i class="mdi-content-filter-list right"></i>Look/edit</th>
+        </tr>
+      </thead>
+    
+      <tbody>
+        <tr>
+          <td><input type="checkbox" id="test5" /><label for="test5"></label></td>
+          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
+          <td>Alvin</td>
+          <td>Eclair</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>    <input type="checkbox" id="test6" checked="checked" />
+          <label for="test6"></label></td>
+          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
+          <td>Alan</td>
+          <td>Jellybean</td>
+          <td>$3.76</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
+          <td>Jonathan</td>
+          <td>Lollipop Lorem ipsum dolor sit amet, consectetur adipisicing elit. </td>
+          <td>$7.00</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="test5" /><label for="test5"></label></td>
+          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
+          <td>Alvin</td>
+          <td>Eclair</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+          <td>$0.87</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</form>
     </div>
   </div>
 </main>
 
-
-  <footer class="grey section">
+  <footer class="grey darken-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">About</h5>
+          <p class="grey-text lighten-4">This is a prototype for the Court Info System project. In case you find something to improve, push the blue Feedback-button here and write your improvements. In this way you will help us to build better tool for you.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Help center</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
             <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Other important numbers</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
             <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="orange-text lighten-3" href="http://netgroup.ee">Netgroup</a>
       </div>
     </div>
   </footer>
@@ -384,15 +516,35 @@
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js'></script>
-<script src='assets/javascript/vendor/dropzone.js'></script>
 <script src='assets/bower_components/materialize/bin/materialize.js'></script>
 <script src='assets/javascript/app/init.js'></script>
-<script src='assets/bower_components/pagepiling.js/jquery.pagepiling.js'></script>
 <script src='assets/javascript/vendor/wow.js'></script>
 <script src='assets/javascript/app/fullscreen.js'></script>
+<script src='assets/javascript/vendor/skillset.js'></script>
 
-<!-- jquery.dataTables -->
+<!-- jquery.dataTables dropzone -->
 <script>
+
+var object = [
+  {
+    'headline':'HTML & CSS',
+    'value':8,
+    'length':9,
+    'description':'Significant experience and knowlage of HTML(5) and CSS functionality and use.'
+  },
+  {
+    'headline':'JavaScript & jQuery',
+    'value':6,
+    'length':5,
+    'description':'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
+  },
+  {
+    'headline':'Ruby & Python',
+    'value':3,
+    'length':5,
+    'description':'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
+  }
+];
 
 // NOTYFICATION
 $(".notificationLink").click(function(){
@@ -470,15 +622,15 @@ $(".language").click(function(){
 
  <!-- Usersnap widget -->
 <script type="text/javascript">
-// (function() {
-// var s = document.createElement("script");
-// s.type = "text/javascript";
-// s.async = true;
-// s.src = '//api.usersnap.com/load/'+
-//         '1ea495c4-875c-43d6-a897-82e131526bbc.js';
-// var x = document.getElementsByTagName('script')[0];
-// x.parentNode.insertBefore(s, x);
-// })();
+  // (function() {
+  // var s = document.createElement("script");
+  // s.type = "text/javascript";
+  // s.async = true;
+  // s.src = '//api.usersnap.com/load/'+
+  //         '1ea495c4-875c-43d6-a897-82e131526bbc.js';
+  // var x = document.getElementsByTagName('script')[0];
+  // x.parentNode.insertBefore(s, x);
+  // })();
 </script>
 
   </body>

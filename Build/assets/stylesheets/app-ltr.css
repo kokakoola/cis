@@ -12003,90 +12003,82 @@ input[type=range] + .thumb.active .value {
 /*** Toasts ***/
 /*** Typography ***/
 /*** Collections ***/
-/* line 4, ../sass/_app.scss */
-.new.badge.circle {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  background-clip: padding-box;
-}
-
-/* line 13, ../sass/_app.scss */
+/* line 5, ../sass/_app.scss */
 .hidden {
   display: none;
 }
 
-/* line 16, ../sass/_app.scss */
+/* line 8, ../sass/_app.scss */
 .no-pad {
   padding: 0;
 }
 
-/* line 19, ../sass/_app.scss */
+/* line 11, ../sass/_app.scss */
 .no-pad-bot {
   padding-bottom: 0;
 }
 
-/* line 22, ../sass/_app.scss */
+/* line 14, ../sass/_app.scss */
 .no-pad-top {
   padding-top: 0;
 }
 
-/* line 26, ../sass/_app.scss */
+/* line 18, ../sass/_app.scss */
 .no-marg {
   margin: 0;
 }
 
-/* line 29, ../sass/_app.scss */
+/* line 21, ../sass/_app.scss */
 .no-marg-bot {
   margin-bottom: 0;
 }
 
-/* line 32, ../sass/_app.scss */
+/* line 24, ../sass/_app.scss */
 .no-marg-top {
   margin-top: 0;
 }
 
-/* line 38, ../sass/_app.scss */
+/* line 30, ../sass/_app.scss */
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", "NotoKufi", sans-serif;
 }
 
-/* line 44, ../sass/_app.scss */
+/* line 36, ../sass/_app.scss */
 .container {
-  width: 75%;
+  width: 85%;
   max-width: none;
 }
 
-/* line 49, ../sass/_app.scss */
+/* line 41, ../sass/_app.scss */
 .container.wide {
   width: 95%;
 }
 
-/* line 57, ../sass/_app.scss */
+/* line 49, ../sass/_app.scss */
 main {
   background: #F0F0F0;
 }
 
-/* line 62, ../sass/_app.scss */
+/* line 54, ../sass/_app.scss */
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-/* line 68, ../sass/_app.scss */
+/* line 60, ../sass/_app.scss */
 main {
   flex: 1 0 auto;
 }
 
-/* line 72, ../sass/_app.scss */
-.section.with-table {
+/* line 64, ../sass/_app.scss */
+.with-table {
   background: #fff;
 }
 
-/* line 78, ../sass/_app.scss */
+/* line 70, ../sass/_app.scss */
 .front-fullscreen {
   position: fixed;
   top: 20px;
@@ -12094,17 +12086,17 @@ main {
   font-size: 4rem;
 }
 
-/* line 85, ../sass/_app.scss */
+/* line 77, ../sass/_app.scss */
 .full-bg {
-  background: url(../images/frontbg.png) no-repeat center center fixed;
+  background: url(../images/frontbg.png), linear-gradient(116deg, #dadf19, #e1ab3e, #ee7009);
+  background-size: 600% 600%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #aaa3a7;
-  background-blend-mode: multiply;
+  background-blend-mode: luminosity;
 }
-/* line 94, ../sass/_app.scss */
+/* line 114, ../sass/_app.scss */
 .full-bg input[type=text] {
   padding: 4px 15px;
   border: 1px solid #F0F0F0;
@@ -12115,12 +12107,12 @@ main {
   height: 2rem;
   max-width: 400px;
 }
-/* line 104, ../sass/_app.scss */
+/* line 124, ../sass/_app.scss */
 .full-bg input[type=text]:focus {
   border-color: #333;
 }
 
-/* line 108, ../sass/_app.scss */
+/* line 128, ../sass/_app.scss */
 .second-background {
   background: linear-gradient(229deg, #a24bcf, #4b79cf, #4bc5cf);
   background-size: 600% 600%;
@@ -12173,141 +12165,67 @@ main {
     background-position: 0% 51%;
   }
 }
-/* line 137, ../sass/_app.scss */
-.section.pagepiling {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  display: table;
-}
-/* line 143, ../sass/_app.scss */
-.section.pagepiling .middlecontent {
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* line 151, ../sass/_app.scss */
-#menu {
-  position: fixed;
-  top: 0;
-  z-index: 3;
-}
-
-/* Defining each section background and styles
-* --------------------------------------- */
-/* line 159, ../sass/_app.scss */
-#section1 {
-  background-image: url(imgs/bg1.jpg);
-}
-
-/* line 162, ../sass/_app.scss */
-#section2 {
-  background-color: #F0F0F0;
-  padding: 6% 0 0 0;
-}
-
-/* line 166, ../sass/_app.scss */
-#section3 {
-  background-image: url(imgs/bg3.jpg);
-  padding: 6% 0 0 0;
-}
-
 /* line 170, ../sass/_app.scss */
-#section3 h1 {
-  color: #000;
-}
-
-/* line 173, ../sass/_app.scss */
-#section1 h1 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 30px;
-  color: #fff;
-}
-
-/* line 181, ../sass/_app.scss */
-#section2 .intro {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 30px;
-}
-
-/* line 188, ../sass/_app.scss */
-#section2 h1,
-#section2 p {
-  text-shadow: 1px 5px 20px #000;
-}
-
-/* line 192, ../sass/_app.scss */
-#section3 h1,
-#section3 p {
-  text-shadow: 1px 5px 20px #000;
-  color: #fff;
-}
-
-/* line 197, ../sass/_app.scss */
-#infoMenu li a {
-  color: #fff;
-}
-
-/* line 203, ../sass/_app.scss */
 .main-banner {
   background: url(../images/bg-10.jpg) no-repeat bottom center;
   background-size: cover;
   margin-top: -65px;
-  height: 300px;
+  height: 260px;
 }
 
-/* line 210, ../sass/_app.scss */
+/* line 177, ../sass/_app.scss */
 .card-onbanner {
-  margin-top: -220px;
+  margin-top: -200px;
 }
 
-/* line 214, ../sass/_app.scss */
+/* line 181, ../sass/_app.scss */
 .card.large {
   padding: 10px 30px;
 }
+/* line 183, ../sass/_app.scss */
+.card.large .row {
+  margin-bottom: 5px;
+}
 
-/* line 218, ../sass/_app.scss */
+/* line 188, ../sass/_app.scss */
+.adds-form {
+  top: 0.6rem;
+  position: absolute;
+  right: 30rem;
+  z-index: 5000;
+}
+
+/* line 195, ../sass/_app.scss */
 .input-field label {
   color: #444;
 }
 
-/* line 224, ../sass/_app.scss */
-table {
-  max-width: 1400px;
+/* line 199, ../sass/_app.scss */
+.rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-/* line 226, ../sass/_app.scss */
-table .btn-flat {
-  padding-left: 0.5rem;
-  padding-right: 5px;
-}
-/* line 229, ../sass/_app.scss */
-table .btn-flat i.right {
-  color: #9e9e9e;
-}
-/* line 233, ../sass/_app.scss */
+
+/* line 211, ../sass/_app.scss */
 table th.sorting_desc .btn-flat i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-/* line 239, ../sass/_app.scss */
-table.dataTable thead th, table.dataTable thead td {
-  padding: 0;
-}
-/* line 243, ../sass/_app.scss */
+/* line 218, ../sass/_app.scss */
 table a {
   white-space: nowrap;
 }
+/* line 219, ../sass/_app.scss */
+table thead {
+  border-bottom: 1px solid #9E9E9E !important;
+}
 
-/* line 246, ../sass/_app.scss */
+/* line 224, ../sass/_app.scss */
 div.dataTables_wrapper {
   width: 95%;
   margin: 0 auto;
@@ -12339,77 +12257,77 @@ span.badge.new:after {
   content: " ";
 }
 
-/* line 11, ../sass/components/_header.scss */
-.navbar-fixed {
-  height: 46px;
-}
-
 @media only screen and (min-width: 601px) {
-  /* line 16, ../sass/components/_header.scss */
-  nav,
-  nav .nav-wrapper i,
-  nav a.button-collapse,
-  nav a.button-collapse i {
-    height: 46px;
-    line-height: 40px;
-  }
-}
-@media only screen and (min-width: 601px) {
-  /* line 26, ../sass/components/_header.scss */
+  /* line 15, ../sass/components/_header.scss */
   nav .nav-wrapper i {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }
-/* line 33, ../sass/components/_header.scss */
+/* line 22, ../sass/components/_header.scss */
 nav .brand-logo {
   float: left;
   position: relative;
   display: inline-block;
   width: 35px;
-  height: 46px;
+  height: 64px;
   background: transparent url(../images/cis-logo.svg) no-repeat center center;
   background-size: 35px 35px;
 }
 
-/* line 45, ../sass/components/_header.scss */
+/* line 34, ../sass/components/_header.scss */
 .no-svg nav .brand-logo {
   background-image: url(images/cis-logo.png) no-repeat;
 }
 
-/* line 49, ../sass/components/_header.scss */
-nav {
-  background: transparent;
-  box-shadow: none;
-  border-bottom: 1px solid #a3a3a3;
-  transition: 0.3s;
-}
-/* line 55, ../sass/components/_header.scss */
-nav.scrolled {
-  background: #37474f;
-  border-bottom-color: transparent;
+/* line 38, ../sass/components/_header.scss */
+nav .responsive-img {
+  padding-top: 5px;
 }
 
-/* line 61, ../sass/components/_header.scss */
+@media only screen and (min-width: 601px) {
+  /* line 43, ../sass/components/_header.scss */
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    background: transparent;
+    box-shadow: none;
+    transition: 0.3s;
+    height: 64px;
+    line-height: 64px;
+  }
+  /* line 53, ../sass/components/_header.scss */
+  nav.scrolled,
+  nav .nav-wrapper i.scrolled,
+  nav a.button-collapse.scrolled,
+  nav a.button-collapse i.scrolled {
+    background: #37474f;
+    border-bottom-color: transparent;
+    height: 46px;
+    line-height: 46px;
+  }
+}
+/* line 62, ../sass/components/_header.scss */
 .navbar.dropdown-content {
-  top: 46px !important;
+  top: 64px !important;
 }
 
-/* line 65, ../sass/components/_header.scss */
+/* line 66, ../sass/components/_header.scss */
 :-webkit-full-screen .mdi-navigation-fullscreen:before {
   content: "\e8a0";
 }
 
-/* line 68, ../sass/components/_header.scss */
+/* line 69, ../sass/components/_header.scss */
 :-moz-full-screen .mdi-navigation-fullscreen:before {
   content: "\e8a0";
 }
 
-/* line 73, ../sass/components/_header.scss */
+/* line 74, ../sass/components/_header.scss */
 nav ul a {
   position: relative;
 }
 
-/* line 77, ../sass/components/_header.scss */
+/* line 78, ../sass/components/_header.scss */
 .count {
   position: absolute;
   top: 10px;
@@ -12424,13 +12342,13 @@ nav ul a {
   font-size: 11px;
 }
 
-/* line 91, ../sass/components/_header.scss */
+/* line 92, ../sass/components/_header.scss */
 .notification-container {
   width: auto;
   min-width: 380px;
-  top: 46px;
+  top: 64px;
 }
-/* line 95, ../sass/components/_header.scss */
+/* line 96, ../sass/components/_header.scss */
 .notification-container:before {
   content: '';
   display: block;
@@ -16511,7 +16429,7 @@ table.dataTable td {
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  *
  * ========================================================== */
-html, body {
+body.home  {
     overflow:hidden;
     margin:0;
     padding:0;
@@ -16626,6 +16544,170 @@ html, body {
 }
 .pp-tooltip.left {
     left: 20px;
+}
+
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+@font-face {
+font-family: 'fontello';
+src: url('../font/fontello.eot?49077413');
+src: url('../font/fontello.eot?49077413#iefix') format('embedded-opentype'),  url('../font/fontello.woff?49077413') format('woff'),  url('../font/fontello.ttf?49077413') format('ttf'),  url('../font/fontello.svg?49077413#fontello') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+font-family: "fontello";
+font-style: normal;
+font-weight: normal;
+speak: none;
+display: inline-block;
+text-decoration: inherit;
+/* For safety - reset parent styles, that can break glyph codes*/
+font-variant: normal;
+text-transform: none;
+}
+.icon-info-circled:before {
+content: '\e800';
+} /* '' */
+/*MAIN*/
+
+.skillset-list {
+display: table;
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+.skillset-list li {
+position: relative;
+float: left;
+clear: right;
+width: 100%;
+list-style: none;
+text-align: left;
+font-size: 1em;
+font-weight: 300;
+color: #666666;
+}
+.skillset-list li .bar {
+display: table;
+float: left;
+width: 100%;
+height: 10px;
+margin: 10px 0px 10px 0px;
+background-color: #f5f5f5;
+}
+ @-webkit-keyframes create-full {
+ 0% {
+ opacity: 0.4;
+ z-index: 100;
+ -ms-transform: scale(0.6); /* IE 9 */
+ -webkit-transform: scale(0.6); /* Chrome, Safari, Opera */
+ transform: scale(0.6);
+}
+ 50% {
+ opacity: 0.8;
+ z-index: 150;
+ -ms-transform: scale(1.5); /* IE 9 */
+ -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+ transform: scale(1.5);
+}
+ 100% {
+ opacity: 1;
+ z-index: 200;
+ -ms-transform: scale(1.0); /* IE 9 */
+ -webkit-transform: scale(1.0); /* Chrome, Safari, Opera */
+ transform: scale(1.0);
+}
+}
+ @keyframes create-full {
+ 0% {
+ opacity: 0.4;
+ z-index: 100;
+ -ms-transform: scale(0.6); /* IE 9 */
+ -webkit-transform: scale(0.6); /* Chrome, Safari, Opera */
+ transform: scale(0.6);
+}
+ 50% {
+ opacity: 0.8;
+ z-index: 150;
+ -ms-transform: scale(1.5); /* IE 9 */
+ -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+ transform: scale(1.5);
+}
+ 100% {
+ opacity: 1;
+ z-index: 200;
+ -ms-transform: scale(1.0); /* IE 9 */
+ -webkit-transform: scale(1.0); /* Chrome, Safari, Opera */
+ transform: scale(1.0);
+}
+}
+.skillset-list li .bar .full {
+position: relative;
+z-index: 100;
+float: left;
+height: 10px;
+background-color: #1abc9c;
+border-right: 1px solid #16a085;
+-webkit-animation: create-full 0.5s 1;
+-moz-animation: create-full 0.5s 1;
+-o-animation: create-full 0.5s 1;
+animation: create-full 0.5s 1;
+}
+ @-webkit-keyframes create-empty {
+ 0% {
+ opacity: 0.4;
+}
+ 50% {
+ opacity: 0.8;
+}
+ 100% {
+ opacity: 1;
+}
+}
+ @keyframes create-empty {
+ 0% {
+ opacity: 0.4;
+}
+ 50% {
+ opacity: 0.8;
+}
+ 100% {
+ opacity: 1;
+}
+}
+.skillset-list li .bar .empty {
+float: left;
+height: 10px;
+background-color: #f0f0f0;
+border-right: 1px solid #e0e0e0;
+-webkit-animation: create-bar 0.5s 1;
+-moz-animation: create-bar 0.5s 1;
+-o-animation: create-bar 0.5s 1;
+animation: create-bar 0.5s 1;
+}
+.skillset-list li #list-info {
+position: absolute;
+bottom: 90px;
+right: 0px;
+z-index: 100;
+opacity: 0;
+width: 200px;
+padding: 8px;
+background-color: #333333;
+border: 1px solid rgba(255,255,255,0.9);
+-webkit-transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
+-moz-transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
+-o-transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
+transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
+}
+.skillset-list li #list-info p {
+color: #ffffff;
+font-weight: 400;
+font-size: 0.9em;
 }
 
 /* line 6, ../sass/app-ltr.scss */

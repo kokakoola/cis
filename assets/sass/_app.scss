@@ -1,13 +1,5 @@
 
 
-// emptly
-.new.badge.circle {
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
-background-clip: padding-box;
-}
-
 // HELPERS
 // ***************************************
 .hidden {
@@ -42,7 +34,7 @@ html {
 }
 
 .container {
-  width: 75%;
+  width: 85%;
   max-width: none;
 }
 
@@ -69,7 +61,7 @@ main {
    flex: 1 0 auto;
 }
 
-.section.with-table {
+.with-table {
   background: #fff;
 }
 
@@ -83,13 +75,41 @@ main {
 }
 
 .full-bg {
-  background: url('assets/images/frontbg.png') no-repeat center center fixed; 
+  background: url('assets/images/frontbg.png'),
+  // url('assets/images/bg-10.jpg');
+  linear-gradient(116deg, #dadf19, #e1ab3e, #ee7009);
+  background-size: 600% 600%;
+//   -webkit-animation: second 30s ease infinite;
+//   -moz-animation: second 30s ease infinite;
+//   -o-animation: second 30s ease infinite;
+//   animation: second 30s ease infinite;
+//   @-webkit-keyframes second {
+//     0%{background-position:0% 51%}
+//     50%{background-position:100% 50%}
+//     100%{background-position:0% 51%}
+// }
+// @-moz-keyframes second {
+//     0%{background-position:0% 51%}
+//     50%{background-position:100% 50%}
+//     100%{background-position:0% 51%}
+// }
+// @-o-keyframes second {
+//     0%{background-position:0% 51%}
+//     50%{background-position:100% 50%}
+//     100%{background-position:0% 51%}
+// }
+// @keyframes second {
+//     0%{background-position:0% 51%}
+//     50%{background-position:100% 50%}
+//     100%{background-position:0% 51%}
+// }
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: lighten($color-mauve, 30%);
-  background-blend-mode: multiply;
+
+  background-blend-mode: luminosity;
+  // background-blend-mode: multiply;
 
   input[type=text] {
     padding:4px 15px; 
@@ -134,69 +154,16 @@ animation: second 30s ease infinite;
 }
 } 
 
-.section.pagepiling {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  display: table;
-
-  .middlecontent {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-  }
-}
+// .section.pagepiling {
+//   height: 100%;
+//   position: absolute;
+//   width: 100%;
+//   display: table;
 
 
-#menu {
-  position: fixed;
-  top: 0;
-  z-index: 3;
-}
+// }
 
-  /* Defining each section background and styles
-  * --------------------------------------- */
-  #section1{
-    background-image: url(imgs/bg1.jpg);
-  }
-  #section2{
-    background-color: $color-light;
-    padding: 6% 0 0 0;
-  }
-  #section3{
-    background-image: url(imgs/bg3.jpg);
-    padding: 6% 0 0 0;
-  }
-  #section3 h1{
-    color: #000;
-  }
-  #section1 h1{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 30px;
-    color: #fff;
-  }
-  #section2 .intro{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 30px;
-  }
-  #section2 h1,
-  #section2 p{
-    text-shadow: 1px 5px 20px #000;
-  }
-  #section3 h1,
-  #section3 p{
-    text-shadow: 1px 5px 20px #000;
-    color: #fff;
-  }
-  #infoMenu li a{
-      color: #fff;
-  }
+
 
 // CONTENT 
 // *********************************
@@ -204,43 +171,54 @@ animation: second 30s ease infinite;
   background:  url(images/bg-10.jpg) no-repeat bottom center;
   background-size: cover;
   margin-top: -65px;
-  height: 300px;
+  height: 260px;
 }
 
 .card-onbanner {
-  margin-top: -220px;
+  margin-top: -200px;
 }
 
 .card.large {
   padding: 10px 30px;
+  .row {
+    margin-bottom: 5px;
+  }
+}
+
+.adds-form {
+  top: 0.6rem;
+  position: absolute;
+  right: 30rem;
+  z-index: 5000;
 }
 
 .input-field label {
   color: #444;
 }
 
+.rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 // Table style
 // **********************
 table {
-  max-width: 1400px;
-  .btn-flat {
-  @include padding-left(.5rem);
-  @include padding-right(5px);
-  i.right {
-    color: color('grey', 'base');
-    }
-  }
+
   th.sorting_desc .btn-flat i {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
     -webkit-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
     }
-  &.dataTable thead th, 
-  &.dataTable thead td {
-    padding: 0;
-  }
+
   a { white-space: nowrap }
+  thead {
+    border-bottom: 1px solid #9E9E9E !important;
+  }
 }
 
 div.dataTables_wrapper {
