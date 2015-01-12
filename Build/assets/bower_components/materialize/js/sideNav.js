@@ -152,7 +152,7 @@
           }).bind('panend', function(e) {
             if (e.gesture.pointerType === "touch") {
 
-              panning = false;
+              panning = false; 
               if (menuOut) {
                 menu_id.velocity({left: 0}, {duration: 300, queue: false, easing: 'easeOutQuad'});
                 $('#sidenav-overlay').velocity({opacity: 1 }, {duration: 50, queue: false, easing: 'easeOutQuad'});
@@ -181,7 +181,6 @@
               else {
                 menu_id.velocity({right: 0}, {duration: 300, queue: false, easing: 'easeOutQuad'});
               }
-
               var overlay = $('<div id="sidenav-overlay"></div>');
               overlay.css('opacity', 0)
               .click(function(){

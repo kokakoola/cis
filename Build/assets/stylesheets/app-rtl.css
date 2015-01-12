@@ -12089,16 +12089,16 @@ main {
 
 /* line 77, ../sass/_app.scss */
 .full-bg {
-  background: url(../images/frontbg.png), linear-gradient(116deg, #dadf19, #e1ab3e, #ee7009);
+  background: url(../images/frontbg.png);
   background-size: 600% 600%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-blend-mode: luminosity;
 }
 /* line 114, ../sass/_app.scss */
-.full-bg input[type=text] {
+.full-bg input[type=text],
+.full-bg input[type=password] {
   padding: 4px 15px;
   border: 1px solid #F0F0F0;
   -webkit-border-radius: 4px;
@@ -12108,12 +12108,12 @@ main {
   height: 2rem;
   max-width: 400px;
 }
-/* line 124, ../sass/_app.scss */
+/* line 125, ../sass/_app.scss */
 .full-bg input[type=text]:focus {
   border-color: #333;
 }
 
-/* line 128, ../sass/_app.scss */
+/* line 129, ../sass/_app.scss */
 .second-background {
   background: linear-gradient(229deg, #a24bcf, #4b79cf, #4bc5cf);
   background-size: 600% 600%;
@@ -12166,7 +12166,7 @@ main {
     background-position: 0% 51%;
   }
 }
-/* line 170, ../sass/_app.scss */
+/* line 171, ../sass/_app.scss */
 .main-banner {
   background: url(../images/bg-10.jpg) no-repeat bottom center;
   background-size: cover;
@@ -12174,21 +12174,21 @@ main {
   height: 260px;
 }
 
-/* line 177, ../sass/_app.scss */
+/* line 178, ../sass/_app.scss */
 .card-onbanner {
   margin-top: -200px;
 }
 
-/* line 181, ../sass/_app.scss */
+/* line 182, ../sass/_app.scss */
 .card.large {
   padding: 10px 30px;
 }
-/* line 183, ../sass/_app.scss */
+/* line 184, ../sass/_app.scss */
 .card.large .row {
   margin-bottom: 5px;
 }
 
-/* line 188, ../sass/_app.scss */
+/* line 189, ../sass/_app.scss */
 .adds-form {
   top: 0.6rem;
   position: absolute;
@@ -12196,12 +12196,12 @@ main {
   z-index: 5000;
 }
 
-/* line 195, ../sass/_app.scss */
+/* line 196, ../sass/_app.scss */
 .input-field label {
   color: #444;
 }
 
-/* line 199, ../sass/_app.scss */
+/* line 200, ../sass/_app.scss */
 .rotate-45 {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -12210,23 +12210,23 @@ main {
   transform: rotate(45deg);
 }
 
-/* line 211, ../sass/_app.scss */
+/* line 212, ../sass/_app.scss */
 table th.sorting_desc .btn-flat i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-/* line 218, ../sass/_app.scss */
+/* line 219, ../sass/_app.scss */
 table a {
   white-space: nowrap;
 }
-/* line 219, ../sass/_app.scss */
+/* line 220, ../sass/_app.scss */
 table thead {
   border-bottom: 1px solid #9E9E9E !important;
 }
 
-/* line 224, ../sass/_app.scss */
+/* line 225, ../sass/_app.scss */
 div.dataTables_wrapper {
   width: 95%;
   margin: 0 auto;

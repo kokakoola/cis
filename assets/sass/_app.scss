@@ -75,9 +75,9 @@ main {
 }
 
 .full-bg {
-  background: url('assets/images/frontbg.png'),
+  background: url('assets/images/frontbg.png');
   // url('assets/images/bg-10.jpg');
-  linear-gradient(116deg, #dadf19, #e1ab3e, #ee7009);
+  // linear-gradient(116deg, #dadf19, #e1ab3e, #ee7009);
   background-size: 600% 600%;
 //   -webkit-animation: second 30s ease infinite;
 //   -moz-animation: second 30s ease infinite;
@@ -108,10 +108,11 @@ main {
   -o-background-size: cover;
   background-size: cover;
 
-  background-blend-mode: luminosity;
+  // background-blend-mode: luminosity;
   // background-blend-mode: multiply;
 
-  input[type=text] {
+  input[type=text],
+  input[type=password] {
     padding:4px 15px; 
     border:1px solid $color-light; 
     -webkit-border-radius: 4px;
