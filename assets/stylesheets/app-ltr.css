@@ -11899,41 +11899,49 @@ span.badge {
 }
 
 /* line 275, ../sass/_direction-overrides.scss */
+[type="radio"]:not(:checked),
+[type="radio"]:checked,
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  left: -9999px;
+}
+
+/* line 281, ../sass/_direction-overrides.scss */
 form p {
   text-align: left;
 }
 
-/* line 279, ../sass/_direction-overrides.scss */
+/* line 285, ../sass/_direction-overrides.scss */
 [type="checkbox"]:checked + label:before {
   left: -3px;
 }
 
-/* line 283, ../sass/_direction-overrides.scss */
+/* line 289, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb {
   margin-left: -6px;
 }
-/* line 285, ../sass/_direction-overrides.scss */
+/* line 291, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb.active {
   border-radius: 50% 50% 50% 0;
 }
-/* line 287, ../sass/_direction-overrides.scss */
+/* line 293, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb.active .value {
   margin-left: -1px;
 }
 
-/* line 294, ../sass/_direction-overrides.scss */
+/* line 300, ../sass/_direction-overrides.scss */
 .select-wrapper span.select-dropdown:after {
   right: 0;
   text-align: right;
 }
 
-/* line 302, ../sass/_direction-overrides.scss */
+/* line 308, ../sass/_direction-overrides.scss */
 .collapsible-header i {
   float: left;
   margin-right: 1rem;
 }
 
-/* line 311, ../sass/_direction-overrides.scss */
+/* line 317, ../sass/_direction-overrides.scss */
 .card .card-image .card-title {
   left: 0;
 }
@@ -12094,7 +12102,6 @@ main {
 /* line 77, ../sass/_app.scss */
 .full-bg {
   background: url("assets/images/frontbg.png");
-  background-size: 600% 600%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12182,36 +12189,50 @@ main {
 .card-onbanner {
   margin-top: -200px;
 }
+/* line 180, ../sass/_app.scss */
+.card-onbanner a.adds-form {
+  vertical-align: middle;
+  margin-left: 25px;
+}
+/* line 184, ../sass/_app.scss */
+.card-onbanner h4 {
+  display: inline-block;
+  padding-left: 15px;
+}
 
-/* line 182, ../sass/_app.scss */
+/* line 189, ../sass/_app.scss */
 .card.large {
   padding: 10px 30px;
 }
-/* line 184, ../sass/_app.scss */
+/* line 191, ../sass/_app.scss */
 .card.large .row {
   margin-bottom: 15px;
 }
-/* line 186, ../sass/_app.scss */
+/* line 193, ../sass/_app.scss */
+.card.large .row.title {
+  margin-top: 20px;
+}
+/* line 195, ../sass/_app.scss */
 .card.large .row.title button {
-  margin-left: 20px;
+  margin-right: 20px;
   vertical-align: middle;
 }
 
-/* line 195, ../sass/_app.scss */
+/* line 204, ../sass/_app.scss */
 .check-inline [type="checkbox"]:not(:checked) + label:before {
   top: 15px;
 }
-/* line 198, ../sass/_app.scss */
+/* line 207, ../sass/_app.scss */
 .check-inline [type="checkbox"]:not(:checked) + label,
 .check-inline [type="checkbox"]:checked + label {
   padding-top: 15px;
 }
-/* line 202, ../sass/_app.scss */
+/* line 211, ../sass/_app.scss */
 .check-inline [type="checkbox"]:checked + label:before {
   top: 7px;
 }
 
-/* line 207, ../sass/_app.scss */
+/* line 216, ../sass/_app.scss */
 input[type=text].valid,
 input[type=password].valid,
 input[type=email].valid,
@@ -12223,7 +12244,7 @@ textarea.valid {
   box-shadow: 0 1px 0 0 #4CAF50;
 }
 
-/* line 216, ../sass/_app.scss */
+/* line 225, ../sass/_app.scss */
 input[type=text].invalid,
 input[type=password].invalid,
 input[type=email].invalid,
@@ -12235,11 +12256,11 @@ textarea.invalid {
   box-shadow: 0 1px 0 0 #F44336;
 }
 
-/* line 225, ../sass/_app.scss */
+/* line 234, ../sass/_app.scss */
 .input-field label {
   color: #444;
 }
-/* line 227, ../sass/_app.scss */
+/* line 236, ../sass/_app.scss */
 .input-field label.error, .input-field label.success {
   display: none;
   right: 0.75rem;
@@ -12248,49 +12269,37 @@ textarea.invalid {
   font-weight: strong;
   font-size: 12px;
 }
-/* line 236, ../sass/_app.scss */
+/* line 245, ../sass/_app.scss */
 .input-field label.error {
   color: #F44336;
 }
-/* line 239, ../sass/_app.scss */
+/* line 248, ../sass/_app.scss */
 .input-field label.success {
   color: #4CAF50;
 }
 
-/* line 245, ../sass/_app.scss */
-.adds-form {
-  top: 0.6rem;
-  position: absolute;
-  right: 30rem;
-  z-index: 5000;
-}
-
 /* line 253, ../sass/_app.scss */
-.rotate-45 {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+.switch.col {
+  height: 3rem;
 }
 
-/* line 265, ../sass/_app.scss */
+/* line 276, ../sass/_app.scss */
 table th.sorting_desc .btn-flat i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-/* line 272, ../sass/_app.scss */
+/* line 283, ../sass/_app.scss */
 table a {
   white-space: nowrap;
 }
-/* line 273, ../sass/_app.scss */
+/* line 284, ../sass/_app.scss */
 table thead {
   border-bottom: 1px solid #9E9E9E !important;
 }
 
-/* line 278, ../sass/_app.scss */
+/* line 289, ../sass/_app.scss */
 div.dataTables_wrapper {
   width: 95%;
   margin: 0 auto;
@@ -12889,6 +12898,88 @@ nav ul a {
   .row .col.offset-xl12 {
     margin-left: 100%;
   }
+}
+
+/* line 1, ../sass/components/_exp-switch.scss */
+.switch,
+.switch * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 7, ../sass/components/_exp-switch.scss */
+.switch label {
+  cursor: pointer;
+}
+
+/* line 10, ../sass/components/_exp-switch.scss */
+.switch label input[type=checkbox]:first-child {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* line 15, ../sass/components/_exp-switch.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever {
+  background-color: #7bc5be;
+}
+
+/* line 18, ../sass/components/_exp-switch.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+  background-color: #009587;
+}
+
+/* line 21, ../sass/components/_exp-switch.scss */
+.switch label .lever,
+.switch label input[type=checkbox][disabled]:first-child + .lever {
+  content: "";
+  display: inline-block;
+  width: 45px;
+  height: 15px;
+  background-color: #818181;
+  border-radius: 15px;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* line 34, ../sass/components/_exp-switch.scss */
+.switch label .lever:after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+  left: -5px;
+  top: -2px;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+}
+
+/* line 53, ../sass/components/_exp-switch.scss */
+.switch label input[type=checkbox][disabled]:first-child + .lever:after,
+.switch label input[type=checkbox][disabled]:checked:first-child + .lever:after {
+  background-color: #BDBDBD;
+}
+
+/* line 57, ../sass/components/_exp-switch.scss */
+input[type=checkbox]:first-child:checked ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 149, 135, 0.1);
+}
+
+/* line 60, ../sass/components/_exp-switch.scss */
+input[type=checkbox]:first-child ~ .lever:active:after,
+input[type=checkbox][disabled]:first-child ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* line 64, ../sass/components/_exp-switch.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+  left: 30px;
 }
 
 /* @include bootstrap/_component-animations */

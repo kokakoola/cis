@@ -272,6 +272,12 @@ span.badge {
   @include left(0);
 }
 
+[type="radio"]:not(:checked),
+[type="radio"]:checked,
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  @include left(-9999px);
+} 
 form p {
   @include text-align(left);
 }

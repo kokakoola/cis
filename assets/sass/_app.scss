@@ -78,7 +78,7 @@ main {
   background: url('assets/images/frontbg.png');
   // url('assets/images/bg-10.jpg');
   // linear-gradient(116deg, #dadf19, #e1ab3e, #ee7009);
-  background-size: 600% 600%;
+  // background-size: 600% 600%;
 //   -webkit-animation: second 30s ease infinite;
 //   -moz-animation: second 30s ease infinite;
 //   -o-animation: second 30s ease infinite;
@@ -177,18 +177,27 @@ animation: second 30s ease infinite;
 
 .card-onbanner {
   margin-top: -200px;
+  a.adds-form {
+    vertical-align: middle;
+    margin-left: 25px
+  }
+  h4 {
+    display: inline-block; padding-left: 15px;
+  }
 }
 
 .card.large {
   padding: 10px 30px;
   .row {
     margin-bottom: 15px;
-    &.title button {
-      @include margin-left (20px);
-      vertical-align: middle;
-    } 
+    &.title {
+      margin-top: 20px;
+    button {
+        @include margin-right (20px);
+        vertical-align: middle;
+      } 
+    }
   }
-
 }
 
 .check-inline {
@@ -241,22 +250,24 @@ textarea.invalid {
   }
 }
 
-
-.adds-form {
-  top: 0.6rem;
-  position: absolute;
-  right: 30rem;
-  z-index: 5000;
+.switch.col {
+  height: 3rem;
 }
+// .adds-form {
+//   top: 0.6rem;
+//   position: absolute;
+//   right: 30rem;
+//   z-index: 5000;
+// }
 
 
-.rotate-45 {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+// .rotate-45 {
+//   -webkit-transform: rotate(45deg);
+//   -moz-transform: rotate(45deg);
+//   -ms-transform: rotate(45deg);
+//   -o-transform: rotate(45deg);
+//   transform: rotate(45deg);
+// }
 
 // Table style
 // **********************
