@@ -238,7 +238,7 @@ span.badge {
 }
 
 .video-container {
-  iframe, object, embed {
+  iframe, object, embed { 
     @include  left(0);
   }
 }
@@ -246,6 +246,10 @@ span.badge {
 // form
 .input-field label {
     @include left($gutter-width / 2);
+  }
+
+.input-field label.error {
+    @include right($gutter-width / 2);
   }
 
 .input-field .prefix ~ input,

@@ -182,9 +182,65 @@ animation: second 30s ease infinite;
 .card.large {
   padding: 10px 30px;
   .row {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    &.title button {
+      @include margin-left (20px);
+      vertical-align: middle;
+    } 
+  }
+
+}
+
+.check-inline {
+  [type="checkbox"]:not(:checked) + label:before {
+    top: 15px;
+  }
+  [type="checkbox"]:not(:checked) + label, 
+  [type="checkbox"]:checked + label {
+    padding-top: 15px;
+  }
+  [type="checkbox"]:checked + label:before {
+    top: 7px;
   }
 }
+
+input[type=text].valid,
+input[type=password].valid,
+input[type=email].valid,
+input[type=date].valid,
+textarea.valid {
+  border-bottom: 1px solid $success-color;
+  @include box-shadow(0 1px 0 0 $success-color);
+}
+
+input[type=text].invalid,
+input[type=password].invalid,
+input[type=email].invalid,
+input[type=date].invalid,
+textarea.invalid {
+  border-bottom: 1px solid $error-color;
+  @include box-shadow(0 1px 0 0 $error-color);
+}
+
+.input-field label {
+  color: #444;
+  &.error, 
+  &.success {
+    display: none;
+    @include right(0.75rem);
+    @include left(auto);
+    top: 50px;
+    font-weight: strong;
+    font-size: 12px;
+  }
+  &.error {
+    color: $error-color;
+  }
+  &.success {
+    color: $success-color;
+  }
+}
+
 
 .adds-form {
   top: 0.6rem;
@@ -193,9 +249,6 @@ animation: second 30s ease infinite;
   z-index: 5000;
 }
 
-.input-field label {
-  color: #444;
-}
 
 .rotate-45 {
   -webkit-transform: rotate(45deg);

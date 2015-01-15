@@ -35,3 +35,5 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+
+// you may need if dynamic content Waves.displayEffect(); to get pretty buttons. this should be called after the ajax call completes

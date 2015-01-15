@@ -11872,12 +11872,17 @@ span.badge {
 }
 
 /* line 251, ../sass/_direction-overrides.scss */
+.input-field label.error {
+  left: 0.75rem;
+}
+
+/* line 255, ../sass/_direction-overrides.scss */
 .input-field .prefix ~ input,
 .input-field .prefix ~ label {
   margin-right: 3rem;
 }
 
-/* line 256, ../sass/_direction-overrides.scss */
+/* line 260, ../sass/_direction-overrides.scss */
 [type="radio"]:not(:checked) + label,
 [type="radio"]:checked + label,
 [type="checkbox"]:not(:checked) + label,
@@ -11885,7 +11890,7 @@ span.badge {
   padding-right: 35px;
 }
 
-/* line 263, ../sass/_direction-overrides.scss */
+/* line 267, ../sass/_direction-overrides.scss */
 [type="radio"] + label:before,
 [type="radio"] + label:after,
 [type="checkbox"] + label:before,
@@ -11894,42 +11899,42 @@ span.badge {
   right: 0;
 }
 
-/* line 271, ../sass/_direction-overrides.scss */
+/* line 275, ../sass/_direction-overrides.scss */
 form p {
   text-align: right;
 }
 
-/* line 275, ../sass/_direction-overrides.scss */
+/* line 279, ../sass/_direction-overrides.scss */
 [type="checkbox"]:checked + label:before {
   right: -3px;
 }
 
-/* line 279, ../sass/_direction-overrides.scss */
+/* line 283, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb {
   margin-right: -6px;
 }
-/* line 281, ../sass/_direction-overrides.scss */
+/* line 285, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb.active {
   border-radius: 50% 50% 50% 0;
 }
-/* line 283, ../sass/_direction-overrides.scss */
+/* line 287, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb.active .value {
   margin-right: -1px;
 }
 
-/* line 290, ../sass/_direction-overrides.scss */
+/* line 294, ../sass/_direction-overrides.scss */
 .select-wrapper span.select-dropdown:after {
   left: 0;
   text-align: left;
 }
 
-/* line 298, ../sass/_direction-overrides.scss */
+/* line 302, ../sass/_direction-overrides.scss */
 .collapsible-header i {
   float: right;
   margin-left: 1rem;
 }
 
-/* line 307, ../sass/_direction-overrides.scss */
+/* line 311, ../sass/_direction-overrides.scss */
 .card .card-image .card-title {
   right: 0;
 }
@@ -12185,10 +12190,75 @@ main {
 }
 /* line 184, ../sass/_app.scss */
 .card.large .row {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+}
+/* line 186, ../sass/_app.scss */
+.card.large .row.title button {
+  margin-right: 20px;
+  vertical-align: middle;
 }
 
-/* line 189, ../sass/_app.scss */
+/* line 195, ../sass/_app.scss */
+.check-inline [type="checkbox"]:not(:checked) + label:before {
+  top: 15px;
+}
+/* line 198, ../sass/_app.scss */
+.check-inline [type="checkbox"]:not(:checked) + label,
+.check-inline [type="checkbox"]:checked + label {
+  padding-top: 15px;
+}
+/* line 202, ../sass/_app.scss */
+.check-inline [type="checkbox"]:checked + label:before {
+  top: 7px;
+}
+
+/* line 207, ../sass/_app.scss */
+input[type=text].valid,
+input[type=password].valid,
+input[type=email].valid,
+input[type=date].valid,
+textarea.valid {
+  border-bottom: 1px solid #4CAF50;
+  -webkit-box-shadow: 0 1px 0 0 #4CAF50;
+  -moz-box-shadow: 0 1px 0 0 #4CAF50;
+  box-shadow: 0 1px 0 0 #4CAF50;
+}
+
+/* line 216, ../sass/_app.scss */
+input[type=text].invalid,
+input[type=password].invalid,
+input[type=email].invalid,
+input[type=date].invalid,
+textarea.invalid {
+  border-bottom: 1px solid #F44336;
+  -webkit-box-shadow: 0 1px 0 0 #F44336;
+  -moz-box-shadow: 0 1px 0 0 #F44336;
+  box-shadow: 0 1px 0 0 #F44336;
+}
+
+/* line 225, ../sass/_app.scss */
+.input-field label {
+  color: #444;
+}
+/* line 227, ../sass/_app.scss */
+.input-field label.error, .input-field label.success {
+  display: none;
+  left: 0.75rem;
+  right: auto;
+  top: 50px;
+  font-weight: strong;
+  font-size: 12px;
+}
+/* line 236, ../sass/_app.scss */
+.input-field label.error {
+  color: #F44336;
+}
+/* line 239, ../sass/_app.scss */
+.input-field label.success {
+  color: #4CAF50;
+}
+
+/* line 245, ../sass/_app.scss */
 .adds-form {
   top: 0.6rem;
   position: absolute;
@@ -12196,12 +12266,7 @@ main {
   z-index: 5000;
 }
 
-/* line 196, ../sass/_app.scss */
-.input-field label {
-  color: #444;
-}
-
-/* line 200, ../sass/_app.scss */
+/* line 253, ../sass/_app.scss */
 .rotate-45 {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -12210,23 +12275,23 @@ main {
   transform: rotate(45deg);
 }
 
-/* line 212, ../sass/_app.scss */
+/* line 265, ../sass/_app.scss */
 table th.sorting_desc .btn-flat i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-/* line 219, ../sass/_app.scss */
+/* line 272, ../sass/_app.scss */
 table a {
   white-space: nowrap;
 }
-/* line 220, ../sass/_app.scss */
+/* line 273, ../sass/_app.scss */
 table thead {
   border-bottom: 1px solid #9E9E9E !important;
 }
 
-/* line 225, ../sass/_app.scss */
+/* line 278, ../sass/_app.scss */
 div.dataTables_wrapper {
   width: 95%;
   margin: 0 auto;
@@ -12361,6 +12426,470 @@ nav ul a {
   border-color: transparent transparent white;
   margin-top: -18px;
   margin-left: 185px;
+}
+
+/* line 38, ../sass/components/_grid.scss */
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+/* line 44, ../sass/components/_grid.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 50, ../sass/components/_grid.scss */
+.row .col {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s1 {
+  width: 8.33333%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s2 {
+  width: 16.66667%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s3 {
+  width: 25%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s4 {
+  width: 33.33333%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s5 {
+  width: 41.66667%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s6 {
+  width: 50%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s7 {
+  width: 58.33333%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s8 {
+  width: 66.66667%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s9 {
+  width: 75%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s10 {
+  width: 83.33333%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s11 {
+  width: 91.66667%;
+  margin-left: 0;
+}
+/* line 59, ../sass/components/_grid.scss */
+.row .col.s12 {
+  width: 100%;
+  margin-left: 0;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s1 {
+  margin-left: 8.33333%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s2 {
+  margin-left: 16.66667%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s3 {
+  margin-left: 25%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s4 {
+  margin-left: 33.33333%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s5 {
+  margin-left: 41.66667%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s6 {
+  margin-left: 50%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s7 {
+  margin-left: 58.33333%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s8 {
+  margin-left: 66.66667%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s9 {
+  margin-left: 75%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s10 {
+  margin-left: 83.33333%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s11 {
+  margin-left: 91.66667%;
+}
+/* line 68, ../sass/components/_grid.scss */
+.row .col.offset-s12 {
+  margin-left: 100%;
+}
+@media only screen and (min-width: 601px) {
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m1 {
+    width: 8.33333%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m2 {
+    width: 16.66667%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m3 {
+    width: 25%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m4 {
+    width: 33.33333%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m5 {
+    width: 41.66667%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m6 {
+    width: 50%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m7 {
+    width: 58.33333%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m8 {
+    width: 66.66667%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m9 {
+    width: 75%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m10 {
+    width: 83.33333%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m11 {
+    width: 91.66667%;
+    margin-left: 0;
+  }
+  /* line 79, ../sass/components/_grid.scss */
+  .row .col.m12 {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m1 {
+    margin-left: 8.33333%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m2 {
+    margin-left: 16.66667%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m3 {
+    margin-left: 25%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m4 {
+    margin-left: 33.33333%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m5 {
+    margin-left: 41.66667%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m6 {
+    margin-left: 50%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m7 {
+    margin-left: 58.33333%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m8 {
+    margin-left: 66.66667%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m9 {
+    margin-left: 75%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m10 {
+    margin-left: 83.33333%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m11 {
+    margin-left: 91.66667%;
+  }
+  /* line 88, ../sass/components/_grid.scss */
+  .row .col.offset-m12 {
+    margin-left: 100%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l1 {
+    width: 8.33333%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l2 {
+    width: 16.66667%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l3 {
+    width: 25%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l4 {
+    width: 33.33333%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l5 {
+    width: 41.66667%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l6 {
+    width: 50%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l7 {
+    width: 58.33333%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l8 {
+    width: 66.66667%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l9 {
+    width: 75%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l10 {
+    width: 83.33333%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l11 {
+    width: 91.66667%;
+    margin-left: 0;
+  }
+  /* line 101, ../sass/components/_grid.scss */
+  .row .col.l12 {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l1 {
+    margin-left: 8.33333%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l2 {
+    margin-left: 16.66667%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l3 {
+    margin-left: 25%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l4 {
+    margin-left: 33.33333%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l5 {
+    margin-left: 41.66667%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l6 {
+    margin-left: 50%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l7 {
+    margin-left: 58.33333%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l8 {
+    margin-left: 66.66667%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l9 {
+    margin-left: 75%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l10 {
+    margin-left: 83.33333%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l11 {
+    margin-left: 91.66667%;
+  }
+  /* line 110, ../sass/components/_grid.scss */
+  .row .col.offset-l12 {
+    margin-left: 100%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl1 {
+    width: 8.33333%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl2 {
+    width: 16.66667%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl3 {
+    width: 25%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl4 {
+    width: 33.33333%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl5 {
+    width: 41.66667%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl6 {
+    width: 50%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl7 {
+    width: 58.33333%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl8 {
+    width: 66.66667%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl9 {
+    width: 75%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl10 {
+    width: 83.33333%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl11 {
+    width: 91.66667%;
+    margin-left: 0;
+  }
+  /* line 123, ../sass/components/_grid.scss */
+  .row .col.xl12 {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl1 {
+    margin-left: 8.33333%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl2 {
+    margin-left: 16.66667%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl3 {
+    margin-left: 25%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl4 {
+    margin-left: 33.33333%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl5 {
+    margin-left: 41.66667%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl6 {
+    margin-left: 50%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl7 {
+    margin-left: 58.33333%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl8 {
+    margin-left: 66.66667%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl9 {
+    margin-left: 75%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl10 {
+    margin-left: 83.33333%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl11 {
+    margin-left: 91.66667%;
+  }
+  /* line 132, ../sass/components/_grid.scss */
+  .row .col.offset-xl12 {
+    margin-left: 100%;
+  }
 }
 
 .fade {
