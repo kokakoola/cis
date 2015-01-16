@@ -28,12 +28,17 @@
     });
 
     // init  dataTables
-    // $('table.registry').DataTable({
-    // });
+    $('table.registry').DataTable({
+    });
 
+    $(".js-addDataRow").addDataRow();
 
+    $('.modal-trigger').leanModal({
+      dismissible: true, // Modal can be dismissed by clicking outside of the modal
+      opacity: .5, // Opacity of modal background
+      in_duration: 300, // Transition in duration
+      out_duration: 200
+    });
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-
-// you may need if dynamic content Waves.displayEffect(); to get pretty buttons. this should be called after the ajax call completes

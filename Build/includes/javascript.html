@@ -8,8 +8,13 @@
 <script src='../assets/javascript/vendor/wow.js'></script>
 <script src='../assets/javascript/app/fullscreen.js'></script>
 <script src='../assets/javascript/vendor/skillset.js'></script>
+<script src='../assets/javascript/vendor/jquery.dataTables.js'></script>
+<script src='../assets/javascript/app/Common.js'></script>
+<script src='../assets/bower_components/typeahead.js/dist/typeahead.bundle.js'></script>
+<script src='../assets/javascript/app/typeahead-init.js'></script>
+<script src='../assets/bower_components/bootbox/bootbox.js'></script>
 
-<!-- jquery.dataTables dropzone -->
+<!-- dropzone -->
 <script>
 
 var object = [
@@ -71,39 +76,7 @@ $(".language").click(function(){
     }); 
 
 
-
-// http://jsfiddle.net/jaredwilli/tZPg4/4/
-// Add Input
-    $(function() {
-      var scntDiv = $('#claimants');
-      var i = $('#claimants div').size();
-
-      $('#addInputClaimant').on('click', function() {
-        $('<div class="input-field col s12 m5"><input type="text" id="claimant-'+i+'" name="claimant" class="validate"><label for="claimant">'+i+'nd claimant</label></div><div class="input-field col s12 m6"><input id="claimantAddress-'+i+'" type="text" class="validate"><label for="claimantAddress">'+i+'nd Address</label></div><div class="col s1"></div>').appendTo(scntDiv);
-        i++;
-        return false;
-      });
-    });
-
-    $(function() {
-      var scntDiv = $('#defendants');
-      var i = $('#defendants div').size();
-
-      $('#addInputDefendant').on('click', function() {
-        $('<div class="input-field col s12 m5"><input type="text" id="defendant'+i+'" name="defendant" class="validate"><label for="defendant">'+i+'nd defendant</label></div><div class="input-field col s12 m6"><input id="defendantAddress-'+i+'" type="text" class="validate"><label for="defendantAddress">'+i+'nd Address</label></div><div class="col s1"></div>').appendTo(scntDiv);
-        i++;
-        return false;
-      });
-
-    //       $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-    //     e.preventDefault(); $(this).parent('div').remove(); x--;
-    // })
-
-    });
-
-
   }); // END DOCREADY
-
 
 </script>
 

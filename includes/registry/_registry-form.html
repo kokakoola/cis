@@ -1,9 +1,9 @@
-<div class="row title">
+<!-- <div class="row title">
   <div class="col s12">
     <span class="card-title grey-text text-darken-4">New case </span>
     <div class="divider"></div>
   </div>
-</div>
+</div> -->
 <div class="row">
   <div class="col s12 m2">
     <input type="date" id="date" class="datepicker">
@@ -22,7 +22,7 @@
   </div>
   <div class="col s12 m3">
     <select required>
-      <option value="" disabled selected>Judge Roman (1)</option>
+      <option value="" disabled selected>Judge default</option>
       <option value="1">Judge Else (6)</option>
       <option value="2">Judge Other (14)</option>
       <option value="3">Judge Judge (22)</option>
@@ -35,7 +35,7 @@
 
 <div class="row title">
   <div class="col s12">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputClaimant">
+    <button class="btn btn-floating waves-effect waves-dark cyan lighten-2 js-addDataRow" type="button" data-datacontainer="#claimants">
       <i class="mdi-content-add animated rotateIn"></i>
     </button> 
     <span class="card-title grey-text text-darken-4">Claimant </span>
@@ -47,7 +47,7 @@
 
 <div class="row title">
   <div class="col s12">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputClaimant">
+    <button class="btn btn-floating waves-effect waves-dark cyan lighten-2 lighten-1" type="button" id="addInputClaimant">
         <i class="mdi-content-add animated rotateIn"></i>
       </button>
     <span class="card-title grey-text text-darken-4">Defendant </span>

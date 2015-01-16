@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>CIS | Register</title>
+  <title>CIS | Registry</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -168,347 +168,10 @@
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <a class="btn-floating btn-large waves-effect waves-light red adds-form" data-toggle="collapse" href="#formEntry"><i class="mdi-content-add"></i></a>
-          <h4 class="header orange-text text-darken-2">Prime registry</h4>
-          
-          <div class="card large white collapse wow zoomInUp" id="formEntry"> <!--   -->
-  <div class="card-content">
-    <div class="row title">
-  <div class="col s12">
-    <span class="card-title grey-text text-darken-4">New case </span>
-    <div class="divider"></div>
-  </div>
-</div>
-<div class="row">
-  <div class="col s12 m2">
-    <input type="date" id="date" class="datepicker">
-  </div>
-  <div class="col s12 m3">
-    <select required>
-      <option value="" disabled selected>Case type </option>
-      <option value="1">استملاك</option>
-      <option value="2">property aquizition </option>
-      <option value="3">Option 3</option>
-    </select>
-  </div>
-  <div class="input-field col s12 m2">
-    <input id="claimValue" type="text" class="validate">
-    <label for="claimValue">Claim value</label>
-  </div>
-  <div class="col s12 m3">
-    <select required>
-      <option value="" disabled selected>Judge Roman (1)</option>
-      <option value="1">Judge Else (6)</option>
-      <option value="2">Judge Other (14)</option>
-      <option value="3">Judge Judge (22)</option>
-    </select>
-  </div>
-  <div class="col s12 m2 check-inline">
-    <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
-  </div>
-</div>
 
-<div class="row title">
-  <div class="col s12">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputClaimant">
-      <i class="mdi-content-add animated rotateIn"></i>
-    </button> 
-    <span class="card-title grey-text text-darken-4">Claimant </span>
-    <div class="divider"></div>
-  </div>
-</div>
-
-<div id="claimants">
-  <div class="row">
-    <div class="input-field col s12 m7">
-      <input id="claimant" type="text" class="validate" value="ڕۆژه‌ كمال احمد حسن">
-      <label for="claimant">Claimants full name</label>
-      <label id="claimant-error" class="error" for="claimant">This field is required.</label>
-    </div>
-    <div class="switch col s12 m3">
-      <br>
-      <span>Natural person &nbsp;</span>
-      <label>
-        <input type="checkbox">
-        <span class="lever"></span>
-      </label>
-      <span>&nbsp;Legal entity</span>
-    </div>
-    <div class="input-field col s12 m7">
-      <input id="claimantAddress" type="text" class="validate" value="سلێمانى /  تووى مه‌ليك/  نزيك مزگه‌وتى حمه‌ صالح بۆسكانى">
-      <label for="claimantAddress">Claimants address</label>
-    </div>
-    <div class="input-field col s12 m2">
-      <input id="claimantId" type="text">
-      <label for="claimantId">Document number</label>
-      <label id="claimant-success" class="success" for="claimantAddress">This field is success.</label>
-    </div>
-    <div class="input-field col s12 m2">
-      <input id="claimantPhone" type="text">
-      <label for="claimantPhone">Claimants phone</label>
-    </div>
-    <!-- First person will not get it. Only second and following -->
-    <div class="col s1">
-      <button class="btn btn-floating waves-effect waves-dark blue-grey right" type="button" class="removeClaimant">
-        <i class="mdi-content-remove animated rotateIn"></i>
-      </button>
-    </div>
-    <!-- End remark -->
-    <div class="col s12 m7">
-      <select>
-        <option value="" >No representative <i class="mdi-content-add"></i> </option>
-        <option value="1">Lawyer</option>
-        <option value="2" selected>Parent</option>
-        <option value="3">Legal guardian</option>
-        <option value="4">Other</option>
-      </select>
-    </div>
-  </div>
-<div class="row">
-  <div class="col s12 m1">
-    <label for="">Represented by parent</label>
-  </div>
-  <div class="input-field col s12 m6">
-    <input id="parent" type="text" class="validate" value="ڕۆژه‌ كمال احمد حسن">
-    <label for="parent">Parents full name</label>
-  </div>
-  <div class="input-field col s12 m2">
-    <input id="parentId" type="text">
-    <label for="parentId">Parents ID</label>
-  </div>
-  <div class="input-field col s12 m3">
-    <input id="parentPhone" type="text">
-    <label for="parentPhone">Parents Phone</label>
-  </div>
-  <div class="input-field col s12 m6 offset-m1">
-    <input id="parentAddress" type="text" value="سلێمانى /  تووى مه‌ليك/  نزيك مزگه‌وتى حمه‌ صالح بۆسكانى">
-    <label for="parentAddress">Parents address</label>
-  </div>
-    <!-- First person will not get it. Only second and following -->
-  <div class="col s12 m4">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey right" type="button" class="addClaimant">
-      <i class="mdi-content-add animated rotateIn"></i>
-    </button>
-  </div>
-  <!-- End remark -->
-</div>
-
-<!-- <div class="row">
-  <div class="input-field col s12 m7">
-    <input id="parent" type="text" class="validate" value="ڕۆژه‌ كمال احمد حسن">
-    <label for="parent">Parents full name</label>
-  </div>
-  <div class="input-field col s12 m2">
-    <input id="parentId" type="text">
-    <label for="parentId">Parents ID</label>
-  </div>
-  <div class="input-field col s12 m3">
-    <input id="parentPhone" type="text">
-    <label for="parentPhone">Parents Phone</label>
-  </div>
-  <div class="input-field col s12">
-    <input id="parentAddress" type="text" value="سلێمانى /  تووى مه‌ليك/  نزيك مزگه‌وتى حمه‌ صالح بۆسكانى">
-    <label for="parentAddress">Parents address</label>
-  </div>
-</div> -->
-</div>
-
-<div class="row title">
-  <div class="col s12">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey" type="button" id="addInputClaimant">
-        <i class="mdi-content-add animated rotateIn"></i>
-      </button>
-    <span class="card-title grey-text text-darken-4">Defendant </span>
-    <div class="divider"></div>
-  </div>
-</div>
-
-<div id="claimants">
-  <div class="row">
-    <div class="input-field col s12 m7">
-      <input id="claimant" type="text" class="validate" value="ڕۆژه‌ كمال احمد حسن">
-      <label for="claimant">Claimants full name</label>
-      <label id="claimant-error" class="error" for="claimant">This field is required.</label>
-    </div>
-    <div class="switch col s12 m3">
-      <br>
-      <span>Natural person &nbsp;</span>
-      <label>
-        <input type="checkbox">
-        <span class="lever"></span>
-      </label>
-      <span>&nbsp;Legal entity</span>
-    </div>
-    <div class="input-field col s12 m7">
-      <input id="claimantAddress" type="text" class="validate" value="سلێمانى /  تووى مه‌ليك/  نزيك مزگه‌وتى حمه‌ صالح بۆسكانى">
-      <label for="claimantAddress">Claimants address</label>
-    </div>
-    <div class="input-field col s12 m2">
-      <input id="claimantId" type="text">
-      <label for="claimantId">Document number</label>
-      <label id="claimant-success" class="success" for="claimantAddress">This field is success.</label>
-    </div>
-    <div class="input-field col s12 m2">
-      <input id="claimantPhone" type="text">
-      <label for="claimantPhone">Claimants phone</label>
-    </div>
-    <!-- First person will not get it. Only second and following -->
-    <div class="col s1">
-      <button class="btn btn-floating waves-effect waves-dark blue-grey right" type="button" class="removeClaimant">
-        <i class="mdi-content-remove animated rotateIn"></i>
-      </button>
-    </div>
-    <!-- End remark -->
-    <div class="col s12 m7">
-      <select>
-        <option value="" >No representative <i class="mdi-content-add"></i> </option>
-        <option value="1">Lawyer</option>
-        <option value="2" selected>Parent</option>
-        <option value="3">Legal guardian</option>
-        <option value="4">Other</option>
-      </select>
-    </div>
-  </div>
-<div class="row">
-  <div class="col s12 m1">
-    <label for="">Represented by parent</label>
-  </div>
-  <div class="input-field col s12 m6">
-    <input id="parent" type="text" class="validate" value="ڕۆژه‌ كمال احمد حسن">
-    <label for="parent">Parents full name</label>
-  </div>
-  <div class="input-field col s12 m2">
-    <input id="parentId" type="text">
-    <label for="parentId">Parents ID</label>
-  </div>
-  <div class="input-field col s12 m3">
-    <input id="parentPhone" type="text">
-    <label for="parentPhone">Parents Phone</label>
-  </div>
-  <div class="input-field col s12 m6 offset-m1">
-    <input id="parentAddress" type="text" value="سلێمانى /  تووى مه‌ليك/  نزيك مزگه‌وتى حمه‌ صالح بۆسكانى">
-    <label for="parentAddress">Parents address</label>
-  </div>
-    <!-- First person will not get it. Only second and following -->
-  <div class="col s12 m4">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey right" type="button" class="addClaimant">
-      <i class="mdi-content-add animated rotateIn"></i>
-    </button>
-  </div>
-  <!-- End remark -->
-</div>
-
-<!-- <div class="row">
-  <div class="input-field col s12 m7">
-    <input id="parent" type="text" class="validate" value="ڕۆژه‌ كمال احمد حسن">
-    <label for="parent">Parents full name</label>
-  </div>
-  <div class="input-field col s12 m2">
-    <input id="parentId" type="text">
-    <label for="parentId">Parents ID</label>
-  </div>
-  <div class="input-field col s12 m3">
-    <input id="parentPhone" type="text">
-    <label for="parentPhone">Parents Phone</label>
-  </div>
-  <div class="input-field col s12">
-    <input id="parentAddress" type="text" value="سلێمانى /  تووى مه‌ليك/  نزيك مزگه‌وتى حمه‌ صالح بۆسكانى">
-    <label for="parentAddress">Parents address</label>
-  </div>
-</div> -->
-</div>
-
-<div class="row title">
-  <div class="col s12">
-    <span class="card-title grey-text text-darken-4">Participants </span>
-    <div class="divider"></div>
-  </div>
-</div>
-<div class="row">
-  <div class="col s12 m5">
-    <select>
-      <option value="" selected>No participant </option>
-      <option value="1">Witness</option>
-      <option value="2">Expert</option>
-      <option value="3">Third party</option>
-      <option value="4">Other</option>
-    </select>
-  </div>
-</div>
-
-  <!-- <div class="col s1">
-    <button class="btn btn-floating waves-effect waves-dark blue-grey right" type="button" id="addInputDefendant">
-      <i class="mdi-content-add animated rotateIn"></i>
-    </button>
-  </div> -->
-
-
-
-<!-- <div class="row">
-  
-  <div class="col s12 m5">
-    <select required>
-      <option value="" disabled selected>Judge Roman </option>
-      <option value="1">Judge Else</option>
-      <option value="2">Judge Other</option>
-      <option value="3">Judge Judge</option>
-    </select>
-  </div>
-  <div class="input-field col s12 m5">
-    <input id="claimValue" type="text" class="validate">
-    <label for="claimValue">Claim value</label>
-  </div>
-</div> -->
-
-<div class="row title">
-  <div class="col s12">
-    <span class="card-title grey-text text-darken-4">Documents </span>
-    <div class="divider"></div>
-  </div>
-</div>
-<div class="row no-pad-bot">
-  <div class="col s12 center">
-    <div class="card-panel bg-light valign-wrapper" id="dropzone">
-      <form action="http://www.torrentplease.com/dropzone.php" class="dropzone dz-clickable" id="demo-upload">
-        <div class="dropzone-previews"></div>
-
-        <span ><h5><i class="mdi-file-file-upload"></i> Drop files here to upload</h5> or click here</span>
-      </form>
-    </div>
-  </div>
-</div>
-
-<div class="row title">
-  <div class="col s12">
-    <span class="card-title grey-text text-darken-4">Notes </span>
-    <div class="divider"></div>
-  </div>
-</div>
-<div class="row">
-  <div class="input-field col s12">
-    <textarea class="materialize-textarea"></textarea>
-    <label><i class="mdi-content-create small"></i></label>
-  </div>
-</div>
-  </div>
-  
-  <div class="card-action right">
-
-    <a class="waves-effect waves-blue-gray btn-flat">Cancel</a>
-
-    <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Send to judge
-      <i class="mdi-content-send"></i>
-    </button>
-    <button class="btn bg-water waves-effect waves-dark" type="submit" name="action">Sign as judge
-      <i class="mdi-editor-border-color"></i>
-    </button>
-    <a class="btn bg-mauve waves-effect waves-dark" id="saveFor" data-toggle="collapse" href="#formEntry">Save for later
-      <i class="mdi-content-save"></i>
-    </a>
-    
-  </div>
-</div>
-          <div class="card large grey lighten-2">
+          <a class="btn-floating btn-large waves-effect waves-light red adds-form" href="registry-new-case.html"><i class="mdi-content-add"></i></a>
+<h4 class="header orange-text text-darken-2">Prime registry</h4>
+<div class="card large grey lighten-2">
   <div class="card-content" >
 <!--     <span class="card-title grey-text text-darken-4">Search in cases </span>
     <div class="divider"></div>
@@ -564,19 +227,15 @@
     </button>
   </div>
 </div>
+
         </div>
       </div>
     </div>
   </div>
 
-<!--   <div class="section">
-    <div class="container">
-      <h4 class="header orange-text text-darken-2">Prime registry</h4>
-    </div>
-  </div> -->
   <div class="with-table card">
     <div class="container wide">
- <form action="">
+      <form action="">
   <div class="wide-table-wrapper">
     <table class="hoverable bordered registry">
       <thead>
@@ -697,8 +356,13 @@
 <script src='assets/javascript/vendor/wow.js'></script>
 <script src='assets/javascript/app/fullscreen.js'></script>
 <script src='assets/javascript/vendor/skillset.js'></script>
+<script src='assets/javascript/vendor/jquery.dataTables.js'></script>
+<script src='assets/javascript/app/Common.js'></script>
+<script src='assets/bower_components/typeahead.js/dist/typeahead.bundle.js'></script>
+<script src='assets/javascript/app/typeahead-init.js'></script>
+<script src='assets/bower_components/bootbox/bootbox.js'></script>
 
-<!-- jquery.dataTables dropzone -->
+<!-- dropzone -->
 <script>
 
 var object = [
@@ -760,39 +424,7 @@ $(".language").click(function(){
     }); 
 
 
-
-// http://jsfiddle.net/jaredwilli/tZPg4/4/
-// Add Input
-    $(function() {
-      var scntDiv = $('#claimants');
-      var i = $('#claimants div').size();
-
-      $('#addInputClaimant').on('click', function() {
-        $('<div class="input-field col s12 m5"><input type="text" id="claimant-'+i+'" name="claimant" class="validate"><label for="claimant">'+i+'nd claimant</label></div><div class="input-field col s12 m6"><input id="claimantAddress-'+i+'" type="text" class="validate"><label for="claimantAddress">'+i+'nd Address</label></div><div class="col s1"></div>').appendTo(scntDiv);
-        i++;
-        return false;
-      });
-    });
-
-    $(function() {
-      var scntDiv = $('#defendants');
-      var i = $('#defendants div').size();
-
-      $('#addInputDefendant').on('click', function() {
-        $('<div class="input-field col s12 m5"><input type="text" id="defendant'+i+'" name="defendant" class="validate"><label for="defendant">'+i+'nd defendant</label></div><div class="input-field col s12 m6"><input id="defendantAddress-'+i+'" type="text" class="validate"><label for="defendantAddress">'+i+'nd Address</label></div><div class="col s1"></div>').appendTo(scntDiv);
-        i++;
-        return false;
-      });
-
-    //       $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-    //     e.preventDefault(); $(this).parent('div').remove(); x--;
-    // })
-
-    });
-
-
   }); // END DOCREADY
-
 
 </script>
 

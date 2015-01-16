@@ -1,0 +1,304 @@
+<h1>Bloodhound</h1>
+
+<p>Bloodhound is the typeahead.js suggestion engine. Bloodhound is robust, 
+flexible, and offers advanced functionalities such as prefetching, intelligent
+caching, fast lookups, and backfilling with remote data.</p>
+
+<h2>Table of Contents</h2>
+
+<ul>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#usage">Usage</a>
+    <ul>
+      <li><a href="#api">API</a></li>
+      <li><a href="#options">Options</a></li>
+      <li><a href="#prefetch">Prefetch</a></li>
+      <li><a href="#remote">Remote</a></li>
+      <li><a href="#datums">Datums</a></li>
+      <li><a href="#tokens">Tokens</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Features</h2>
+
+<ul>
+  <li>Works with hardcoded data</li>
+  <li>Prefetches data on initialization to reduce suggestion latency</li>
+  <li>Uses local storage intelligently to cut down on network requests</li>
+  <li>Backfills suggestions from a remote source</li>
+  <li>Rate-limits and caches network requests to remote sources to lighten the load</li>
+</ul>
+
+<h2>Usage</h2>
+
+<h3>API</h3>
+
+<h4>new Bloodhound(options)</h4>
+
+<p>The constructor function. It takes an <a href="#options">options hash</a> as its only 
+argument.</p>
+
+<p><code>javascript
+var engine = new Bloodhound({
+  name: 'animals',
+  local: [{ val: 'dog' }, { val: 'pig' }, { val: 'moose' }],
+  remote: 'http://example.com/animals?q=%QUERY',
+  datumTokenizer: function(d) {
+    return Bloodhound.tokenizers.whitespace(d.val);
+  },
+  queryTokenizer: Bloodhound.tokenizers.whitespace
+});
+</code></p>
+
+<h4>Bloodhound#initialize(reinitialize)</h4>
+
+<p>Kicks off the initialization of the suggestion engine. This includes processing 
+the data provided through <code>local</code> and fetching/processing the data provided 
+through <code>prefetch</code>. Until initialized, all other methods will behave as no-ops.
+Returns a <a href="http://api.jquery.com/Types/#Promise">jQuery promise</a> which is resolved when engine has been initialized.</p>
+
+<p>```javascript
+var promise = engine.initialize();</p>
+
+<p>promise
+.done(function() { console.log(‘success!’); })
+.fail(function() { console.log(‘err!’); });
+```</p>
+
+<p>After the initial call of <code>initialize</code>, how subsequent invocations of the method
+behave depends on the <code>reinitialize</code> argument. If <code>reinitialize</code> is falsy, the
+method will not execute the initialization logic and will just return the same 
+jQuery promise returned by the initial invocation. If <code>reinitialize</code> is truthy,
+the method will behave as if it were being called for the first time.</p>
+
+<p>```javascript
+var promise1 = engine.initialize();
+var promise2 = engine.initialize();
+var promise3 = engine.initialize(true);</p>
+
+<p>promise1 === promise2;
+promise3 !== promise1 &amp;&amp; promise3 !== promise2;
+```</p>
+
+<h4>Bloodhound#add(datums)</h4>
+
+<p>Takes one argument, <code>datums</code>, which is expected to be an array of 
+<a href="#datums">datums</a>. The passed in datums will get added to the search index that
+powers the suggestion engine.</p>
+
+<p><code>javascript
+engine.add([{ val: 'one' }, { val: 'two' }]);
+</code></p>
+
+<h4>Bloodhound#clear()</h4>
+
+<p>Removes all suggestions from the search index.</p>
+
+<p><code>javascript
+engine.clear();
+</code></p>
+
+<h4>Bloodhound#clearPrefetchCache()</h4>
+
+<p>If you’re using <code>prefetch</code>, data gets cached in local storage in an effort to
+cut down on unnecessary network requests. <code>clearPrefetchCache</code> offers a way to
+programmatically clear said cache.</p>
+
+<p><code>javascript
+engine.clearPrefetchCache();
+</code></p>
+
+<h4>Bloodhound#clearRemoteCache()</h4>
+
+<p>If you’re using <code>remote</code>, Bloodhound will cache the 10 most recent responses
+in an effort to provide a better user experience. <code>clearRemoteCache</code> offers a 
+way to programmatically clear said cache.</p>
+
+<p><code>javascript
+engine.clearRemoteCache();
+</code></p>
+
+<h4>Bloodhound.noConflict()</h4>
+
+<p>Returns a reference to the Bloodhound constructor and reverts 
+<code>window.Bloodhound</code> to its previous value. Can be used to avoid naming 
+collisions. </p>
+
+<p><code>javascript
+var Dachshund = Bloodhound.noConflict();
+</code></p>
+
+<!-- section links -->
+
+<h4>Bloodhound#get(query, cb)</h4>
+
+<p>Computes a set of suggestions for <code>query</code>. <code>cb</code> will be invoked with an array
+of datums that represent said set. <code>cb</code> will always be invoked once 
+synchronously with suggestions that were available on the client. If those
+suggestions are insufficient (# of suggestions is less than <code>limit</code>) and <code>remote</code> was configured, <code>cb</code> may also be 
+invoked asynchronously with the suggestions available on the client mixed with
+suggestions from the <code>remote</code> source.</p>
+
+<p><code>javascript
+bloodhound.get(myQuery, function(suggestions) {
+  suggestions.each(function(suggestion) { console.log(suggestion); });
+});
+</code></p>
+
+<h3>Options</h3>
+
+<p>When instantiating a Bloodhound suggestion engine, there are a number of 
+options you can configure.</p>
+
+<ul>
+  <li>
+    <p><code>datumTokenizer</code> – A function with the signature <code>(datum)</code> that transforms a
+datum into an array of string tokens. <strong>Required</strong>.</p>
+  </li>
+  <li>
+    <p><code>queryTokenizer</code> – A function with the signature <code>(query)</code> that transforms a
+query into an array of string tokens. <strong>Required</strong>.</p>
+  </li>
+  <li>
+    <p><code>limit</code> – The max number of suggestions to return from <code>Bloodhound#get</code>. If 
+not reached, the data source will attempt to backfill the suggestions from 
+<code>remote</code>. Defaults to <code>5</code>.</p>
+  </li>
+  <li>
+    <p><code>dupDetector</code> – If set, this is expected to be a function with the signature 
+<code>(remoteMatch, localMatch)</code> that returns <code>true</code> if the datums are duplicates or 
+<code>false</code> otherwise. If not set, duplicate detection will not be performed.</p>
+  </li>
+  <li>
+    <p><code>sorter</code> – A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">compare function</a> used to sort matched datums for a given query.</p>
+  </li>
+  <li>
+    <p><code>local</code> – An array of <a href="#datums">datums</a> or a function that returns an array of
+datums.</p>
+  </li>
+  <li>
+    <p><code>prefetch</code> – Can be a URL to a JSON file containing an array of datums or, if 
+more configurability is needed, a <a href="#prefetch">prefetch options hash</a>.</p>
+  </li>
+  <li>
+    <p><code>remote</code> – Can be a URL to fetch suggestions from when the data provided by 
+<code>local</code> and <code>prefetch</code> is insufficient or, if more configurability is needed, 
+a <a href="#remote">remote options hash</a>.</p>
+  </li>
+</ul>
+
+<!-- section links -->
+
+<h3>Prefetch</h3>
+
+<p>Prefetched data is fetched and processed on initialization. If the browser 
+supports local storage, the processed data will be cached there to 
+prevent additional network requests on subsequent page loads.</p>
+
+<p><strong>WARNING:</strong> While it’s possible to get away with it for smaller data sets, 
+prefetched data isn’t meant to contain entire data sets. Rather, it should act 
+as a first-level cache for suggestions. If don’t keep this warning in mind, 
+you run the risk of hitting <a href="http://stackoverflow.com/a/2989317">local storage limits</a>.</p>
+
+<p>When configuring <code>prefetch</code>, the following options are available.</p>
+
+<ul>
+  <li>
+    <p><code>url</code> – A URL to a JSON file containing an array of datums. <strong>Required.</strong></p>
+  </li>
+  <li>
+    <p><code>cacheKey</code> – The key that data will be stored in local storage under. 
+Defaults to value of <code>url</code>.</p>
+  </li>
+  <li>
+    <p><code>ttl</code> – The time (in milliseconds) the prefetched data should be cached in 
+local storage. Defaults to <code>86400000</code> (1 day).</p>
+  </li>
+  <li>
+    <p><code>thumbprint</code> – A string used for thumbprinting prefetched data. If this
+doesn’t match what’s stored in local storage, the data will be refetched.</p>
+  </li>
+  <li>
+    <p><code>filter</code> – A function with the signature <code>filter(parsedResponse)</code> that 
+transforms the response body into an array of datums. Expected to return an 
+array of datums.</p>
+  </li>
+  <li>
+    <p><code>ajax</code> – The <a href="http://api.jquery.com/jQuery.ajax/#jQuery-ajax-settings">ajax settings object</a> passed to <code>jQuery.ajax</code>.</p>
+  </li>
+</ul>
+
+<!-- section links -->
+
+<h3>Remote</h3>
+
+<p>Remote data is only used when the data provided by <code>local</code> and <code>prefetch</code> is 
+insufficient. In order to prevent an obscene number of requests being made to
+the remote endpoint, requests are rate-limited.</p>
+
+<p>When configuring <code>remote</code>, the following options are available.</p>
+
+<ul>
+  <li>
+    <p><code>url</code> – A URL to make requests to when when the data provided by <code>local</code> and 
+<code>prefetch</code> is insufficient. <strong>Required.</strong></p>
+  </li>
+  <li>
+    <p><code>wildcard</code> - The pattern in <code>url</code> that will be replaced with the user’s query 
+when a request is made. Defaults to <code>%QUERY</code>. </p>
+  </li>
+  <li>
+    <p><code>replace</code> – A function with the signature <code>replace(url, query)</code> that can be 
+used to override the request URL. Expected to return a valid URL. If set, no 
+wildcard substitution will be performed on <code>url</code>.</p>
+  </li>
+  <li>
+    <p><code>rateLimitBy</code> – The method used to rate-limit network requests. Can be either 
+<code>debounce</code> or <code>throttle</code>. Defaults to <code>debounce</code>.</p>
+  </li>
+  <li>
+    <p><code>rateLimitWait</code> – The time interval in milliseconds that will be used by 
+<code>rateLimitBy</code>. Defaults to <code>300</code>.</p>
+  </li>
+  <li>
+    <p><code>filter</code> – A function with the signature <code>filter(parsedResponse)</code> that 
+transforms the response body into an array of datums. Expected to return an 
+array of datums.</p>
+  </li>
+  <li>
+    <p><code>ajax</code> – The <a href="http://api.jquery.com/jQuery.ajax/#jQuery-ajax-settings">ajax settings object</a> passed to <code>jQuery.ajax</code>.</p>
+  </li>
+</ul>
+
+<!-- section links -->
+
+<h3>Datums</h3>
+
+<p>Datums are JavaScript objects that hydrate the pool of possible suggestions.
+Bloodhound doesn’t expect datums to contain any specific properties as any
+operations performed on datums are done using functions defined by the user i.e.
+<code>datumTokenizer</code>, <code>dupDetector</code>, and <code>sorter</code>.</p>
+
+<h3>Tokens</h3>
+
+<p>The algorithm used by bloodhounds for providing suggestions for a given query 
+is token-based. When <code>Bloodhound#get</code> is called, it tokenizes <code>query</code> using 
+<code>queryTokenizer</code> and then invokes <code>cb</code> with all of the datums that contain those 
+tokens.</p>
+
+<p>For a quick example, if a datum was tokenized into the following set of 
+tokens…</p>
+
+<p><code>javascript
+['typeahead.js', 'typeahead', 'autocomplete', 'javascript'];
+</code></p>
+
+<p>…it would be a valid match for queries such as:</p>
+
+<ul>
+  <li><code>typehead</code></li>
+  <li><code>typehead.js</code></li>
+  <li><code>autoco</code></li>
+  <li><code>java type</code></li>
+</ul>

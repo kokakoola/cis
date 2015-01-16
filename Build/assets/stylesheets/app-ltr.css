@@ -12208,10 +12208,6 @@ main {
 .card.large .row {
   margin-bottom: 15px;
 }
-/* line 193, ../sass/_app.scss */
-.card.large .row.title {
-  margin-top: 20px;
-}
 /* line 195, ../sass/_app.scss */
 .card.large .row.title button {
   margin-right: 20px;
@@ -12283,23 +12279,28 @@ textarea.invalid {
   height: 3rem;
 }
 
-/* line 276, ../sass/_app.scss */
+/* line 257, ../sass/_app.scss */
+.removeClaimant {
+  margin-top: -72px;
+}
+
+/* line 280, ../sass/_app.scss */
 table th.sorting_desc .btn-flat i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-/* line 283, ../sass/_app.scss */
+/* line 287, ../sass/_app.scss */
 table a {
   white-space: nowrap;
 }
-/* line 284, ../sass/_app.scss */
+/* line 288, ../sass/_app.scss */
 table thead {
   border-bottom: 1px solid #9E9E9E !important;
 }
 
-/* line 289, ../sass/_app.scss */
+/* line 293, ../sass/_app.scss */
 div.dataTables_wrapper {
   width: 95%;
   margin: 0 auto;
