@@ -2685,9 +2685,11 @@
 /*** Global ***/
 /*** Navbar ***/
 /*** SideNav ***/
+/*** Tables ***/
 /*** Toasts ***/
 /*** Typography ***/
 /*** Collections ***/
+/* Progress Bar */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -3147,8 +3149,16 @@ a {
 
 /* line 34, ../bower_components/materialize/sass/components/_global.scss */
 .valign-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 /* line 39, ../bower_components/materialize/sass/components/_global.scss */
@@ -3160,13 +3170,12 @@ a {
 ul {
   padding: 0;
 }
-
-/* line 48, ../bower_components/materialize/sass/components/_global.scss */
-li {
+/* line 47, ../bower_components/materialize/sass/components/_global.scss */
+ul li {
   list-style-type: none;
 }
 
-/* line 54, ../bower_components/materialize/sass/components/_global.scss */
+/* line 55, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, ul.side-nav.full,
 ul.side-nav.fixed {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -3174,96 +3183,96 @@ ul.side-nav.fixed {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-/* line 57, ../bower_components/materialize/sass/components/_global.scss */
+/* line 58, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover, .modal {
   -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* line 60, ../bower_components/materialize/sass/components/_global.scss */
+/* line 61, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-2 {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 63, ../bower_components/materialize/sass/components/_global.scss */
+/* line 64, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-3 {
   -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 66, ../bower_components/materialize/sass/components/_global.scss */
+/* line 67, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-4 {
   -webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
 }
 
-/* line 69, ../bower_components/materialize/sass/components/_global.scss */
+/* line 70, ../bower_components/materialize/sass/components/_global.scss */
 .z-depth-5 {
   -webkit-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   -moz-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
 }
 
-/* line 75, ../bower_components/materialize/sass/components/_global.scss */
+/* line 76, ../bower_components/materialize/sass/components/_global.scss */
 .divider {
   height: 1px;
   overflow: hidden;
   background-color: #e0e0e0;
 }
 
-/* line 84, ../bower_components/materialize/sass/components/_global.scss */
+/* line 85, ../bower_components/materialize/sass/components/_global.scss */
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
   border-left: 5px solid #EF9A9A;
 }
 
-/* line 92, ../bower_components/materialize/sass/components/_global.scss */
+/* line 93, ../bower_components/materialize/sass/components/_global.scss */
 i {
   line-height: inherit;
 }
-/* line 95, ../bower_components/materialize/sass/components/_global.scss */
+/* line 96, ../bower_components/materialize/sass/components/_global.scss */
 i.left {
   float: left;
   margin-right: 15px;
 }
-/* line 99, ../bower_components/materialize/sass/components/_global.scss */
+/* line 100, ../bower_components/materialize/sass/components/_global.scss */
 i.right {
   float: right;
   margin-left: 15px;
 }
-/* line 103, ../bower_components/materialize/sass/components/_global.scss */
+/* line 104, ../bower_components/materialize/sass/components/_global.scss */
 i.small {
   font-size: 2rem;
 }
-/* line 106, ../bower_components/materialize/sass/components/_global.scss */
+/* line 107, ../bower_components/materialize/sass/components/_global.scss */
 i.medium {
   font-size: 4rem;
 }
-/* line 109, ../bower_components/materialize/sass/components/_global.scss */
+/* line 110, ../bower_components/materialize/sass/components/_global.scss */
 i.large {
   font-size: 6rem;
 }
 
-/* line 115, ../bower_components/materialize/sass/components/_global.scss */
+/* line 116, ../bower_components/materialize/sass/components/_global.scss */
 img.responsive-img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 122, ../bower_components/materialize/sass/components/_global.scss */
+/* line 123, ../bower_components/materialize/sass/components/_global.scss */
 .parallax-container {
   position: relative;
   overflow: hidden;
   height: 500px;
 }
 
-/* line 128, ../bower_components/materialize/sass/components/_global.scss */
+/* line 129, ../bower_components/materialize/sass/components/_global.scss */
 .parallax {
   position: absolute;
   top: 0;
@@ -3272,7 +3281,7 @@ img.responsive-img {
   bottom: 0;
   z-index: -1;
 }
-/* line 136, ../bower_components/materialize/sass/components/_global.scss */
+/* line 137, ../bower_components/materialize/sass/components/_global.scss */
 .parallax img {
   display: none;
   position: absolute;
@@ -3281,111 +3290,105 @@ img.responsive-img {
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 144, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 145, ../bower_components/materialize/sass/components/_global.scss */
   .parallax-container {
     height: auto;
   }
 
-  /* line 147, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 148, ../bower_components/materialize/sass/components/_global.scss */
   .parallax {
     position: relative;
     width: 100%;
   }
-  /* line 151, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 152, ../bower_components/materialize/sass/components/_global.scss */
   .parallax img {
     position: relative;
   }
 }
-/* line 159, ../bower_components/materialize/sass/components/_global.scss */
+/* line 160, ../bower_components/materialize/sass/components/_global.scss */
 .pin-top, .pin-bottom {
   position: relative;
 }
 
-/* line 162, ../bower_components/materialize/sass/components/_global.scss */
+/* line 163, ../bower_components/materialize/sass/components/_global.scss */
 .pinned {
   position: fixed;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 169, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 170, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 175, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 176, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 181, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 182, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-med-and-up {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 187, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 188, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 193, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 194, ../bower_components/materialize/sass/components/_global.scss */
   .hide-on-large-only, nav a.button-collapse {
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 200, ../bower_components/materialize/sass/components/_global.scss */
+  /* line 201, ../bower_components/materialize/sass/components/_global.scss */
   .center-on-small-only {
     text-align: center;
   }
 }
 
-/* line 209, ../bower_components/materialize/sass/components/_global.scss */
-footer {
+/* line 210, ../bower_components/materialize/sass/components/_global.scss */
+footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
   background-color: #ee6e73;
 }
-/* line 214, ../bower_components/materialize/sass/components/_global.scss */
-footer .footer-copyright {
+/* line 215, ../bower_components/materialize/sass/components/_global.scss */
+footer.page-footer .footer-copyright {
   line-height: 50px;
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(51, 51, 51, 0.08);
 }
 
-/* line 223, ../bower_components/materialize/sass/components/_global.scss */
+/* line 224, ../bower_components/materialize/sass/components/_global.scss */
 table, th, td {
   border: none;
 }
 
-/* line 227, ../bower_components/materialize/sass/components/_global.scss */
+/* line 228, ../bower_components/materialize/sass/components/_global.scss */
 table {
   width: 100%;
   display: table;
 }
-@media only screen and (max-width: 600px) {
-  /* line 232, ../bower_components/materialize/sass/components/_global.scss */
-  table thead tr th, table tbody tr td {
-    text-align: center;
-  }
-}
-/* line 238, ../bower_components/materialize/sass/components/_global.scss */
+/* line 232, ../bower_components/materialize/sass/components/_global.scss */
 table.bordered tr {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #d0d0d0;
 }
-/* line 243, ../bower_components/materialize/sass/components/_global.scss */
+/* line 237, ../bower_components/materialize/sass/components/_global.scss */
 table.striped tbody tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
-/* line 250, ../bower_components/materialize/sass/components/_global.scss */
+/* line 244, ../bower_components/materialize/sass/components/_global.scss */
 table.hoverable tbody tr {
   -webkit-transition: background-color 0.25s ease;
   -moz-transition: background-color 0.25s ease;
@@ -3393,21 +3396,21 @@ table.hoverable tbody tr {
   -ms-transition: background-color 0.25s ease;
   transition: background-color 0.25s ease;
 }
-/* line 252, ../bower_components/materialize/sass/components/_global.scss */
+/* line 246, ../bower_components/materialize/sass/components/_global.scss */
 table.hoverable tbody tr:hover {
   background-color: #f2f2f2;
 }
-/* line 259, ../bower_components/materialize/sass/components/_global.scss */
+/* line 253, ../bower_components/materialize/sass/components/_global.scss */
 table.centered thead tr th, table.centered tbody tr td {
   text-align: center;
 }
 
-/* line 267, ../bower_components/materialize/sass/components/_global.scss */
+/* line 261, ../bower_components/materialize/sass/components/_global.scss */
 thead {
-  border-bottom: 1px solid #878787;
+  border-bottom: 1px solid #d0d0d0;
 }
 
-/* line 271, ../bower_components/materialize/sass/components/_global.scss */
+/* line 265, ../bower_components/materialize/sass/components/_global.scss */
 td, th {
   padding: 15px 5px;
   display: table-cell;
@@ -3416,25 +3419,113 @@ td, th {
   border-radius: 2px;
 }
 
-/* line 280, ../bower_components/materialize/sass/components/_global.scss */
+@media only screen and (max-width: 992px) {
+  /* line 276, ../bower_components/materialize/sass/components/_global.scss */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+    /* sort out borders */
+  }
+  /* line 283, ../bower_components/materialize/sass/components/_global.scss */
+  table th,
+  table td {
+    margin: 0;
+    vertical-align: top;
+  }
+  /* line 289, ../bower_components/materialize/sass/components/_global.scss */
+  table th {
+    text-align: left;
+  }
+  /* line 290, ../bower_components/materialize/sass/components/_global.scss */
+  table thead {
+    display: block;
+    float: left;
+  }
+  /* line 294, ../bower_components/materialize/sass/components/_global.scss */
+  table thead tr {
+    display: block;
+    padding: 0 10px 0 0;
+  }
+  /* line 299, ../bower_components/materialize/sass/components/_global.scss */
+  table tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  /* line 306, ../bower_components/materialize/sass/components/_global.scss */
+  table tbody tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* line 311, ../bower_components/materialize/sass/components/_global.scss */
+  table th {
+    display: block;
+    text-align: right;
+  }
+  /* line 315, ../bower_components/materialize/sass/components/_global.scss */
+  table td {
+    display: block;
+    min-height: 1.25em;
+    text-align: left;
+  }
+  /* line 320, ../bower_components/materialize/sass/components/_global.scss */
+  table tr {
+    padding: 0 10px;
+  }
+  /* line 323, ../bower_components/materialize/sass/components/_global.scss */
+  table thead {
+    border: 0;
+    border-right: 1px solid #d0d0d0;
+  }
+  /* line 329, ../bower_components/materialize/sass/components/_global.scss */
+  table.bordered th {
+    border-bottom: 0;
+    border-left: 0;
+  }
+  /* line 330, ../bower_components/materialize/sass/components/_global.scss */
+  table.bordered td {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  /* line 331, ../bower_components/materialize/sass/components/_global.scss */
+  table.bordered tr {
+    border: 0;
+  }
+  /* line 332, ../bower_components/materialize/sass/components/_global.scss */
+  table.bordered tbody tr {
+    border-right: 1px solid #d0d0d0;
+  }
+}
+/* line 341, ../bower_components/materialize/sass/components/_global.scss */
 .collection {
   background-color: #fff;
   margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
 }
-/* line 286, ../bower_components/materialize/sass/components/_global.scss */
+/* line 347, ../bower_components/materialize/sass/components/_global.scss */
 .collection .collection-item {
   line-height: 1.5rem;
   padding: 10px 20px;
   margin: 0px;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 291, ../bower_components/materialize/sass/components/_global.scss */
+/* line 352, ../bower_components/materialize/sass/components/_global.scss */
 .collection .collection-item:last-child {
   border-bottom: none;
 }
-/* line 295, ../bower_components/materialize/sass/components/_global.scss */
+/* line 356, ../bower_components/materialize/sass/components/_global.scss */
+.collection .collection-item.active {
+  background-color: #42A5F5;
+  color: #BBDEFB;
+}
+/* line 361, ../bower_components/materialize/sass/components/_global.scss */
 .collection a.collection-item {
   display: block;
   -webkit-transition: 0.25s;
@@ -3443,39 +3534,34 @@ td, th {
   -ms-transition: 0.25s;
   transition: 0.25s;
 }
-/* line 299, ../bower_components/materialize/sass/components/_global.scss */
+/* line 365, ../bower_components/materialize/sass/components/_global.scss */
 .collection a.collection-item:not(.active):hover {
   background-color: rgba(0, 0, 0, 0.08);
 }
-/* line 306, ../bower_components/materialize/sass/components/_global.scss */
+/* line 372, ../bower_components/materialize/sass/components/_global.scss */
 .collection.with-header .collection-header {
   border-bottom: 1px solid #e0e0e0;
   padding: 10px 20px;
 }
-/* line 310, ../bower_components/materialize/sass/components/_global.scss */
+/* line 376, ../bower_components/materialize/sass/components/_global.scss */
 .collection.with-header .collection-item {
   padding-left: 30px;
 }
-/* line 314, ../bower_components/materialize/sass/components/_global.scss */
-.collection .active {
-  background-color: #42A5F5;
-  color: #BBDEFB;
-}
-/* line 318, ../bower_components/materialize/sass/components/_global.scss */
+/* line 381, ../bower_components/materialize/sass/components/_global.scss */
 .collection .secondary-content {
   float: right;
 }
-/* line 323, ../bower_components/materialize/sass/components/_global.scss */
+/* line 386, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination {
   display: inline-block;
 }
-/* line 326, ../bower_components/materialize/sass/components/_global.scss */
+/* line 389, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination ul {
   background-color: transparent;
   font-size: 0;
   display: inline-block;
 }
-/* line 331, ../bower_components/materialize/sass/components/_global.scss */
+/* line 394, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li {
   display: inline;
   font-weight: 500;
@@ -3483,21 +3569,21 @@ td, th {
   padding: 0px;
   font-size: 1rem;
 }
-/* line 338, ../bower_components/materialize/sass/components/_global.scss */
+/* line 401, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li a {
   padding: 0px 5px;
 }
-/* line 341, ../bower_components/materialize/sass/components/_global.scss */
+/* line 404, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li.active {
   background-color: #03a9f4;
   color: #FFF;
 }
-/* line 345, ../bower_components/materialize/sass/components/_global.scss */
+/* line 408, ../bower_components/materialize/sass/components/_global.scss */
 .collection.pagination li:hover {
   background-color: #e1f5fe;
 }
 
-/* line 354, ../bower_components/materialize/sass/components/_global.scss */
+/* line 417, ../bower_components/materialize/sass/components/_global.scss */
 span.badge {
   min-width: 3rem;
   padding: 0 6px;
@@ -3510,7 +3596,7 @@ span.badge {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 364, ../bower_components/materialize/sass/components/_global.scss */
+/* line 427, ../bower_components/materialize/sass/components/_global.scss */
 span.badge.new {
   font-weight: 300;
   font-size: 0.8rem;
@@ -3521,12 +3607,12 @@ span.badge.new {
   border-radius: 2px;
   background-clip: padding-box;
 }
-/* line 371, ../bower_components/materialize/sass/components/_global.scss */
+/* line 434, ../bower_components/materialize/sass/components/_global.scss */
 span.badge.new:after {
   content: " new";
 }
 
-/* line 377, ../bower_components/materialize/sass/components/_global.scss */
+/* line 440, ../bower_components/materialize/sass/components/_global.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -3534,7 +3620,7 @@ span.badge.new:after {
   height: 0;
   overflow: hidden;
 }
-/* line 384, ../bower_components/materialize/sass/components/_global.scss */
+/* line 447, ../bower_components/materialize/sass/components/_global.scss */
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
@@ -3543,35 +3629,186 @@ span.badge.new:after {
   height: 100%;
 }
 
+/* line 457, ../bower_components/materialize/sass/components/_global.scss */
+.progress {
+  position: relative;
+  height: 4px;
+  display: block;
+  width: 100%;
+  background-color: #c5ecfe;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden;
+}
+/* line 466, ../bower_components/materialize/sass/components/_global.scss */
+.progress .determinate {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  bottom: 0;
+  background-color: #03a9f4;
+  -webkit-transition: width 0.3s linear;
+  -moz-transition: width 0.3s linear;
+  -o-transition: width 0.3s linear;
+  -ms-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+}
+/* line 474, ../bower_components/materialize/sass/components/_global.scss */
+.progress .indeterminate {
+  background-color: #03a9f4;
+}
+/* line 476, ../bower_components/materialize/sass/components/_global.scss */
+.progress .indeterminate:before {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  -moz-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  -ms-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  -o-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+}
+/* line 488, ../bower_components/materialize/sass/components/_global.scss */
+.progress .indeterminate:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -moz-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -ms-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -o-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -webkit-animation-delay: 1.15s;
+  -moz-animation-delay: 1.15s;
+  -ms-animation-delay: 1.15s;
+  -o-animation-delay: 1.15s;
+  animation-delay: 1.15s;
+}
+
+@-webkit-keyframes $animation-name {
+  0% {
+    left: -35%;
+    right: 100%;
+  }
+  60% {
+    left: 100%;
+    right: -90%;
+  }
+  100% {
+    left: 100%;
+    right: -90%;
+  }
+}
+@-moz-keyframes $animation-name {
+  0% {
+    left: -35%;
+    right: 100%;
+  }
+  60% {
+    left: 100%;
+    right: -90%;
+  }
+  100% {
+    left: 100%;
+    right: -90%;
+  }
+}
+@keyframes $animation-name {
+  0% {
+    left: -35%;
+    right: 100%;
+  }
+  60% {
+    left: 100%;
+    right: -90%;
+  }
+  100% {
+    left: 100%;
+    right: -90%;
+  }
+}
+@-webkit-keyframes $animation-name {
+  0% {
+    left: -200%;
+    right: 100%;
+  }
+  60% {
+    left: 107%;
+    right: -8%;
+  }
+  100% {
+    left: 107%;
+    right: -8%;
+  }
+}
+@-moz-keyframes $animation-name {
+  0% {
+    left: -200%;
+    right: 100%;
+  }
+  60% {
+    left: 107%;
+    right: -8%;
+  }
+  100% {
+    left: 107%;
+    right: -8%;
+  }
+}
+@keyframes $animation-name {
+  0% {
+    left: -200%;
+    right: 100%;
+  }
+  60% {
+    left: 107%;
+    right: -8%;
+  }
+  100% {
+    left: 107%;
+    right: -8%;
+  }
+}
 /*******************
   Utility Classes
 *******************/
-/* line 398, ../bower_components/materialize/sass/components/_global.scss */
+/* line 536, ../bower_components/materialize/sass/components/_global.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 401, ../bower_components/materialize/sass/components/_global.scss */
+/* line 539, ../bower_components/materialize/sass/components/_global.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 404, ../bower_components/materialize/sass/components/_global.scss */
+/* line 542, ../bower_components/materialize/sass/components/_global.scss */
 .center, .center-align {
   text-align: center;
 }
 
-/* line 408, ../bower_components/materialize/sass/components/_global.scss */
+/* line 546, ../bower_components/materialize/sass/components/_global.scss */
 .left {
   float: left !important;
 }
 
-/* line 411, ../bower_components/materialize/sass/components/_global.scss */
+/* line 549, ../bower_components/materialize/sass/components/_global.scss */
 .right {
   float: right !important;
 }
 
-/* line 416, ../bower_components/materialize/sass/components/_global.scss */
+/* line 554, ../bower_components/materialize/sass/components/_global.scss */
 .no-select, input[type=range], input[type=range] + .thumb {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -3581,7 +3818,7 @@ span.badge.new:after {
   user-select: none;
 }
 
-/* line 426, ../bower_components/materialize/sass/components/_global.scss */
+/* line 564, ../bower_components/materialize/sass/components/_global.scss */
 .circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -3589,7 +3826,7 @@ span.badge.new:after {
   background-clip: padding-box;
 }
 
-/* line 430, ../bower_components/materialize/sass/components/_global.scss */
+/* line 568, ../bower_components/materialize/sass/components/_global.scss */
 .center-block {
   display: block;
   margin-left: auto;
@@ -7997,7 +8234,7 @@ small {
 }
 
 /* line 41, ../bower_components/materialize/sass/components/_typography.scss */
-.light, footer .footer-copyright {
+.light, footer.page-footer .footer-copyright {
   font-weight: 300;
 }
 
@@ -8260,7 +8497,7 @@ small {
 
 /* line 3, ../bower_components/materialize/sass/components/_cards.scss */
 .card-panel {
-  padding: 1rem;
+  padding: 20px;
   margin: 0.5rem 0 1rem 0;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -8296,7 +8533,7 @@ small {
 /* line 30, ../bower_components/materialize/sass/components/_cards.scss */
 .card a {
   color: #ffab40;
-  margin-right: 16px;
+  margin-right: 20px;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
@@ -8353,11 +8590,11 @@ small {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 16px;
+  padding: 20px;
 }
 /* line 85, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-content {
-  padding: 16px;
+  padding: 20px;
   -webkit-border-radius: 0 0 2px 2px;
   -moz-border-radius: 0 0 2px 2px;
   border-radius: 0 0 2px 2px;
@@ -8378,11 +8615,11 @@ small {
 /* line 99, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-action {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 16px;
+  padding: 20px;
 }
 /* line 104, ../bower_components/materialize/sass/components/_cards.scss */
 .card .card-reveal {
-  padding: 16px;
+  padding: 20px;
   position: absolute;
   background-color: #FFF;
   top: 100%;
@@ -8449,8 +8686,16 @@ small {
   font-size: 1.1rem;
   font-weight: 300;
   color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
 }
 /* line 44, ../bower_components/materialize/sass/components/_toast.scss */
@@ -8591,28 +8836,29 @@ ul.tabs li.tab {
   line-height: 36px;
   text-transform: uppercase;
   border: none;
+  outline: 0;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 15, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 16, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-large:disabled, .btn-floating:disabled {
   background-color: #DFDFDF;
   box-shadow: none;
   color: #9F9F9F;
 }
-/* line 20, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 21, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn.disabled:hover, .disabled.btn-large:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover {
   background-color: #DFDFDF;
   color: #9F9F9F;
 }
 
-/* line 27, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 28, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
   font-size: 1.3rem;
   line-height: inherit;
 }
 
-/* line 34, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 35, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn, .btn-large {
   text-decoration: none;
   color: #FFF;
@@ -8626,12 +8872,12 @@ ul.tabs li.tab {
   transition: 0.2s ease-out;
   cursor: pointer;
 }
-/* line 44, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 45, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn:hover, .btn-large:hover {
   background-color: #39a1f4;
 }
 
-/* line 51, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 52, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating {
   display: inline-block;
   position: relative;
@@ -8652,7 +8898,7 @@ ul.tabs li.tab {
   transition: 0.3s;
   cursor: pointer;
 }
-/* line 65, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 66, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating i {
   width: inherit;
   display: inline-block;
@@ -8661,34 +8907,34 @@ ul.tabs li.tab {
   font-size: 1.6rem;
   line-height: 37px;
 }
-/* line 77, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 78, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating.btn-large {
   width: 55.5px;
   height: 55.5px;
 }
-/* line 80, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 81, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-floating.btn-large i {
   line-height: 55.5px;
 }
 
-/* line 87, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 88, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-flat {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
 }
-/* line 93, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 94, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-flat.disabled {
   color: #b3b3b3;
 }
 
-/* line 99, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 100, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-large {
   height: 54px;
   line-height: 56px;
 }
-/* line 104, ../bower_components/materialize/sass/components/_buttons.scss */
+/* line 105, ../bower_components/materialize/sass/components/_buttons.scss */
 .btn-large i {
   font-size: 1.6rem;
 }
@@ -9108,7 +9354,7 @@ button:focus {
   background-color: #51adf6;
 }
 
-/* line 11, ../bower_components/materialize/sass/components/_form.scss */
+/* line 10, ../bower_components/materialize/sass/components/_form.scss */
 label {
   font-size: 0.8rem;
   color: #9e9e9e;
@@ -9117,9 +9363,10 @@ label {
 /***************************
    Text Inputs + Textarea
 ****************************/
-/* line 20, ../bower_components/materialize/sass/components/_form.scss */
+/* line 19, ../bower_components/materialize/sass/components/_form.scss */
 .input-field {
   position: relative;
+  margin-top: 1rem;
 }
 /* line 23, ../bower_components/materialize/sass/components/_form.scss */
 .input-field label {
@@ -9149,32 +9396,38 @@ label {
 .input-field input[type=password]:focus + label,
 .input-field input[type=email]:focus + label,
 .input-field input[type=date]:focus + label,
-.input-field textarea:focus + label {
+.input-field input[type=tel]:focus + label,
+.input-field input[type=number]:focus + label,
+.input-field textarea:focus.materialize-textarea + label {
   color: #03a9f4;
 }
-/* line 45, ../bower_components/materialize/sass/components/_form.scss */
+/* line 47, ../bower_components/materialize/sass/components/_form.scss */
 .input-field input[type=text].valid,
 .input-field input[type=password].valid,
 .input-field input[type=email].valid,
 .input-field input[type=date].valid,
-.input-field textarea.valid {
+.input-field input[type=tel].valid,
+.input-field input[type=number].valid,
+.input-field textarea.materialize-textarea.valid {
   border-bottom: 1px solid #4CAF50;
   -webkit-box-shadow: 0 1px 0 0 #4CAF50;
   -moz-box-shadow: 0 1px 0 0 #4CAF50;
   box-shadow: 0 1px 0 0 #4CAF50;
 }
-/* line 54, ../bower_components/materialize/sass/components/_form.scss */
+/* line 58, ../bower_components/materialize/sass/components/_form.scss */
 .input-field input[type=text].invalid,
 .input-field input[type=password].invalid,
 .input-field input[type=email].invalid,
 .input-field input[type=date].invalid,
-.input-field textarea.invalid {
+.input-field input[type=tel].invalid,
+.input-field input[type=number].invalid,
+.input-field textarea.materialize-textarea.invalid {
   border-bottom: 1px solid #F44336;
   -webkit-box-shadow: 0 1px 0 0 #F44336;
   -moz-box-shadow: 0 1px 0 0 #F44336;
   box-shadow: 0 1px 0 0 #F44336;
 }
-/* line 64, ../bower_components/materialize/sass/components/_form.scss */
+/* line 70, ../bower_components/materialize/sass/components/_form.scss */
 .input-field .prefix {
   position: absolute;
   width: 3rem;
@@ -9185,46 +9438,55 @@ label {
   -ms-transition: color 0.2s;
   transition: color 0.2s;
 }
-/* line 70, ../bower_components/materialize/sass/components/_form.scss */
+/* line 76, ../bower_components/materialize/sass/components/_form.scss */
 .input-field .prefix.active {
   color: #03a9f4;
 }
-/* line 72, ../bower_components/materialize/sass/components/_form.scss */
+/* line 78, ../bower_components/materialize/sass/components/_form.scss */
 .input-field .prefix ~ input,
 .input-field .prefix ~ textarea {
   margin-left: 3rem;
   width: 92%;
   width: calc(100% - 3rem);
 }
-/* line 78, ../bower_components/materialize/sass/components/_form.scss */
+/* line 84, ../bower_components/materialize/sass/components/_form.scss */
 .input-field .prefix ~ textarea {
   padding-top: .8rem;
 }
-/* line 79, ../bower_components/materialize/sass/components/_form.scss */
+/* line 85, ../bower_components/materialize/sass/components/_form.scss */
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
 @media only screen and (max-width: 992px) {
-  /* line 82, ../bower_components/materialize/sass/components/_form.scss */
+  /* line 88, ../bower_components/materialize/sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem);
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 88, ../bower_components/materialize/sass/components/_form.scss */
+  /* line 94, ../bower_components/materialize/sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 80%;
     width: calc(100% - 3rem);
   }
 }
 
-/* line 96, ../bower_components/materialize/sass/components/_form.scss */
+/* line 103, ../bower_components/materialize/sass/components/_form.scss */
+textarea {
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
+}
+
+/* line 109, ../bower_components/materialize/sass/components/_form.scss */
 input[type=text],
 input[type=password],
 input[type=email],
 input[type=date],
-textarea {
+input[type=tel],
+input[type=number],
+textarea.materialize-textarea {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #9e9e9e;
@@ -9247,20 +9509,22 @@ textarea {
   transition: 0.3s;
 }
 
-/* line 115, ../bower_components/materialize/sass/components/_form.scss */
+/* line 131, ../bower_components/materialize/sass/components/_form.scss */
 input[type=text]:focus,
 input[type=password]:focus,
 input[type=email]:focus,
 input[type=date]:focus,
-textarea:focus {
+input[type=tel]:focus,
+input[type=number]:focus,
+textarea:focus.materialize-textarea {
   border-bottom: 1px solid #03a9f4;
   -webkit-box-shadow: 0 1px 0 0 #03a9f4;
   -moz-box-shadow: 0 1px 0 0 #03a9f4;
   box-shadow: 0 1px 0 0 #03a9f4;
 }
 
-/* line 124, ../bower_components/materialize/sass/components/_form.scss */
-textarea {
+/* line 142, ../bower_components/materialize/sass/components/_form.scss */
+textarea.materialize-textarea {
   overflow-y: hidden;
   /* prevents scroll bar flash */
   padding: 1.6rem 0;
@@ -9268,7 +9532,7 @@ textarea {
   resize: none;
 }
 
-/* line 131, ../bower_components/materialize/sass/components/_form.scss */
+/* line 149, ../bower_components/materialize/sass/components/_form.scss */
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
@@ -9283,14 +9547,14 @@ textarea {
   Radio Buttons
 ***************/
 /* Remove default Radio Buttons */
-/* line 145, ../bower_components/materialize/sass/components/_form.scss */
+/* line 163, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:not(:checked),
 [type="radio"]:checked {
   position: absolute;
   left: -9999px;
 }
 
-/* line 151, ../bower_components/materialize/sass/components/_form.scss */
+/* line 169, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:not(:checked) + label,
 [type="radio"]:checked + label {
   position: relative;
@@ -9315,7 +9579,7 @@ textarea {
   /* IE10+ */
 }
 
-/* line 168, ../bower_components/materialize/sass/components/_form.scss */
+/* line 186, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"] + label:before,
 [type="radio"] + label:after {
   content: '';
@@ -9334,13 +9598,13 @@ textarea {
 }
 
 /* Unchecked styles */
-/* line 183, ../bower_components/materialize/sass/components/_form.scss */
+/* line 201, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:not(:checked) + label:before {
   border-radius: 50%;
   border: 2px solid #5a5a5a;
 }
 
-/* line 187, ../bower_components/materialize/sass/components/_form.scss */
+/* line 205, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:not(:checked) + label:after {
   border-radius: 50%;
   border: 2px solid #5a5a5a;
@@ -9353,13 +9617,13 @@ textarea {
 }
 
 /* Checked styles */
-/* line 196, ../bower_components/materialize/sass/components/_form.scss */
+/* line 214, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:checked + label:before {
   border-radius: 50%;
   border: 2px solid transparent;
 }
 
-/* line 200, ../bower_components/materialize/sass/components/_form.scss */
+/* line 218, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:checked + label:after {
   border-radius: 50%;
   border: 2px solid #0f9d58;
@@ -9373,13 +9637,13 @@ textarea {
 }
 
 /* Radio With gap */
-/* line 209, ../bower_components/materialize/sass/components/_form.scss */
+/* line 227, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"].with-gap:checked + label:before {
   border-radius: 50%;
   border: 2px solid #0f9d58;
 }
 
-/* line 213, ../bower_components/materialize/sass/components/_form.scss */
+/* line 231, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"].with-gap:checked + label:after {
   border-radius: 50%;
   border: 2px solid #0f9d58;
@@ -9393,19 +9657,19 @@ textarea {
 }
 
 /* Disabled style */
-/* line 222, ../bower_components/materialize/sass/components/_form.scss */
+/* line 240, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:disabled:not(:checked) + label:before,
 [type="radio"]:disabled:checked + label:before {
   background-color: transparent;
   border-color: rgba(0, 0, 0, 0.26);
 }
 
-/* line 227, ../bower_components/materialize/sass/components/_form.scss */
+/* line 245, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:disabled + label {
   color: rgba(0, 0, 0, 0.26);
 }
 
-/* line 230, ../bower_components/materialize/sass/components/_form.scss */
+/* line 248, ../bower_components/materialize/sass/components/_form.scss */
 [type="radio"]:disabled:not(:checked) + label:hover:before {
   border-color: rgba(0, 0, 0, 0.26);
 }
@@ -9414,26 +9678,26 @@ textarea {
    Checkboxes
 ***************/
 /* CUSTOM CSS CHECKBOXES */
-/* line 240, ../bower_components/materialize/sass/components/_form.scss */
+/* line 258, ../bower_components/materialize/sass/components/_form.scss */
 form p {
   margin-bottom: 10px;
   text-align: left;
 }
 
-/* line 244, ../bower_components/materialize/sass/components/_form.scss */
+/* line 262, ../bower_components/materialize/sass/components/_form.scss */
 form p:last-child {
   margin-bottom: 0px;
 }
 
 /* Remove default checkbox */
-/* line 249, ../bower_components/materialize/sass/components/_form.scss */
+/* line 267, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
   position: absolute;
   left: -9999px;
 }
 
-/* line 254, ../bower_components/materialize/sass/components/_form.scss */
+/* line 272, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:not(:checked) + label,
 [type="checkbox"]:checked + label {
   position: relative;
@@ -9454,7 +9718,7 @@ form p:last-child {
 }
 
 /* checkbox aspect */
-/* line 271, ../bower_components/materialize/sass/components/_form.scss */
+/* line 289, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"] + label:before {
   content: '';
   position: absolute;
@@ -9473,7 +9737,7 @@ form p:last-child {
 }
 
 /* Unchecked styles */
-/* line 281, ../bower_components/materialize/sass/components/_form.scss */
+/* line 299, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:not(:checked) + label:before {
   top: 0px;
   width: 18px;
@@ -9482,7 +9746,7 @@ form p:last-child {
 }
 
 /* Checked styles */
-/* line 288, ../bower_components/materialize/sass/components/_form.scss */
+/* line 306, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:checked + label:before {
   left: -3px;
   top: -4px;
@@ -9506,7 +9770,7 @@ form p:last-child {
 }
 
 /* disabled checkbox */
-/* line 303, ../bower_components/materialize/sass/components/_form.scss */
+/* line 321, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:disabled:not(:checked) + label:before,
 [type="checkbox"]:disabled:checked + label:before {
   top: 0;
@@ -9523,20 +9787,102 @@ form p:last-child {
   transform: rotateZ(0deg);
 }
 
-/* line 313, ../bower_components/materialize/sass/components/_form.scss */
+/* line 331, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:disabled + label {
   color: rgba(0, 0, 0, 0.26);
 }
 
-/* line 316, ../bower_components/materialize/sass/components/_form.scss */
+/* line 334, ../bower_components/materialize/sass/components/_form.scss */
 [type="checkbox"]:disabled:not(:checked) + label:hover:before {
   border-color: rgba(0, 0, 0, 0.26);
+}
+
+/* line 340, ../bower_components/materialize/sass/components/_form.scss */
+.switch,
+.switch * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 346, ../bower_components/materialize/sass/components/_form.scss */
+.switch label {
+  cursor: pointer;
+}
+
+/* line 349, ../bower_components/materialize/sass/components/_form.scss */
+.switch label input[type=checkbox]:first-child {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* line 354, ../bower_components/materialize/sass/components/_form.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever {
+  background-color: #7bc5be;
+}
+
+/* line 357, ../bower_components/materialize/sass/components/_form.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+  background-color: #009587;
+}
+
+/* line 360, ../bower_components/materialize/sass/components/_form.scss */
+.switch label .lever,
+.switch label input[type=checkbox][disabled]:first-child + .lever {
+  content: "";
+  display: inline-block;
+  width: 45px;
+  height: 15px;
+  background-color: #818181;
+  border-radius: 15px;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* line 373, ../bower_components/materialize/sass/components/_form.scss */
+.switch label .lever:after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+  left: -5px;
+  top: -2px;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+}
+
+/* line 386, ../bower_components/materialize/sass/components/_form.scss */
+.switch label input[type=checkbox][disabled]:first-child + .lever:after,
+.switch label input[type=checkbox][disabled]:checked:first-child + .lever:after {
+  background-color: #BDBDBD;
+}
+
+/* line 390, ../bower_components/materialize/sass/components/_form.scss */
+input[type=checkbox]:first-child:checked ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 149, 135, 0.1);
+}
+
+/* line 393, ../bower_components/materialize/sass/components/_form.scss */
+input[type=checkbox]:first-child ~ .lever:active:after,
+input[type=checkbox][disabled]:first-child ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* line 397, ../bower_components/materialize/sass/components/_form.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+  left: 30px;
 }
 
 /***************
   Select Field
 ***************/
-/* line 326, ../bower_components/materialize/sass/components/_form.scss */
+/* line 406, ../bower_components/materialize/sass/components/_form.scss */
 .select-wrapper span.select-dropdown {
   position: relative;
   cursor: pointer;
@@ -9554,38 +9900,38 @@ form p:last-child {
   display: block;
   position: relative;
 }
-/* line 343, ../bower_components/materialize/sass/components/_form.scss */
+/* line 423, ../bower_components/materialize/sass/components/_form.scss */
 .select-wrapper span.select-dropdown:after {
   position: absolute;
   right: 0;
   font-size: 23px;
 }
 
-/* line 352, ../bower_components/materialize/sass/components/_form.scss */
+/* line 432, ../bower_components/materialize/sass/components/_form.scss */
 select {
   display: none;
 }
 
-/* line 353, ../bower_components/materialize/sass/components/_form.scss */
+/* line 433, ../bower_components/materialize/sass/components/_form.scss */
 select.browser-default {
   display: block;
 }
 
-/* line 357, ../bower_components/materialize/sass/components/_form.scss */
+/* line 437, ../bower_components/materialize/sass/components/_form.scss */
 select:disabled {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 360, ../bower_components/materialize/sass/components/_form.scss */
+/* line 440, ../bower_components/materialize/sass/components/_form.scss */
 .select-wrapper span.select-dropdown.disabled {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 363, ../bower_components/materialize/sass/components/_form.scss */
+/* line 443, ../bower_components/materialize/sass/components/_form.scss */
 .select-dropdown li.disabled {
   color: rgba(0, 0, 0, 0.3);
 }
-/* line 366, ../bower_components/materialize/sass/components/_form.scss */
+/* line 446, ../bower_components/materialize/sass/components/_form.scss */
 .select-dropdown li.disabled:hover {
   background-color: transparent;
 }
@@ -9593,17 +9939,17 @@ select:disabled {
 /***************
       Range
 ***************/
-/* line 374, ../bower_components/materialize/sass/components/_form.scss */
+/* line 454, ../bower_components/materialize/sass/components/_form.scss */
 .range-field {
   position: relative;
 }
 
-/* line 378, ../bower_components/materialize/sass/components/_form.scss */
+/* line 458, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range], input[type=range] + .thumb {
   cursor: pointer;
 }
 
-/* line 383, ../bower_components/materialize/sass/components/_form.scss */
+/* line 463, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] {
   position: relative;
   background-color: transparent;
@@ -9614,7 +9960,7 @@ input[type=range] {
   padding: 0;
 }
 
-/* line 392, ../bower_components/materialize/sass/components/_form.scss */
+/* line 472, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb {
   position: absolute;
   border: none;
@@ -9635,7 +9981,7 @@ input[type=range] + .thumb {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 405, ../bower_components/materialize/sass/components/_form.scss */
+/* line 485, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb .value {
   display: block;
   width: 30px;
@@ -9648,11 +9994,11 @@ input[type=range] + .thumb .value {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 414, ../bower_components/materialize/sass/components/_form.scss */
+/* line 494, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb.active {
   border-radius: 50% 50% 50% 0;
 }
-/* line 417, ../bower_components/materialize/sass/components/_form.scss */
+/* line 497, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] + .thumb.active .value {
   color: #fff;
   margin-left: -1px;
@@ -9660,24 +10006,24 @@ input[type=range] + .thumb.active .value {
   font-size: 10px;
 }
 
-/* line 427, ../bower_components/materialize/sass/components/_form.scss */
+/* line 507, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus {
   outline: none;
 }
 
-/* line 434, ../bower_components/materialize/sass/components/_form.scss */
+/* line 514, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] {
   -webkit-appearance: none;
 }
 
-/* line 438, ../bower_components/materialize/sass/components/_form.scss */
+/* line 518, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-webkit-slider-runnable-track {
   height: 3px;
   background: #c2c0c2;
   border: none;
 }
 
-/* line 444, ../bower_components/materialize/sass/components/_form.scss */
+/* line 524, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: none;
@@ -9694,26 +10040,26 @@ input[type=range]::-webkit-slider-thumb {
   transition: 0.3s;
 }
 
-/* line 456, ../bower_components/materialize/sass/components/_form.scss */
+/* line 536, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-webkit-slider-runnable-track {
   background: #ccc;
 }
 
-/* line 461, ../bower_components/materialize/sass/components/_form.scss */
+/* line 541, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range] {
   /* fix for FF unable to apply focus style bug  */
   border: 1px solid white;
   /*required for proper track sizing in FF*/
 }
 
-/* line 468, ../bower_components/materialize/sass/components/_form.scss */
+/* line 548, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-moz-range-track {
   height: 3px;
   background: #ddd;
   border: none;
 }
 
-/* line 474, ../bower_components/materialize/sass/components/_form.scss */
+/* line 554, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-moz-range-thumb {
   border: none;
   height: 14px;
@@ -9724,18 +10070,18 @@ input[type=range]::-moz-range-thumb {
 }
 
 /*hide the outline behind the border*/
-/* line 484, ../bower_components/materialize/sass/components/_form.scss */
+/* line 564, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:-moz-focusring {
   outline: 1px solid white;
   outline-offset: -1px;
 }
 
-/* line 489, ../bower_components/materialize/sass/components/_form.scss */
+/* line 569, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-moz-range-track {
   background: #ccc;
 }
 
-/* line 494, ../bower_components/materialize/sass/components/_form.scss */
+/* line 574, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-track {
   height: 3px;
   /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
@@ -9747,17 +10093,17 @@ input[type=range]::-ms-track {
   color: transparent;
 }
 
-/* line 507, ../bower_components/materialize/sass/components/_form.scss */
+/* line 587, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-fill-lower {
   background: #777;
 }
 
-/* line 510, ../bower_components/materialize/sass/components/_form.scss */
+/* line 590, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-fill-upper {
   background: #ddd;
 }
 
-/* line 513, ../bower_components/materialize/sass/components/_form.scss */
+/* line 593, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]::-ms-thumb {
   border: none;
   height: 14px;
@@ -9766,12 +10112,12 @@ input[type=range]::-ms-thumb {
   background: #0f9d58;
 }
 
-/* line 520, ../bower_components/materialize/sass/components/_form.scss */
+/* line 600, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-ms-fill-lower {
   background: #888;
 }
 
-/* line 523, ../bower_components/materialize/sass/components/_form.scss */
+/* line 603, ../bower_components/materialize/sass/components/_form.scss */
 input[type=range]:focus::-ms-fill-upper {
   background: #ccc;
 }
@@ -9779,7 +10125,7 @@ input[type=range]:focus::-ms-fill-upper {
 /***************************
    Text Inputs + Textarea
 ****************************/
-/* line 531, ../bower_components/materialize/sass/components/_form.scss */
+/* line 611, ../bower_components/materialize/sass/components/_form.scss */
 select {
   background-color: #fffafa;
   width: 100%;
@@ -9825,68 +10171,81 @@ ul.table-of-contents a.active {
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 2, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 3, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav {
     position: fixed;
     width: 240px;
     left: -250px;
     top: 0;
-    bottom: 0;
+    height: 100%;
+    height: calc(100% + 60px);
+    padding-bottom: 60px;
     background-color: #FFF;
     z-index: 999;
     will-change: left;
   }
-  /* line 14, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 17, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav.right-aligned {
     will-change: right;
     right: -250px;
     left: auto;
   }
-  /* line 20, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 23, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav .collapsible {
     margin: 0;
   }
-  /* line 25, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 28, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav li {
     float: none;
     padding: 0 15px;
     width: 240px;
   }
-  /* line 29, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 32, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav li:hover, ul.side-nav li.active {
     background-color: #ddd;
   }
-  /* line 31, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 34, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav a {
     color: #444;
   }
 }
-/* line 39, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 42, ../bower_components/materialize/sass/components/_sideNav.scss */
+.drag-target {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+/* line 51, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.full,
 ul.side-nav.fixed {
   position: fixed;
   width: 240px;
   left: -250px;
   top: 0;
-  bottom: 0;
   margin: 0;
+  padding-bottom: 60px;
+  height: 100%;
+  height: calc(100% + 60px);
   background-color: #FFF;
   z-index: 999;
   will-change: left;
 }
-/* line 54, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 68, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.full.right-aligned,
 ul.side-nav.fixed.right-aligned {
   will-change: right;
   right: -250px;
   left: auto;
 }
-/* line 60, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 74, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.full .collapsible,
 ul.side-nav.fixed .collapsible {
   margin: 0;
 }
-/* line 64, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 78, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.full li,
 ul.side-nav.fixed li {
   float: none;
@@ -9899,13 +10258,13 @@ ul.side-nav.fixed li {
   -ms-transition: background-color 0s;
   transition: background-color 0s;
 }
-/* line 72, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 86, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.full li:hover, ul.side-nav.full li.active,
 ul.side-nav.fixed li:hover,
 ul.side-nav.fixed li.active {
   background-color: #ddd;
 }
-/* line 74, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 88, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.full a,
 ul.side-nav.fixed a {
   display: block;
@@ -9913,12 +10272,12 @@ ul.side-nav.fixed a {
   color: #444;
 }
 
-/* line 83, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 97, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.fixed {
   left: 0;
   position: fixed;
 }
-/* line 88, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 102, ../bower_components/materialize/sass/components/_sideNav.scss */
 ul.side-nav.fixed.right-aligned {
   will-change: right;
   right: 0;
@@ -9926,23 +10285,23 @@ ul.side-nav.fixed.right-aligned {
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 97, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 111, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav.fixed {
     left: -250px;
   }
-  /* line 100, ../bower_components/materialize/sass/components/_sideNav.scss */
+  /* line 114, ../bower_components/materialize/sass/components/_sideNav.scss */
   ul.side-nav.fixed.right-aligned {
     right: -250px;
     left: auto;
   }
 }
-/* line 108, ../bower_components/materialize/sass/components/_sideNav.scss */
+/* line 122, ../bower_components/materialize/sass/components/_sideNav.scss */
 #sidenav-overlay {
   position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
-  bottom: 0px;
+  height: 120vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 998;
   will-change: opacity;
@@ -10434,15 +10793,35 @@ ul.side-nav.fixed.right-aligned {
 /* line 1, ../bower_components/materialize/sass/components/_slider.scss */
 .slider {
   position: relative;
-  height: 400px;
+  height: 440px;
   width: 100%;
 }
-/* line 6, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 7, ../bower_components/materialize/sass/components/_slider.scss */
+.slider.fullscreen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 16, ../bower_components/materialize/sass/components/_slider.scss */
+.slider.fullscreen ul.slides {
+  height: 100%;
+}
+/* line 20, ../bower_components/materialize/sass/components/_slider.scss */
+.slider.fullscreen ul.indicators {
+  z-index: 2;
+  bottom: 30px;
+}
+/* line 26, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.slides {
   background-color: #9e9e9e;
   margin: 0;
+  height: 400px;
 }
-/* line 10, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 31, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.slides li {
   -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
   filter: "alpha(opacity=(${iefactor}))";
@@ -10457,11 +10836,11 @@ ul.side-nav.fixed.right-aligned {
   height: inherit;
   overflow: hidden;
 }
-/* line 20, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 41, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.slides li img {
   height: 100%;
 }
-/* line 22, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 43, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.slides li .caption {
   color: #fff;
   position: absolute;
@@ -10474,15 +10853,15 @@ ul.side-nav.fixed.right-aligned {
   -khtml-opacity: 0;
   opacity: 0;
 }
-/* line 30, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 51, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.slides li .caption p {
   color: #e0e0e0;
 }
-/* line 33, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 54, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.slides li.active {
   z-index: 2;
 }
-/* line 40, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 61, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.indicators {
   position: absolute;
   text-align: center;
@@ -10491,7 +10870,7 @@ ul.side-nav.fixed.right-aligned {
   bottom: 0;
   margin: 0;
 }
-/* line 48, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 69, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.indicators li.indicator-item {
   display: inline-block;
   position: relative;
@@ -10510,7 +10889,7 @@ ul.side-nav.fixed.right-aligned {
   border-radius: 50%;
   background-clip: padding-box;
 }
-/* line 60, ../bower_components/materialize/sass/components/_slider.scss */
+/* line 81, ../bower_components/materialize/sass/components/_slider.scss */
 .slider ul.indicators li.indicator-item.active {
   background-color: #4CAF50;
 }
@@ -17165,170 +17544,6 @@ body.home  {
 }
 .pp-tooltip.left {
     left: 20px;
-}
-
-*, *:before, *:after {
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-}
-@font-face {
-font-family: 'fontello';
-src: url('../font/fontello.eot?49077413');
-src: url('../font/fontello.eot?49077413#iefix') format('embedded-opentype'),  url('../font/fontello.woff?49077413') format('woff'),  url('../font/fontello.ttf?49077413') format('ttf'),  url('../font/fontello.svg?49077413#fontello') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-[class^="icon-"]:before, [class*=" icon-"]:before {
-font-family: "fontello";
-font-style: normal;
-font-weight: normal;
-speak: none;
-display: inline-block;
-text-decoration: inherit;
-/* For safety - reset parent styles, that can break glyph codes*/
-font-variant: normal;
-text-transform: none;
-}
-.icon-info-circled:before {
-content: '\e800';
-} /* '' */
-/*MAIN*/
-
-.skillset-list {
-display: table;
-width: 100%;
-padding: 0px;
-margin: 0px;
-}
-.skillset-list li {
-position: relative;
-float: left;
-clear: right;
-width: 100%;
-list-style: none;
-text-align: left;
-font-size: 1em;
-font-weight: 300;
-color: #666666;
-}
-.skillset-list li .bar {
-display: table;
-float: left;
-width: 100%;
-height: 10px;
-margin: 10px 0px 10px 0px;
-background-color: #f5f5f5;
-}
- @-webkit-keyframes create-full {
- 0% {
- opacity: 0.4;
- z-index: 100;
- -ms-transform: scale(0.6); /* IE 9 */
- -webkit-transform: scale(0.6); /* Chrome, Safari, Opera */
- transform: scale(0.6);
-}
- 50% {
- opacity: 0.8;
- z-index: 150;
- -ms-transform: scale(1.5); /* IE 9 */
- -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
- transform: scale(1.5);
-}
- 100% {
- opacity: 1;
- z-index: 200;
- -ms-transform: scale(1.0); /* IE 9 */
- -webkit-transform: scale(1.0); /* Chrome, Safari, Opera */
- transform: scale(1.0);
-}
-}
- @keyframes create-full {
- 0% {
- opacity: 0.4;
- z-index: 100;
- -ms-transform: scale(0.6); /* IE 9 */
- -webkit-transform: scale(0.6); /* Chrome, Safari, Opera */
- transform: scale(0.6);
-}
- 50% {
- opacity: 0.8;
- z-index: 150;
- -ms-transform: scale(1.5); /* IE 9 */
- -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
- transform: scale(1.5);
-}
- 100% {
- opacity: 1;
- z-index: 200;
- -ms-transform: scale(1.0); /* IE 9 */
- -webkit-transform: scale(1.0); /* Chrome, Safari, Opera */
- transform: scale(1.0);
-}
-}
-.skillset-list li .bar .full {
-position: relative;
-z-index: 100;
-float: left;
-height: 10px;
-background-color: #1abc9c;
-border-right: 1px solid #16a085;
--webkit-animation: create-full 0.5s 1;
--moz-animation: create-full 0.5s 1;
--o-animation: create-full 0.5s 1;
-animation: create-full 0.5s 1;
-}
- @-webkit-keyframes create-empty {
- 0% {
- opacity: 0.4;
-}
- 50% {
- opacity: 0.8;
-}
- 100% {
- opacity: 1;
-}
-}
- @keyframes create-empty {
- 0% {
- opacity: 0.4;
-}
- 50% {
- opacity: 0.8;
-}
- 100% {
- opacity: 1;
-}
-}
-.skillset-list li .bar .empty {
-float: left;
-height: 10px;
-background-color: #f0f0f0;
-border-right: 1px solid #e0e0e0;
--webkit-animation: create-bar 0.5s 1;
--moz-animation: create-bar 0.5s 1;
--o-animation: create-bar 0.5s 1;
-animation: create-bar 0.5s 1;
-}
-.skillset-list li #list-info {
-position: absolute;
-bottom: 90px;
-right: 0px;
-z-index: 100;
-opacity: 0;
-width: 200px;
-padding: 8px;
-background-color: #333333;
-border: 1px solid rgba(255,255,255,0.9);
--webkit-transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
--moz-transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
--o-transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
-transition: opacity 0.2s ease-out, bottom 0.2s ease-out;
-}
-.skillset-list li #list-info p {
-color: #ffffff;
-font-weight: 400;
-font-size: 0.9em;
 }
 
 /* line 6, ../sass/app-ltr.scss */

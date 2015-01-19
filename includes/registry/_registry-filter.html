@@ -1,29 +1,28 @@
 <div class="row">
-  <div class="input-field col s12 m3">
-      <input id="caseNumber" type="text" class="validate">
+  <div class="input-field col s12 m2">
+      <input id="caseNumber" type="text">
       <label for="caseNumber">Case number</label>
     </div>
   <div class="col s12 m3">
     <select>
-      <option value="" disabled selected>Type of the case </option>
+      <option value="" disabled selected>Case type </option>
       <option value="1">Option 1</option>
       <option value="2">Option 2</option>
       <option value="3">Option 3</option>
     </select>
   </div>
-</div>
-<div class="row">
   <div class="input-field col s12 m3">
-    <input id="claimant" type="text" class="validate">
-    <label for="claimant">Claimant</label>
-  </div>
-  <div class="input-field col s12 m3">
-    <input id="defendant" type="text" class="validate">
-    <label for="defendant">Defendant</label>
-  </div>
-  <div class="input-field col s12 m3">
-    <input id="claimant" type="text" class="validate">
+    <input id="claimant" type="text" >
     <label for="claimant">Judge</label>
+  </div>
+  <div class="input-field col s12 m2">
+    <input id="startDate" type="date" class="datepicker">
+    <label for="startDate">From</label>
+  </div>
+  <div class="input-field col s12 m2">
+    <label for="endDate">To</label>
+    <input id="endDate" type="text" class="datepicker">
+    
   </div>
 </div>
 

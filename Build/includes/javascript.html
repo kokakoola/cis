@@ -3,56 +3,17 @@
 <script src='../assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js'></script>
 <script src='../assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js'></script>
 <script src='../assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js'></script>
-<script src='../assets/bower_components/materialize/dist/js/materialize.js'></script>
+<script src='../assets/bower_components/materialize/bin/materialize.js'></script>
 <script src='../assets/javascript/app/init.js'></script>
 <script src='../assets/javascript/vendor/wow.js'></script>
 <script src='../assets/javascript/app/fullscreen.js'></script>
-<script src='../assets/javascript/vendor/skillset.js'></script>
 <script src='../assets/javascript/vendor/jquery.dataTables.js'></script>
 <script src='../assets/javascript/app/Common.js'></script>
 <script src='../assets/bower_components/typeahead.js/dist/typeahead.bundle.js'></script>
 <script src='../assets/javascript/app/typeahead-init.js'></script>
-<script src='../assets/bower_components/bootbox/bootbox.js'></script>
 
 <!-- dropzone -->
 <script>
-
-var object = [
-  {
-    'headline':'HTML & CSS',
-    'value':8,
-    'length':9,
-    'description':'Significant experience and knowlage of HTML(5) and CSS functionality and use.'
-  },
-  {
-    'headline':'JavaScript & jQuery',
-    'value':6,
-    'length':5,
-    'description':'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
-  },
-  {
-    'headline':'Ruby & Python',
-    'value':3,
-    'length':5,
-    'description':'Experience with object-oriented JavaScript. </br> Extended knowlage of DOM manipulation in aiding and extending the UI.'
-  }
-];
-
-// NOTYFICATION
-$(".notificationLink").click(function(){
-  $("#notification_count").fadeOut("slow");
-  return false;
-});
-
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 40) {
-        $("nav").addClass("scrolled");
-    } else {
-        $("nav").removeClass("scrolled");
-    }
-});
 
 // Language switcher
 $(".language").click(function(){

@@ -5,20 +5,8 @@
   </div>
 </div> -->
 <div class="row">
-  <div class="col s12 m2">
-    <input type="date" id="date" class="datepicker">
-  </div>
-  <div class="col s12 m3">
-    <select required>
-      <option value="" disabled selected>Case type </option>
-      <option value="1">استملاك</option>
-      <option value="2">property aquizition </option>
-      <option value="3">Option 3</option>
-    </select>
-  </div>
-  <div class="input-field col s12 m2">
-    <input id="claimValue" type="text" class="validate">
-    <label for="claimValue">Claim value</label>
+  <div class="col s12 m2 check-inline">
+    <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
   </div>
   <div class="col s12 m3">
     <select required>
@@ -28,8 +16,20 @@
       <option value="3">Judge Judge (22)</option>
     </select>
   </div>
-  <div class="col s12 m2 check-inline">
-    <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
+  <div class="input-field col s12 m2">
+    <input id="claimValue" type="text" class="validate">
+    <label for="claimValue">Claim value</label>
+  </div>
+  <div class="col s12 m3">
+    <select required>
+      <option value="" disabled selected>Case type </option>
+      <option value="1">استملاك</option>
+      <option value="2">property aquizition </option>
+      <option value="3">Option 3</option>
+    </select>
+  </div>
+  <div class="col s12 m2">
+    <input type="date" id="date" class="datepicker today">
   </div>
 </div>
 
@@ -58,13 +58,13 @@
 <!-- @include registry-form-claimant -->
 
 <div class="row title">
-  <div class="col s12">
+  <div class="col s12 ">
     <span class="card-title grey-text text-darken-4">Participants </span>
     <div class="divider"></div>
   </div>
 </div>
 <div class="row">
-  <div class="col s12 m5">
+  <div class="col s12 m5 right">
     <select>
       <option value="" selected>No participant </option>
       <option value="1">Witness</option>

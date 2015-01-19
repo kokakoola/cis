@@ -10,7 +10,7 @@
     $(".button-collapse").sideNav();
 
     // pickadate init with preset Today
-    $('.datepicker').pickadate({
+    $('.datepicker.today').pickadate({
        onStart: function ()
         {
           var date = new Date();
@@ -18,14 +18,16 @@
         }
     });
 
+    $('.datepicker').pickadate();
+
     // wow.js init
     new WOW().init();
 
     // skillset.js init
-    $("#skillset").skillset({
-      object:object,
-      duration:40
-    });
+    // $("#skillset").skillset({
+    //   object:object,
+    //   duration:40
+    // });
 
     // init  dataTables
     $('table.registry').DataTable({

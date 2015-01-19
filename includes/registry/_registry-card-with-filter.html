@@ -6,18 +6,33 @@
     <div class="divider"></div>
     <br><br> -->
     <!-- @include registry-filter -->
+    <div class="row" id="moreFields">
+      <div class="col s12 m2 check-inline">
+        <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
+      </div>
+      <div class="col s12 m2 check-inline">
+        <input type="checkbox" id="aid" /><label for="aid">Judical aid</label>
+      </div>
+      <div class="col s4">
+        <form action="#">
+          <p class="range-field">
+            <input type="range" id="test5" min="0" max="100" />
+            <input type="range" id="test6" min="100" max="200" />
+          </p>
+        </form>
+      </div>
+    </div>
+
   </div>
   <div class="card-action left">
-      <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action">rejected
-    </button>
-      <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action">all
-    </button>
+
   </div>
   
-  <div class="card-action right">
+  <div class="right">
 
-    <a class="waves-effect waves-blue-gray btn-flat">Cancel</a>
-
+    <a class="waves-effect waves-blue-gray btn-flat">Clear all</a>
+          <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action" data-toggle="collapse" data-target="#moreFields">More fields <i class="mdi-navigation-more-horiz"></i>
+    </button>
     <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Search
       <i class="mdi-action-search right"></i>
     </button>
