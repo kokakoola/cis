@@ -1,7 +1,24 @@
-<!-- @javascript jquery.min animate-css bootstrap/transition bootstrap/alert bootstrap/collapse materialize init wow fullscreen jquery.dataTables Common typeahead.bundle typeahead-init -->
+<!-- @javascript jquery.min handlebars animate-css bootstrap/transition bootstrap/alert bootstrap/collapse materialize init wow fullscreen jquery.dataTables Common typeahead.bundle typeahead-init -->
 
 <!-- dropzone -->
 <script>
+
+
+// NOTiFICATION
+$(".notificationLink").click(function(){
+  $("#notification_count").fadeOut("slow");
+  return false;
+});
+
+//nav
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 40) {
+        $("nav").addClass("scrolled");
+    } else {
+        $("nav").removeClass("scrolled");
+    }
+});
 
 // Language switcher
 $(".language").click(function(){

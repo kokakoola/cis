@@ -1,14 +1,28 @@
-
-// BIAPP ADJUSTMENTS 01.01.14
+.col {
+  @include float(left);
+}
+// BIAPP ADJUSTMENTS 19.01.14
 
 // waves
 .waves-ripple {
   @include margin-left(-5px);
 }
 
+.waves-input-wrapper {
+.waves-button-input {
+      @include left(0);
+  }
+}
+
 // tooltip
 .material-tooltip {
   @include left(0);
+  @include rtl {
+    will-change: top, right;
+  }
+  @include ltr {
+    will-change: top, left;
+  }
 }
 
 // toast
@@ -36,6 +50,15 @@
 // tabs
 ul.tabs li.tab { 
   @include float(left);
+}
+
+.indicator {
+  @include rtl {
+    will-change: right, left;
+  }
+  @include ltr {
+    will-change: left, right;
+  }
 }
 
 // table of co
@@ -67,26 +90,72 @@ ul.table-of-contents {
 // sidenav
 @media only screen and (max-width: 992px) {
   ul.side-nav {
-    @include left(-250px);
-    will-change: left;
-    // Right Align
-    &.right {
+    @include left(-1 * ($sidenav-width + 10));
+    @include rtl {
       will-change: right;
-      @include right(-250px);
+    }
+    @include ltr {
+      will-change: left;
+    }
+    // Right Align
+    &.right-aligned {
+    @include rtl {
+      will-change: left;
+    }
+    @include ltr {
+      will-change: right;
+    }
+      @include right( -1 * ($sidenav-width + 10));
       @include left(auto);
     }
   }
 }
 
-ul.side-nav.full {
-  @include left(-250px);
-  will-change: left;
+ul.side-nav.full,
+ul.side-nav.fixed  {
+  @include left(-1 * ($sidenav-width + 10));
+    @include rtl {
+      will-change: right;
+    }
+    @include ltr {
+      will-change: left;
+    }
 
   // Right Align
-  &.right {
-    will-change: right;
-    @include right(-250px);
+  &.right-aligned {
+    @include rtl {
+      will-change: left;
+    }
+    @include ltr {
+      will-change: right;
+    }
+      @include right( -1 * ($sidenav-width + 10));
     @include left(auto);
+  }
+}
+
+ul.side-nav.fixed {
+  @include left(0);
+  &.right-aligned {
+    @include right(0);
+    @include left(auto);
+    @include rtl {
+      will-change: left;
+    }
+    @include ltr {
+      will-change: right;
+    }
+  }
+}
+
+@media #{$medium-and-down} {
+  ul.side-nav.fixed {
+    @include left( -1 * ($sidenav-width + 10));
+
+    &.right-aligned {
+      @include right(-1 * ($sidenav-width + 10));
+      @include left(auto);
+    }
   }
 }
 
@@ -122,6 +191,16 @@ nav .input-field {
   label {
     @include left(0);
   }
+}
+
+.materialboxed:hover:not(.active) {
+    @include rtl {
+      will-change: right, top, width, height;
+    }
+    @include ltr {
+      will-change: left, top, width, height;
+    }
+
 }
 
 // grid 
@@ -222,6 +301,49 @@ td, th{
   @include  text-align(left);
 }
 
+// Responsive Table
+@media #{$medium-and-down} {
+  table {
+    thead {
+      @include  float(left);
+      @include rtl {
+         border-left: 1px solid $table-border-color;;
+      }
+      @include ltr {
+         border-right: 1px solid $table-border-color;
+         }
+         &.bordered {
+          th {
+            @include  border-left(0);
+          }
+          tbody tr {
+                        @include rtl {
+               border-left: 1px solid $table-border-color;;
+            }
+            @include ltr {
+               border-right: 1px solid $table-border-color;
+             }
+          }
+        }
+      
+      tr {
+        @include rtl {
+           padding: 0 0 0 10px;
+        }
+        @include ltr {
+           padding: 0 10px 0 0;
+        }
+      }
+    }
+    th {
+      @include text-align(right);
+    }
+    td {
+      @include text-align(left);
+    }
+  }
+}
+
 .collection {
   &.with-header {
     .collection-item {
@@ -242,6 +364,7 @@ span.badge {
     @include  left(0);
   }
 }
+
 
 // form
 .input-field label {
@@ -303,6 +426,26 @@ input[type=range] + .thumb {
   }
 }
 
+.switch label .lever,
+.switch label input[type=checkbox][disabled]:first-child + .lever {
+    @include margin-left(5px);
+    @include margin-right(10px);
+  }
+
+.switch label .lever:after {
+  @include left(-5px);
+      @include rtl {
+      transition: right 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+    }
+    @include ltr {
+      transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+    }
+}
+
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+    @include left(30px); 
+}
+
 // collapsible 
 .collapsible-header {
   i {
@@ -317,5 +460,8 @@ input[type=range] + .thumb {
     .card-title {
       @include left(0);
     }
+  }
+  a {
+    @include margin-right($card-padding);
   }
 }

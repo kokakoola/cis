@@ -148,6 +148,7 @@
   </footer>
 
 <script src='assets/bower_components/jquery/dist/jquery.min.js'></script>
+<script src='assets/bower_components/handlebars/handlebars.js'></script>
 <script src='assets/javascript/app/animate-css.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js'></script>
@@ -163,6 +164,23 @@
 
 <!-- dropzone -->
 <script>
+
+
+// NOTiFICATION
+$(".notificationLink").click(function(){
+  $("#notification_count").fadeOut("slow");
+  return false;
+});
+
+//nav
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 40) {
+        $("nav").addClass("scrolled");
+    } else {
+        $("nav").removeClass("scrolled");
+    }
+});
 
 // Language switcher
 $(".language").click(function(){

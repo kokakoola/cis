@@ -1,40 +1,19 @@
 <a class="btn-floating btn-large waves-effect waves-light red adds-form" href="registry-new-case.html"><i class="mdi-content-add"></i></a>
 <h4 class="header orange-text text-darken-2">Prime registry</h4>
-<div class="card large grey lighten-2">
+<div class="card large lighten-2">
   <div class="card-content" >
-<!--     <span class="card-title grey-text text-darken-4">Search in cases </span>
-    <div class="divider"></div>
-    <br><br> -->
+<!--     <span class="card-title grey-text text-darken-4">Search in cases </span> -->
     <!-- @include registry-filter -->
-    <div class="row" id="moreFields">
-      <div class="col s12 m2 check-inline">
-        <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
-      </div>
-      <div class="col s12 m2 check-inline">
-        <input type="checkbox" id="aid" /><label for="aid">Judical aid</label>
-      </div>
-      <div class="col s4">
-        <form action="#">
-          <p class="range-field">
-            <input type="range" id="test5" min="0" max="100" />
-            <input type="range" id="test6" min="100" max="200" />
-          </p>
-        </form>
-      </div>
-    </div>
-
   </div>
-  <div class="card-action left">
+</div>
+<div class="filter-action left">
+  <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Search
+    <i class="mdi-action-search right"></i>
+  </button>
+  <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action" data-toggle="collapse" data-target="#moreFields">More fields <i class="mdi-navigation-expand-more"></i>
+  </button>
+  <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action" data-toggle="collapse" data-target="#moreFields">Clear all <i class="mdi-navigation-close"></i>
+  </button>
 
-  </div>
-  
-  <div class="right">
 
-    <a class="waves-effect waves-blue-gray btn-flat">Clear all</a>
-          <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action" data-toggle="collapse" data-target="#moreFields">More fields <i class="mdi-navigation-more-horiz"></i>
-    </button>
-    <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Search
-      <i class="mdi-action-search right"></i>
-    </button>
-  </div>
 </div>

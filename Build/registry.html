@@ -172,17 +172,15 @@
 
           <a class="btn-floating btn-large waves-effect waves-light red adds-form" href="registry-new-case.html"><i class="mdi-content-add"></i></a>
 <h4 class="header orange-text text-darken-2">Prime registry</h4>
-<div class="card large grey lighten-2">
+<div class="card large lighten-2">
   <div class="card-content" >
-<!--     <span class="card-title grey-text text-darken-4">Search in cases </span>
-    <div class="divider"></div>
-    <br><br> -->
+<!--     <span class="card-title grey-text text-darken-4">Search in cases </span> -->
     <div class="row">
-  <div class="input-field col s12 m2">
-      <input id="caseNumber" type="text">
-      <label for="caseNumber">Case number</label>
-    </div>
-  <div class="col s12 m3">
+  <div class="input-field col s12 m2 right">
+    <input id="caseNumber" type="text">
+    <label for="caseNumber">Case number</label>
+  </div>
+  <div class="col s12 m3 right">
     <select>
       <option value="" disabled selected>Case type </option>
       <option value="1">Option 1</option>
@@ -190,18 +188,61 @@
       <option value="3">Option 3</option>
     </select>
   </div>
-  <div class="input-field col s12 m3">
+  <div class="input-field col s12 m3 right">
     <input id="claimant" type="text" >
     <label for="claimant">Judge</label>
   </div>
-  <div class="input-field col s12 m2">
+  <div class="input-field col s12 m2 right">
+    <i class="mdi-notification-event-note prefix"></i>
     <input id="startDate" type="date" class="datepicker">
     <label for="startDate">From</label>
   </div>
-  <div class="input-field col s12 m2">
+  <div class="input-field col s12 m2 right">
+    <i class="mdi-notification-event-note prefix"></i>
     <label for="endDate">To</label>
     <input id="endDate" type="text" class="datepicker">
     
+  </div>
+</div>
+
+<!-- hidden by toggle -->
+<div class="row collapse" id="moreFields">
+  <div class="col s12 m2 right">
+  <div class="check-inline">
+    <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
+  </div>
+  <br>
+  <div class="check-inline">
+    <input type="checkbox" id="aid" /><label for="aid">Judical aid</label>
+  </div>
+  </div>
+
+  <div class="col s12 m3 right">
+    <div class="row">
+      <div class="col s12">
+        <label for="">Case value</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <input id="fromSum" type="text">
+        <label for="fromSum">From</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <input id="toSum" type="text" >
+        <label for="toSum">To</label>
+      </div>
+    </div>
+  </div>
+  <div class="input-field col s12 m3 right">
+    <input id="claimant" type="text">
+    <label for="claimant">Claimant</label>
+  </div>
+  <div class="input-field col s12 m2 right">
+    <input id="defendant" type="text">
+    <label for="defendant">Defendant</label>
+  </div>
+  <div class="input-field col s12 m2 right">
+    <input id="participant" type="text">
+    <label for="participant">Participant</label>
   </div>
 </div>
 
@@ -210,37 +251,18 @@
 
 
 
-    <div class="row" id="moreFields">
-      <div class="col s12 m2 check-inline">
-        <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
-      </div>
-      <div class="col s12 m2 check-inline">
-        <input type="checkbox" id="aid" /><label for="aid">Judical aid</label>
-      </div>
-      <div class="col s4">
-        <form action="#">
-          <p class="range-field">
-            <input type="range" id="test5" min="0" max="100" />
-            <input type="range" id="test6" min="100" max="200" />
-          </p>
-        </form>
-      </div>
-    </div>
-
   </div>
-  <div class="card-action left">
+</div>
+<div class="filter-action left">
+  <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Search
+    <i class="mdi-action-search right"></i>
+  </button>
+  <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action" data-toggle="collapse" data-target="#moreFields">More fields <i class="mdi-navigation-expand-more"></i>
+  </button>
+  <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action" data-toggle="collapse" data-target="#moreFields">Clear all <i class="mdi-navigation-close"></i>
+  </button>
 
-  </div>
-  
-  <div class="right">
 
-    <a class="waves-effect waves-blue-gray btn-flat">Clear all</a>
-          <button class="btn bg-mauve waves-effect waves-light" type="submit" name="action" data-toggle="collapse" data-target="#moreFields">More fields <i class="mdi-navigation-more-horiz"></i>
-    </button>
-    <button class="btn bg-orange waves-effect waves-light" type="submit" name="action">Search
-      <i class="mdi-action-search right"></i>
-    </button>
-  </div>
 </div>
 
         </div>
@@ -358,6 +380,7 @@
   </footer>
 
 <script src='assets/bower_components/jquery/dist/jquery.min.js'></script>
+<script src='assets/bower_components/handlebars/handlebars.js'></script>
 <script src='assets/javascript/app/animate-css.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js'></script>
 <script src='assets/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js'></script>
@@ -373,6 +396,23 @@
 
 <!-- dropzone -->
 <script>
+
+
+// NOTiFICATION
+$(".notificationLink").click(function(){
+  $("#notification_count").fadeOut("slow");
+  return false;
+});
+
+//nav
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 40) {
+        $("nav").addClass("scrolled");
+    } else {
+        $("nav").removeClass("scrolled");
+    }
+});
 
 // Language switcher
 $(".language").click(function(){

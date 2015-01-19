@@ -42,6 +42,10 @@ html {
   width: 95%;
 }
 
+.select-wrapper span.select-dropdown {
+  height: 4rem;
+  line-height: 5rem;
+}
 
 
 // FRAME
@@ -169,20 +173,22 @@ animation: second 30s ease infinite;
 // CONTENT 
 // *********************************
 .main-banner {
-  background:  url(images/bg-10.jpg) no-repeat bottom center;
+  background:  url(images/frontbg.png) no-repeat center center;
   background-size: cover;
-  margin-top: -65px;
-  height: 260px;
+  margin-top: -64px;
+  height: 210px;
 }
 
 .card-onbanner {
   margin-top: -200px;
   a.adds-form {
     vertical-align: middle;
-    margin-left: 25px
+    @include margin-left(25px);
+    z-index: 6000;
   }
   h4 {
-    display: inline-block; padding-left: 15px;
+    display: inline-block; 
+    @include padding-left(15px);
   }
 }
 
@@ -296,4 +302,12 @@ div.dataTables_wrapper {
   overflow-y: hidden; 
 }
 
+// Filter
+// *************
+.filter-action {
+  margin-top: -35px;
+}
 
+.input-field .prefix {
+  opacity: 0.8;
+}

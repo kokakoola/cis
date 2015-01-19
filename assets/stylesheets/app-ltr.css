@@ -11717,550 +11717,622 @@ ul.side-nav.fixed.right-aligned {
     margin-bottom: 5em;
   }
 }
-/* line 5, ../sass/_direction-overrides.scss */
+/* line 1, ../sass/_direction-overrides.scss */
+.col {
+  float: left;
+}
+
+/* line 7, ../sass/_direction-overrides.scss */
 .waves-ripple {
   margin-left: -5px;
 }
 
-/* line 10, ../sass/_direction-overrides.scss */
-.material-tooltip {
+/* line 12, ../sass/_direction-overrides.scss */
+.waves-input-wrapper .waves-button-input {
   left: 0;
 }
 
+/* line 18, ../sass/_direction-overrides.scss */
+.material-tooltip {
+  left: 0;
+  will-change: top, left;
+}
+
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 15, ../sass/_direction-overrides.scss */
+  /* line 29, ../sass/_direction-overrides.scss */
   #toast-container {
     left: 5%;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 15, ../sass/_direction-overrides.scss */
+  /* line 29, ../sass/_direction-overrides.scss */
   #toast-container {
     right: 7%;
   }
 }
 
-/* line 24, ../sass/_direction-overrides.scss */
+/* line 38, ../sass/_direction-overrides.scss */
 .toast .btn, .toast .btn-large, .toast .btn-flat {
   margin-left: 3rem;
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 23, ../sass/_direction-overrides.scss */
+  /* line 37, ../sass/_direction-overrides.scss */
   .toast {
     float: left;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 23, ../sass/_direction-overrides.scss */
+  /* line 37, ../sass/_direction-overrides.scss */
   .toast {
     float: right;
   }
 }
 
-/* line 37, ../sass/_direction-overrides.scss */
+/* line 51, ../sass/_direction-overrides.scss */
 ul.tabs li.tab {
   float: left;
 }
 
-/* line 43, ../sass/_direction-overrides.scss */
+/* line 55, ../sass/_direction-overrides.scss */
+.indicator {
+  will-change: left, right;
+}
+
+/* line 66, ../sass/_direction-overrides.scss */
 ul.table-of-contents a {
   padding-left: 20px;
 }
-/* line 45, ../sass/_direction-overrides.scss */
+/* line 68, ../sass/_direction-overrides.scss */
 ul.table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 19px;
   border-left: 1px solid #ea4a4f;
 }
-/* line 50, ../sass/_direction-overrides.scss */
+/* line 73, ../sass/_direction-overrides.scss */
 ul.table-of-contents a.active {
   padding-left: 18px;
   border-left: 2px solid #ea4a4f;
 }
 
-/* line 59, ../sass/_direction-overrides.scss */
+/* line 82, ../sass/_direction-overrides.scss */
 .slider ul.slides li {
   left: 0;
 }
-/* line 61, ../sass/_direction-overrides.scss */
+/* line 84, ../sass/_direction-overrides.scss */
 .slider ul.slides li .caption {
   left: 15%;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 69, ../sass/_direction-overrides.scss */
+  /* line 92, ../sass/_direction-overrides.scss */
   ul.side-nav {
     left: -250px;
     will-change: left;
   }
-  /* line 73, ../sass/_direction-overrides.scss */
-  ul.side-nav.right {
+  /* line 101, ../sass/_direction-overrides.scss */
+  ul.side-nav.right-aligned {
     will-change: right;
     right: -250px;
     left: auto;
   }
 }
-/* line 81, ../sass/_direction-overrides.scss */
-ul.side-nav.full {
+/* line 114, ../sass/_direction-overrides.scss */
+ul.side-nav.full,
+ul.side-nav.fixed {
   left: -250px;
   will-change: left;
 }
-/* line 86, ../sass/_direction-overrides.scss */
-ul.side-nav.full.right {
+/* line 125, ../sass/_direction-overrides.scss */
+ul.side-nav.full.right-aligned,
+ul.side-nav.fixed.right-aligned {
   will-change: right;
   right: -250px;
   left: auto;
 }
 
-/* line 94, ../sass/_direction-overrides.scss */
+/* line 137, ../sass/_direction-overrides.scss */
+ul.side-nav.fixed {
+  left: 0;
+}
+/* line 139, ../sass/_direction-overrides.scss */
+ul.side-nav.fixed.right-aligned {
+  right: 0;
+  left: auto;
+  will-change: right;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 152, ../sass/_direction-overrides.scss */
+  ul.side-nav.fixed {
+    left: -250px;
+  }
+  /* line 155, ../sass/_direction-overrides.scss */
+  ul.side-nav.fixed.right-aligned {
+    right: -250px;
+    left: auto;
+  }
+}
+/* line 163, ../sass/_direction-overrides.scss */
 nav a.button-collapse {
   float: left;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 98, ../sass/_direction-overrides.scss */
+  /* line 167, ../sass/_direction-overrides.scss */
   nav .brand-logo {
     left: 0;
   }
 }
-/* line 103, ../sass/_direction-overrides.scss */
+/* line 172, ../sass/_direction-overrides.scss */
 nav .brand-logo.right {
   right: 0.5rem;
 }
 
-/* line 108, ../sass/_direction-overrides.scss */
+/* line 177, ../sass/_direction-overrides.scss */
 nav ul {
   float: right;
 }
-/* line 110, ../sass/_direction-overrides.scss */
+/* line 179, ../sass/_direction-overrides.scss */
 nav ul li {
   float: left;
 }
-/* line 113, ../sass/_direction-overrides.scss */
+/* line 182, ../sass/_direction-overrides.scss */
 nav ul.left {
   float: left;
 }
 
-/* line 119, ../sass/_direction-overrides.scss */
+/* line 188, ../sass/_direction-overrides.scss */
 nav .input-field input {
   padding-left: 2rem;
 }
-/* line 122, ../sass/_direction-overrides.scss */
+/* line 191, ../sass/_direction-overrides.scss */
 nav .input-field label {
   left: 0;
 }
 
-/* line 129, ../sass/_direction-overrides.scss */
+/* line 196, ../sass/_direction-overrides.scss */
+.materialboxed:hover:not(.active) {
+  will-change: left, top, width, height;
+}
+
+/* line 208, ../sass/_direction-overrides.scss */
 .row .col {
   float: left;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s1 {
   width: 8.33333%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s2 {
   width: 16.66667%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s3 {
   width: 25%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s4 {
   width: 33.33333%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s5 {
   width: 41.66667%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s6 {
   width: 50%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s7 {
   width: 58.33333%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s8 {
   width: 66.66667%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s9 {
   width: 75%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s10 {
   width: 83.33333%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s11 {
   width: 91.66667%;
   margin-left: 0;
 }
-/* line 134, ../sass/_direction-overrides.scss */
+/* line 213, ../sass/_direction-overrides.scss */
 .row .col.s12 {
   width: 100%;
   margin-left: 0;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s1 {
   margin-left: 8.33333%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s2 {
   margin-left: 16.66667%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s3 {
   margin-left: 25%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s4 {
   margin-left: 33.33333%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s5 {
   margin-left: 41.66667%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s6 {
   margin-left: 50%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s7 {
   margin-left: 58.33333%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s8 {
   margin-left: 66.66667%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s9 {
   margin-left: 75%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s10 {
   margin-left: 83.33333%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s11 {
   margin-left: 91.66667%;
 }
-/* line 143, ../sass/_direction-overrides.scss */
+/* line 222, ../sass/_direction-overrides.scss */
 .row .col.offset-s12 {
   margin-left: 100%;
 }
 @media only screen and (min-width: 601px) {
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m1 {
     width: 8.33333%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m2 {
     width: 16.66667%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m3 {
     width: 25%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m4 {
     width: 33.33333%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m5 {
     width: 41.66667%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m6 {
     width: 50%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m7 {
     width: 58.33333%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m8 {
     width: 66.66667%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m9 {
     width: 75%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m10 {
     width: 83.33333%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m11 {
     width: 91.66667%;
     margin-left: 0;
   }
-  /* line 154, ../sass/_direction-overrides.scss */
+  /* line 233, ../sass/_direction-overrides.scss */
   .row .col.m12 {
     width: 100%;
     margin-left: 0;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m1 {
     margin-left: 8.33333%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m2 {
     margin-left: 16.66667%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m3 {
     margin-left: 25%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m4 {
     margin-left: 33.33333%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m5 {
     margin-left: 41.66667%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m6 {
     margin-left: 50%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m7 {
     margin-left: 58.33333%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m8 {
     margin-left: 66.66667%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m9 {
     margin-left: 75%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m10 {
     margin-left: 83.33333%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m11 {
     margin-left: 91.66667%;
   }
-  /* line 163, ../sass/_direction-overrides.scss */
+  /* line 242, ../sass/_direction-overrides.scss */
   .row .col.offset-m12 {
     margin-left: 100%;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l1 {
     width: 8.33333%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l2 {
     width: 16.66667%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l3 {
     width: 25%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l4 {
     width: 33.33333%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l5 {
     width: 41.66667%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l6 {
     width: 50%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l7 {
     width: 58.33333%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l8 {
     width: 66.66667%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l9 {
     width: 75%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l10 {
     width: 83.33333%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l11 {
     width: 91.66667%;
     margin-left: 0;
   }
-  /* line 176, ../sass/_direction-overrides.scss */
+  /* line 255, ../sass/_direction-overrides.scss */
   .row .col.l12 {
     width: 100%;
     margin-left: 0;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l1 {
     margin-left: 8.33333%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l2 {
     margin-left: 16.66667%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l3 {
     margin-left: 25%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l4 {
     margin-left: 33.33333%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l5 {
     margin-left: 41.66667%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l6 {
     margin-left: 50%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l7 {
     margin-left: 58.33333%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l8 {
     margin-left: 66.66667%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l9 {
     margin-left: 75%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l10 {
     margin-left: 83.33333%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l11 {
     margin-left: 91.66667%;
   }
-  /* line 185, ../sass/_direction-overrides.scss */
+  /* line 264, ../sass/_direction-overrides.scss */
   .row .col.offset-l12 {
     margin-left: 100%;
   }
 }
 
-/* line 195, ../sass/_direction-overrides.scss */
+/* line 274, ../sass/_direction-overrides.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 198, ../sass/_direction-overrides.scss */
+/* line 277, ../sass/_direction-overrides.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 201, ../sass/_direction-overrides.scss */
+/* line 280, ../sass/_direction-overrides.scss */
 .left {
   float: left;
 }
 
-/* line 204, ../sass/_direction-overrides.scss */
+/* line 283, ../sass/_direction-overrides.scss */
 .right {
   float: right;
 }
 
-/* line 207, ../sass/_direction-overrides.scss */
+/* line 286, ../sass/_direction-overrides.scss */
 blockquote {
   padding-left: 1.5rem;
   border-left: 5px solid #EF9A9A;
 }
 
-/* line 212, ../sass/_direction-overrides.scss */
+/* line 291, ../sass/_direction-overrides.scss */
 i.left {
   float: left;
   margin-right: 15px;
 }
-/* line 216, ../sass/_direction-overrides.scss */
+/* line 295, ../sass/_direction-overrides.scss */
 i.right {
   float: right;
   margin-left: 15px;
 }
 
-/* line 221, ../sass/_direction-overrides.scss */
+/* line 300, ../sass/_direction-overrides.scss */
 td, th {
   text-align: left;
 }
 
-/* line 227, ../sass/_direction-overrides.scss */
+@media only screen and (max-width: 992px) {
+  /* line 307, ../sass/_direction-overrides.scss */
+  table thead {
+    float: left;
+    border-right: 1px solid #d0d0d0;
+  }
+  /* line 316, ../sass/_direction-overrides.scss */
+  table thead.bordered th {
+    border-left: 0;
+  }
+  /* line 319, ../sass/_direction-overrides.scss */
+  table thead.bordered tbody tr {
+    border-right: 1px solid #d0d0d0;
+  }
+  /* line 329, ../sass/_direction-overrides.scss */
+  table thead tr {
+    padding: 0 10px 0 0;
+  }
+  /* line 338, ../sass/_direction-overrides.scss */
+  table th {
+    text-align: right;
+  }
+  /* line 341, ../sass/_direction-overrides.scss */
+  table td {
+    text-align: left;
+  }
+}
+/* line 349, ../sass/_direction-overrides.scss */
 .collection.with-header .collection-item {
   padding-left: 30px;
 }
-/* line 231, ../sass/_direction-overrides.scss */
+/* line 353, ../sass/_direction-overrides.scss */
 .collection .secondary-content {
   float: right;
 }
 
-/* line 236, ../sass/_direction-overrides.scss */
+/* line 358, ../sass/_direction-overrides.scss */
 span.badge {
   float: right;
 }
 
-/* line 241, ../sass/_direction-overrides.scss */
+/* line 363, ../sass/_direction-overrides.scss */
 .video-container iframe, .video-container object, .video-container embed {
   left: 0;
 }
 
-/* line 247, ../sass/_direction-overrides.scss */
+/* line 370, ../sass/_direction-overrides.scss */
 .input-field label {
   left: 0.75rem;
 }
 
-/* line 251, ../sass/_direction-overrides.scss */
+/* line 374, ../sass/_direction-overrides.scss */
 .input-field label.error {
   right: 0.75rem;
 }
 
-/* line 255, ../sass/_direction-overrides.scss */
+/* line 378, ../sass/_direction-overrides.scss */
 .input-field .prefix ~ input,
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
 
-/* line 260, ../sass/_direction-overrides.scss */
+/* line 383, ../sass/_direction-overrides.scss */
 [type="radio"]:not(:checked) + label,
 [type="radio"]:checked + label,
 [type="checkbox"]:not(:checked) + label,
@@ -12268,7 +12340,7 @@ span.badge {
   padding-left: 35px;
 }
 
-/* line 267, ../sass/_direction-overrides.scss */
+/* line 390, ../sass/_direction-overrides.scss */
 [type="radio"] + label:before,
 [type="radio"] + label:after,
 [type="checkbox"] + label:before,
@@ -12277,7 +12349,7 @@ span.badge {
   left: 0;
 }
 
-/* line 275, ../sass/_direction-overrides.scss */
+/* line 398, ../sass/_direction-overrides.scss */
 [type="radio"]:not(:checked),
 [type="radio"]:checked,
 [type="checkbox"]:not(:checked),
@@ -12285,44 +12357,66 @@ span.badge {
   left: -9999px;
 }
 
-/* line 281, ../sass/_direction-overrides.scss */
+/* line 404, ../sass/_direction-overrides.scss */
 form p {
   text-align: left;
 }
 
-/* line 285, ../sass/_direction-overrides.scss */
+/* line 408, ../sass/_direction-overrides.scss */
 [type="checkbox"]:checked + label:before {
   left: -3px;
 }
 
-/* line 289, ../sass/_direction-overrides.scss */
+/* line 412, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb {
   margin-left: -6px;
 }
-/* line 291, ../sass/_direction-overrides.scss */
+/* line 414, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb.active {
   border-radius: 50% 50% 50% 0;
 }
-/* line 293, ../sass/_direction-overrides.scss */
+/* line 416, ../sass/_direction-overrides.scss */
 input[type=range] + .thumb.active .value {
   margin-left: -1px;
 }
 
-/* line 300, ../sass/_direction-overrides.scss */
+/* line 423, ../sass/_direction-overrides.scss */
 .select-wrapper span.select-dropdown:after {
   right: 0;
   text-align: right;
 }
 
-/* line 308, ../sass/_direction-overrides.scss */
+/* line 429, ../sass/_direction-overrides.scss */
+.switch label .lever,
+.switch label input[type=checkbox][disabled]:first-child + .lever {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+/* line 435, ../sass/_direction-overrides.scss */
+.switch label .lever:after {
+  left: -5px;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+}
+
+/* line 445, ../sass/_direction-overrides.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+  left: 30px;
+}
+
+/* line 451, ../sass/_direction-overrides.scss */
 .collapsible-header i {
   float: left;
   margin-right: 1rem;
 }
 
-/* line 317, ../sass/_direction-overrides.scss */
+/* line 460, ../sass/_direction-overrides.scss */
 .card .card-image .card-title {
   left: 0;
+}
+/* line 464, ../sass/_direction-overrides.scss */
+.card a {
+  margin-right: 20px;
 }
 
 /* line 18, ../sass/_variables-custom.scss */
@@ -12448,29 +12542,35 @@ html {
   width: 95%;
 }
 
-/* line 49, ../sass/_app.scss */
+/* line 45, ../sass/_app.scss */
+.select-wrapper span.select-dropdown {
+  height: 4rem;
+  line-height: 5rem;
+}
+
+/* line 53, ../sass/_app.scss */
 main {
   background: #F0F0F0;
 }
 
-/* line 54, ../sass/_app.scss */
+/* line 58, ../sass/_app.scss */
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-/* line 60, ../sass/_app.scss */
+/* line 64, ../sass/_app.scss */
 main {
   flex: 1 0 auto;
 }
 
-/* line 64, ../sass/_app.scss */
+/* line 68, ../sass/_app.scss */
 .with-table {
   background: #fff;
 }
 
-/* line 70, ../sass/_app.scss */
+/* line 74, ../sass/_app.scss */
 .front-fullscreen {
   position: fixed;
   top: 20px;
@@ -12478,7 +12578,7 @@ main {
   font-size: 4rem;
 }
 
-/* line 77, ../sass/_app.scss */
+/* line 81, ../sass/_app.scss */
 .full-bg {
   background: url("assets/images/frontbg.png");
   -webkit-background-size: cover;
@@ -12486,7 +12586,7 @@ main {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 114, ../sass/_app.scss */
+/* line 118, ../sass/_app.scss */
 .full-bg input[type=text],
 .full-bg input[type=password] {
   padding: 4px 15px;
@@ -12498,12 +12598,12 @@ main {
   height: 2rem;
   max-width: 400px;
 }
-/* line 125, ../sass/_app.scss */
+/* line 129, ../sass/_app.scss */
 .full-bg input[type=text]:focus {
   border-color: #333;
 }
 
-/* line 129, ../sass/_app.scss */
+/* line 133, ../sass/_app.scss */
 .second-background {
   background: linear-gradient(229deg, #a24bcf, #4b79cf, #4bc5cf);
   background-size: 600% 600%;
@@ -12556,58 +12656,59 @@ main {
     background-position: 0% 51%;
   }
 }
-/* line 171, ../sass/_app.scss */
+/* line 175, ../sass/_app.scss */
 .main-banner {
-  background: url(images/bg-10.jpg) no-repeat bottom center;
+  background: url(images/frontbg.png) no-repeat center center;
   background-size: cover;
-  margin-top: -65px;
-  height: 260px;
+  margin-top: -64px;
+  height: 210px;
 }
 
-/* line 178, ../sass/_app.scss */
+/* line 182, ../sass/_app.scss */
 .card-onbanner {
   margin-top: -200px;
 }
-/* line 180, ../sass/_app.scss */
+/* line 184, ../sass/_app.scss */
 .card-onbanner a.adds-form {
   vertical-align: middle;
   margin-left: 25px;
+  z-index: 6000;
 }
-/* line 184, ../sass/_app.scss */
+/* line 189, ../sass/_app.scss */
 .card-onbanner h4 {
   display: inline-block;
   padding-left: 15px;
 }
 
-/* line 189, ../sass/_app.scss */
+/* line 195, ../sass/_app.scss */
 .card.large {
   padding: 10px 30px;
 }
-/* line 191, ../sass/_app.scss */
+/* line 197, ../sass/_app.scss */
 .card.large .row {
   margin-bottom: 15px;
 }
-/* line 195, ../sass/_app.scss */
+/* line 201, ../sass/_app.scss */
 .card.large .row.title button {
   margin-right: 20px;
   vertical-align: middle;
 }
 
-/* line 204, ../sass/_app.scss */
+/* line 210, ../sass/_app.scss */
 .check-inline [type="checkbox"]:not(:checked) + label:before {
   top: 15px;
 }
-/* line 207, ../sass/_app.scss */
+/* line 213, ../sass/_app.scss */
 .check-inline [type="checkbox"]:not(:checked) + label,
 .check-inline [type="checkbox"]:checked + label {
   padding-top: 15px;
 }
-/* line 211, ../sass/_app.scss */
+/* line 217, ../sass/_app.scss */
 .check-inline [type="checkbox"]:checked + label:before {
   top: 7px;
 }
 
-/* line 216, ../sass/_app.scss */
+/* line 222, ../sass/_app.scss */
 input[type=text].valid,
 input[type=password].valid,
 input[type=email].valid,
@@ -12619,7 +12720,7 @@ textarea.valid {
   box-shadow: 0 1px 0 0 #4CAF50;
 }
 
-/* line 225, ../sass/_app.scss */
+/* line 231, ../sass/_app.scss */
 input[type=text].invalid,
 input[type=password].invalid,
 input[type=email].invalid,
@@ -12631,11 +12732,11 @@ textarea.invalid {
   box-shadow: 0 1px 0 0 #F44336;
 }
 
-/* line 234, ../sass/_app.scss */
+/* line 240, ../sass/_app.scss */
 .input-field label {
   color: #444;
 }
-/* line 236, ../sass/_app.scss */
+/* line 242, ../sass/_app.scss */
 .input-field label.error, .input-field label.success {
   display: none;
   right: 0.75rem;
@@ -12644,46 +12745,56 @@ textarea.invalid {
   font-weight: strong;
   font-size: 12px;
 }
-/* line 245, ../sass/_app.scss */
+/* line 251, ../sass/_app.scss */
 .input-field label.error {
   color: #F44336;
 }
-/* line 248, ../sass/_app.scss */
+/* line 254, ../sass/_app.scss */
 .input-field label.success {
   color: #4CAF50;
 }
 
-/* line 253, ../sass/_app.scss */
+/* line 259, ../sass/_app.scss */
 .switch.col {
   height: 3rem;
 }
 
-/* line 257, ../sass/_app.scss */
+/* line 263, ../sass/_app.scss */
 .removeClaimant {
   margin-top: -72px;
 }
 
-/* line 280, ../sass/_app.scss */
+/* line 286, ../sass/_app.scss */
 table th.sorting_desc .btn-flat i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-/* line 287, ../sass/_app.scss */
+/* line 293, ../sass/_app.scss */
 table a {
   white-space: nowrap;
 }
-/* line 288, ../sass/_app.scss */
+/* line 294, ../sass/_app.scss */
 table thead {
   border-bottom: 1px solid #9E9E9E !important;
 }
 
-/* line 293, ../sass/_app.scss */
+/* line 299, ../sass/_app.scss */
 div.dataTables_wrapper {
   width: 95%;
   margin: 0 auto;
   overflow-y: hidden;
+}
+
+/* line 307, ../sass/_app.scss */
+.filter-action {
+  margin-top: -35px;
+}
+
+/* line 311, ../sass/_app.scss */
+.input-field .prefix {
+  opacity: 0.8;
 }
 
 @font-face {
