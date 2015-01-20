@@ -1,6 +1,15 @@
 (function($){
   $(function(){
-
+    loadDataTable = function(){
+      $('table.registry').DataTable({
+        searching: false,
+        lengthChange: false,
+        'iDisplayLength': 100,
+         columnDefs: [
+            { "orderable": false, "targets": 0 }
+          ]
+      });
+    };
     $(".callSlideout").sideNav({edge: 'right', menuWidth: 440, activationWidth: 70});
     $('select').material_select();
     $(".dropdown-button").dropdown({
@@ -30,8 +39,9 @@
     // });
 
     // init  dataTables
-    $('table.registry').DataTable({
-    });
+
+
+    loadDataTable();
 
     $(".js-addDataRow").addDataRow();
 

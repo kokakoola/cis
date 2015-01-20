@@ -25,29 +25,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-      
-        <!-- Hammer reload -->
-          <script>
-            setInterval(function(){
-              try {
-                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-                ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
-                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
-                    }
-                  }
-                }
-              }catch(e){}
-            }, 1000)
-          </script>
-        <!-- /Hammer reload -->
-      
+
 
     </head>
     <body class="registry" role="document">
@@ -182,22 +160,25 @@
   </div>
 </div> -->
 <div class="row">
-  <div class="col s12 m2 check-inline">
+  <div class="col s12 m1 check-inline">
     <input type="checkbox" id="urgent" /><label for="urgent">Urgent</label>
+  </div>
+  <div class="col s12 m2 check-inline">
+    <input type="checkbox" id="confidential" /><label for="confidential">Confidential</label>
   </div>
   <div class="col s12 m3">
     <select required>
       <option value="" disabled selected>Judge default</option>
       <option value="1">Judge Else (6)</option>
       <option value="2">Judge Other (14)</option>
-      <option value="3">Judge Judge (22)</option>
+      <option value="3">Judge Judge (22)</option> 
     </select>
   </div>
   <div class="input-field col s12 m2">
     <input id="claimValue" type="text" class="validate">
-    <label for="claimValue">Claim value</label>
+    <label for="claimValue">Case value</label>
   </div>
-  <div class="col s12 m3">
+  <div class="col s12 m2">
     <select required>
       <option value="" disabled selected>Case type </option>
       <option value="1">استملاك</option>
@@ -596,6 +577,7 @@
 <!-- dropzone -->
 <script>
 
+var activeLanguage = 'rtl';
 
 // NOTiFICATION
 $(".notificationLink").click(function(){
@@ -613,17 +595,32 @@ $(window).scroll(function() {
     }
 });
 
-// Language switcher
-$(".language").click(function(){
-  var theValue = $(this).attr('data-value');
-  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+theValue+'.css'});
+var swapStylesheet = function(){
+  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+activeLanguage+'.css'});
+};
+
+var loadLanguage = function(){
   $('li.active').removeClass('active');
   $(this).parent().addClass('active');
+  var data = activeLanguage === 'rtl' ? rtlJson : ltrJson;
+  var source   = $("#registry-table-template").html();
+  var template = Handlebars.compile(source);
+  var html    = template(data);
+  $("#placeholder-registry-table").html(html);
+  loadDataTable();
+};
+
+// Language switcher
+$(".language").click(function(){
+  activeLanguage = $(this).attr('data-value');
+  swapStylesheet();
+  loadLanguage();
   return false;
 });
 
 // START DOCREADY
   $(document).ready(function() {
+    loadLanguage();
 
     // front login
     $('.forgot-pass').click(function(event) {
@@ -636,6 +633,9 @@ $(".language").click(function(){
 
 
   }); // END DOCREADY
+
+
+
 
 </script>
 

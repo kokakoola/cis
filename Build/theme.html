@@ -25,29 +25,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-      
-        <!-- Hammer reload -->
-          <script>
-            setInterval(function(){
-              try {
-                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-                ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
-                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
-                    }
-                  }
-                }
-              }catch(e){}
-            }, 1000)
-          </script>
-        <!-- /Hammer reload -->
-      
+
 
     </head>
     <body class="home" role="document">
@@ -827,6 +805,7 @@
 <!-- dropzone -->
 <script>
 
+var activeLanguage = 'rtl';
 
 // NOTiFICATION
 $(".notificationLink").click(function(){
@@ -844,17 +823,32 @@ $(window).scroll(function() {
     }
 });
 
-// Language switcher
-$(".language").click(function(){
-  var theValue = $(this).attr('data-value');
-  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+theValue+'.css'});
+var swapStylesheet = function(){
+  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+activeLanguage+'.css'});
+};
+
+var loadLanguage = function(){
   $('li.active').removeClass('active');
   $(this).parent().addClass('active');
+  var data = activeLanguage === 'rtl' ? rtlJson : ltrJson;
+  var source   = $("#registry-table-template").html();
+  var template = Handlebars.compile(source);
+  var html    = template(data);
+  $("#placeholder-registry-table").html(html);
+  loadDataTable();
+};
+
+// Language switcher
+$(".language").click(function(){
+  activeLanguage = $(this).attr('data-value');
+  swapStylesheet();
+  loadLanguage();
   return false;
 });
 
 // START DOCREADY
   $(document).ready(function() {
+    loadLanguage();
 
     // front login
     $('.forgot-pass').click(function(event) {
@@ -867,6 +861,9 @@ $(".language").click(function(){
 
 
   }); // END DOCREADY
+
+
+
 
 </script>
 

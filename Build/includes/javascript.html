@@ -16,6 +16,7 @@
 <!-- dropzone -->
 <script>
 
+var activeLanguage = 'rtl';
 
 // NOTiFICATION
 $(".notificationLink").click(function(){
@@ -33,17 +34,32 @@ $(window).scroll(function() {
     }
 });
 
-// Language switcher
-$(".language").click(function(){
-  var theValue = $(this).attr('data-value');
-  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+theValue+'.css'});
+var swapStylesheet = function(){
+  $("link[rel=stylesheet]").attr({href : 'assets/stylesheets/app-'+activeLanguage+'.css'});
+};
+
+var loadLanguage = function(){
   $('li.active').removeClass('active');
   $(this).parent().addClass('active');
+  var data = activeLanguage === 'rtl' ? rtlJson : ltrJson;
+  var source   = $("#registry-table-template").html();
+  var template = Handlebars.compile(source);
+  var html    = template(data);
+  $("#placeholder-registry-table").html(html);
+  loadDataTable();
+};
+
+// Language switcher
+$(".language").click(function(){
+  activeLanguage = $(this).attr('data-value');
+  swapStylesheet();
+  loadLanguage();
   return false;
 });
 
 // START DOCREADY
   $(document).ready(function() {
+    loadLanguage();
 
     // front login
     $('.forgot-pass').click(function(event) {
@@ -56,6 +72,9 @@ $(".language").click(function(){
 
 
   }); // END DOCREADY
+
+
+
 
 </script>
 

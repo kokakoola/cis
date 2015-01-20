@@ -12721,23 +12721,26 @@ textarea.valid {
 }
 
 /* line 231, ../sass/_app.scss */
-input[type=text].invalid,
-input[type=password].invalid,
-input[type=email].invalid,
-input[type=date].invalid,
-textarea.invalid {
+input[type=text].input-validation-error,
+input[type=password].input-validation-error,
+input[type=email].input-validation-error,
+input[type=date].input-validation-error,
+input[type=tel].input-validation-error,
+input[type=number].input-validation-error,
+textarea.input-validation-error,
+textarea.materialize-textarea.input-validation-error {
   border-bottom: 1px solid #F44336;
   -webkit-box-shadow: 0 1px 0 0 #F44336;
   -moz-box-shadow: 0 1px 0 0 #F44336;
   box-shadow: 0 1px 0 0 #F44336;
 }
 
-/* line 240, ../sass/_app.scss */
+/* line 243, ../sass/_app.scss */
 .input-field label {
   color: #444;
 }
-/* line 242, ../sass/_app.scss */
-.input-field label.error, .input-field label.success {
+/* line 245, ../sass/_app.scss */
+.input-field labelspan.field-validation-error, .input-field label.success {
   display: none;
   right: 0.75rem;
   left: auto;
@@ -12745,63 +12748,69 @@ textarea.invalid {
   font-weight: strong;
   font-size: 12px;
 }
-/* line 251, ../sass/_app.scss */
-.input-field label.error {
+/* line 254, ../sass/_app.scss */
+.input-field labelspan.field-validation-error {
   color: #F44336;
 }
-/* line 254, ../sass/_app.scss */
+/* line 257, ../sass/_app.scss */
 .input-field label.success {
   color: #4CAF50;
 }
 
-/* line 259, ../sass/_app.scss */
+/* line 262, ../sass/_app.scss */
 .switch.col {
   height: 3rem;
 }
 
-/* line 263, ../sass/_app.scss */
+/* line 266, ../sass/_app.scss */
 .removeClaimant {
   margin-top: -72px;
 }
 
-/* line 286, ../sass/_app.scss */
+/* line 289, ../sass/_app.scss */
 table th.sorting_desc .btn-flat i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-/* line 293, ../sass/_app.scss */
+/* line 296, ../sass/_app.scss */
 table a {
   white-space: nowrap;
 }
-/* line 294, ../sass/_app.scss */
+/* line 297, ../sass/_app.scss */
 table thead {
   border-bottom: 1px solid #9E9E9E !important;
 }
 
-/* line 299, ../sass/_app.scss */
-div.dataTables_wrapper {
-  width: 95%;
-  margin: 0 auto;
-  overflow-y: hidden;
+/* line 302, ../sass/_app.scss */
+.with-table {
+  padding: 0 25px;
 }
 
-/* line 305, ../sass/_app.scss */
-.bullet.status {
+/* line 306, ../sass/_app.scss */
+.status.bullet {
   display: inline-block;
   width: 10px;
   height: 10px;
   background-color: #ddd;
   border-radius: 50%;
 }
-
+/* line 312, ../sass/_app.scss */
+.status.bullet.draft {
+  background-color: #FF9800;
+}
 /* line 315, ../sass/_app.scss */
+.status.bullet.draft {
+  background-color: #FF9800;
+}
+
+/* line 322, ../sass/_app.scss */
 .filter-action {
   margin-top: -35px;
 }
 
-/* line 319, ../sass/_app.scss */
+/* line 326, ../sass/_app.scss */
 .input-field .prefix {
   opacity: 0.8;
 }

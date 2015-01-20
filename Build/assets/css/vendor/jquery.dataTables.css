@@ -21,16 +21,16 @@ table.dataTable tfoot th {
 table.dataTable thead th,
 table.dataTable thead td {
   padding: 10px 18px;
-  border-bottom: 1px solid #111111;
+  border-bottom: 1px solid #222;
 }
 table.dataTable thead th:active,
 table.dataTable thead td:active {
   outline: none;
 }
-table.dataTable tfoot th,
+/*table.dataTable tfoot th,
 table.dataTable tfoot td {
   padding: 10px 18px 6px 18px;
-  border-top: 1px solid #111111;
+  border-top: 1px solid #222;
 }
 table.dataTable thead .sorting_asc,
 table.dataTable thead .sorting_desc,
@@ -38,6 +38,13 @@ table.dataTable thead .sorting {
   cursor: pointer;
   *cursor: hand;
 }
+*/
+table.dataTable thead .sorting.sorting_disabled:before {
+  font-family: "Material-Design-Icons";
+  content: " ";
+  font-size: 1.5rem;
+  vertical-align: middle;
+} 
 
 table.dataTable thead .sorting:before {
   font-family: "Material-Design-Icons";
@@ -53,13 +60,13 @@ table.dataTable thead .sorting_asc:before {
 }
 table.dataTable thead .sorting_desc:before {
   font-family: "Material-Design-Icons";
-  content: "\e89d";
+  content: " ";
   font-size: 1.5rem;
   vertical-align: middle;
 }
 table.dataTable thead .sorting_asc_disabled:before {
   font-family: "Material-Design-Icons";
-  content: "\e89e";
+  content: " ";
   font-size: 1.5rem;
   vertical-align: middle;
   color: #ddd;
@@ -77,7 +84,7 @@ table.dataTable tbody tr {
 table.dataTable tbody tr.selected {
   background-color: #b0bed9;
 }
-table.dataTable tbody th,
+/*table.dataTable tbody th,
 table.dataTable tbody td {
   padding: 8px 10px;
 }
@@ -106,7 +113,7 @@ table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
 }
 table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.odd.selected {
   background-color: #abb9d3;
-}
+}*/
 table.dataTable.hover tbody tr:hover,
 table.dataTable.hover tbody tr.odd:hover,
 table.dataTable.hover tbody tr.even:hover, table.dataTable.display tbody tr:hover,
@@ -214,7 +221,7 @@ table.dataTable.order-column.hover tbody tr.even:hover.selected > .sorting_3 {
   background-color: #a4b2cb;
 }
 table.dataTable.no-footer {
-  border-bottom: 1px solid #111111;
+  border-bottom: 1px solid #222;
 }
 table.dataTable.nowrap th, table.dataTable.nowrap td {
   white-space: nowrap;
@@ -369,35 +376,12 @@ table.dataTable td {
   color: white !important;
   border: 1px solid #111111;
   background-color: #585858;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #111111));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #585858 0%, #111111 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -moz-linear-gradient(top, #585858 0%, #111111 100%);
-  /* FF3.6+ */
-  background: -ms-linear-gradient(top, #585858 0%, #111111 100%);
-  /* IE10+ */
-  background: -o-linear-gradient(top, #585858 0%, #111111 100%);
-  /* Opera 11.10+ */
-  background: linear-gradient(to bottom, #585858 0%, #111111 100%);
-  /* W3C */
+
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button:active {
   outline: none;
   background-color: #2b2b2b;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -moz-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
-  /* FF3.6+ */
-  background: -ms-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
-  /* IE10+ */
-  background: -o-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
-  /* Opera 11.10+ */
-  background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%);
-  /* W3C */
-  box-shadow: inset 0 0 3px #111;
+
 }
 .dataTables_wrapper .dataTables_processing {
   position: absolute;
