@@ -12787,12 +12787,21 @@ div.dataTables_wrapper {
   overflow-y: hidden;
 }
 
-/* line 307, ../sass/_app.scss */
+/* line 305, ../sass/_app.scss */
+.bullet.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+/* line 315, ../sass/_app.scss */
 .filter-action {
   margin-top: -35px;
 }
 
-/* line 311, ../sass/_app.scss */
+/* line 319, ../sass/_app.scss */
 .input-field .prefix {
   opacity: 0.8;
 }

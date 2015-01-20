@@ -1,0 +1,81 @@
+{
+ "Texts":
+ {
+  "CaseType" : "نوع القضية (GT)",
+  "ClaimValue" : "قيمة المطالبة (GT)",
+  "Judge" : "القاضي (GT)",
+  "Urgent" : "ملح",
+  "CaseNumber" : "رقم القضية (GT)",
+  "Claimant" : "المدعي (GT)",
+  "NaturalPerson" : "الشخص الطبيعي (GT)",
+  "LegalEntity" : "الكيان القانوني (GT)",
+  "ClaimantAddress" : "عنوان المدعي (GT)",
+  "claimantId" : "رقم الوثيقة (GT)",
+  "Claimant-success" : "هذا المجال هو النجاح. (GT)",
+  "ClaimantPhone" : "المطالبين الهاتف (GT)",
+  "RepresentedByParent" : "ممثلة الأم (GT)",
+  "Parent" : "أصل (GT)",
+  "ParentId" : "الآباء الصورة (GT)",
+  "ParentsPhone" : "الآباء الهاتف (GT)",
+  "Defendant" : "المدعى عليه (GT)",
+  "Participants" : "المشاركين (GT)",
+  "NoParticipant" : "لا مشارك (GT)",
+  "Witness" : "الشاهد",
+  "Expert" : "خبير",
+  "ThirdParty" : "طرف ثالث",
+  "Other" : "آخر",
+  "Document" : "وثيقة (GT)",
+  "Note" : "ملاحظة (GT)"
+ },
+
+
+"Claimants" : [
+  {
+   "Name" : "آزاد حلة عمر",
+   "DocumentNumber" : "423878592",
+   "ClaimantsPhone" : "45352356",
+   "Initialized" : [
+      {
+      "Value0" : "لا ممثل (GT)",
+      "value1" : "محام",
+      "Value2" : "والد أو والدة",
+      "Value3" : "الوصي القانوني",
+      "Value4" : "آخر"
+      }
+   ]
+  }
+ ],
+
+
+
+ "Defendants" : [
+  {
+   "Name" : "Omar",
+   "DocumentNumber" : "D28904344",
+     "Initialized" : [
+      {
+      "Value0" : "لا ممثل (GT)",
+      "value1" : "محام",
+      "Value2" : "والد أو والدة",
+      "Value3" : "الوصي القانوني",
+      "Value4" : "آخر"
+      }
+   ]
+  }
+ ],
+
+ "Participants" : [
+  {
+      "Initiialized" : [
+        {
+          "Value0" : "لا مشارك (GT)",
+          "Value1" : "الشاهد",
+          "Value2" : "خبير",
+          "Value3" : "طرف ثالث",
+          "Value4" : "آخر"
+        }
+      ]
+  }
+ ]
+
+}

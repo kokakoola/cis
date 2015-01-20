@@ -1,74 +1,46 @@
 <form action="">
   <div class="wide-table-wrapper">
-    <table class="hoverable bordered registry">
-      <thead>
-        <tr>
-          <!-- <th> <a class='dropdown-button btn btn-flat' href='#' data-activates='dropdown3'>Bulk edit</a>
-             <ul id='dropdown3' class='dropdown-content'>
-              <li><input type="checkbox" id="testM" /><label for="testM">label</label></li>
-              <li><a href="#!">two</a></li>
+    <div id="placeholder-registry-table"></div>
+
+    <script type="text/x-handlebars-template" id="registry-table-template">
+        {{#Cases}} 
+        <table class="hoverable bordered registry">
+          <thead>
+            <th data-field="date">
+              <a class='dropdown-button btn btn-flat' href='#!' data-activates='status'>Status<i class="mdi-navigation-arrow-drop-down right"></i></a>
+             <ul id='status' class='dropdown-content'>
+              <li><a href=""><span class="new badge orange">Drafts</span></a></li>
+              <li><a href="#!"><span class="new badge green">What is this?</span></a></li>
               <li class="divider"></li>
-              <li><a href="#!">three</a></li>
+              <li><a href="#!"><span class="new badge red">Drafts</span></a></li>
             </ul>
-          </th> -->
-          <th data-field="status" class="sorting">Status <i class="mdi-content-filter-list"></i></th>
-          <th data-field="date" class="sorting">Date <i class="mdi-content-filter-list"></i></th>
-          <th data-field="casenumber" class="sorting"><i class="mdi-content-filter-list right"></i>Case number</th>
-          <th data-field="casetype" class="sorting"><i class="mdi-content-filter-list right"></i>Case type</th>
-          <th data-field="claimants"><i class="mdi-content-filter-list right"></i>Claimant</th>
-          <th data-field="defendants"><i class="mdi-content-filter-list right"></i>Defendant</th>
-          <th data-field="paticipants"><i class="mdi-content-filter-list right"></i>Participants</th>
-          <th data-field="judge"><i class="mdi-content-filter-list right"></i>Judge</th>
-        </tr>
-      </thead>
-    
-      <tbody>
-        <tr>
-          <td><input type="checkbox" id="test5" /><label for="test5"></label></td>
-          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
-          <td>186/ كار/ 2014</td>
-          <td>Eclair</td>
-          <td>ڕۆژه‌ كمال احمد حسن</td>
-          <td>به‌ڕێوه‌به‌رى تۆماركردنى خانووبه‌ره‌ له‌ سلێمانى سه‌ره‌ڕاى كاره‌كه‌ى </td>
-          <td>$0.87</td>
-          <td>$0.87</td>
-          
-        </tr>
-        <tr>
-          <td>    <input type="checkbox" id="test6" checked="checked" />
-          <label for="test6"></label></td>
-          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
-          <td>Alan</td>
-          <td>$0.87</td>
-          <td>Rozha kamal Ahmed Hassan </td>
-          <td>Manager of the directorate of Real Estate registration of Sulaimanyah in addition to his job</td>
-          <td>$0.87</td>
-          <td>$0.87</td>
-          
-        </tr>
-        <tr>
-          <td></td>
-          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
-          <td>Jonathan</td>
-          <td>Lollipop Lorem ipsum dolor sit amet, consectetur adipisicing elit. </td>
-          <td>$7.00</td>
-          <td>$0.87</td>
-          <td>$0.87</td>
-          <td>$0.87</td>
-          
-        </tr>
-        <tr>
-          <td><input type="checkbox" id="test5" /><label for="test5"></label></td>
-          <td><a class="btn-floating waves-effect waves-dark blue-grey"><i class="mdi-navigation-arrow-forward"></i></a></td>
-          <td>Alvin</td>
-          <td>Eclair</td>
-          <td>$0.87</td>
-          <td>$0.87</td>
-          <td>$0.87</td>
-          <td>$0.87</td>
-          
-        </tr>
-      </tbody>
-    </table>
+             </th>
+            <th data-field="casenumber" class="sorting">Date</th>
+            <th data-field="casenumber" class="sorting">Case number</th>
+            <th data-field="casetype" class="sorting">Case type</th>
+            <th data-field="claimants">Claimant</th>
+            <th data-field="defendants">Defendant</th>
+            <th data-field="paticipants">Participants</th>
+            <th data-field="judge">Judge</th>
+          </thead>
+          <tbody>
+          {{#each Case}}
+            <tr>
+              <td class="center"><span class="bullet status"></span></td>
+              <td>{{Date}}</td>
+              <td>{{CaseNumber}}</td>
+              <td>{{CaseType}}</td>
+              <td>{{Claimant}}</td>
+              <td>{{Defendant}} </td>
+              <td>{{Participants}}</td>
+              <td>{{Judge}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+        {{/Cases}}
+        </script>
+
+
   </div>
 </form>

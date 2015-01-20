@@ -1,4 +1,68 @@
-{
+var source   = $("#registry-table-template").html();
+var template = Handlebars.compile(source); 
+
+var data = {  "Cases" : [
+    {
+      "Case" : [
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "186/ 2014/ EE6",
+          "CaseType" : "Eclair",
+          "Claimant" : "Ahmed",
+          "Defendant" : "Manager of funny dictators",
+          "Participants"  : "Muhamed",
+          "Judge" : "Allah"
+        },
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "186/ 2014/ EE6",
+          "CaseType" : "Eclair",
+          "Claimant" : "Ahmed",
+          "Defendant" : "Manager of funny dictators",
+          "Participants"  : "Muhamed",
+          "Judge" : "Allah"
+        },
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "186/ 2014/ EE6",
+          "CaseType" : "Eclair",
+          "Claimant" : "Ahmed",
+          "Defendant" : "Manager of funny dictators",
+          "Participants"  : "Muhamed",
+          "Judge" : "Allah"
+        },
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "186/ 2014/ EE6",
+          "CaseType" : "Eclair",
+          "Claimant" : "Ahmed",
+          "Defendant" : "Manager of funny dictators",
+          "Participants"  : "Muhamed",
+          "Judge" : "Allah"
+        },
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "186/ 2014/ EE6",
+          "CaseType" : "Eclair",
+          "Claimant" : "Ahmed",
+          "Defendant" : "Manager of funny dictators",
+          "Participants"  : "Muhamed",
+          "Judge" : "Allah"
+        }
+      ]
+    }
+  ]}
+
+
+  $("#placeholder-registry-table").html(template(data));
+
+  var foo = { fields: [ 
+  {
   "Texts" :
   {
     "CaseNumber" : "Case number",
@@ -106,3 +170,4 @@
   ]
 
 }
+]};

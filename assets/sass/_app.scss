@@ -302,6 +302,14 @@ div.dataTables_wrapper {
   overflow-y: hidden; 
 }
 
+.bullet.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
 // Filter
 // *************
 .filter-action {

@@ -1,0 +1,174 @@
+var source   = $("#registry-table-template").html();
+var template = Handlebars.compile(source); 
+
+var data = {  "Cases" : [
+    {
+  "Case" : [
+
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+,
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+,
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+,
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+,
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+      ]
+    }
+  ]}
+
+
+  $("#placeholder-registry-table").html(template(data));
+
+  var foo =  {
+  "Texts" :
+  {
+    "CaseNumber" : "رقم القضية (GT)",
+    "CaseType" : "نوع القضية (GT)",
+    "Claimant" : "المدعي (GT)",
+    "Defendant" : "المدعى عليه (GT)",
+    "Judge" : "القاضي (GT)",
+    "Rejected" : "مرفوض (GT)",
+    "All" : "جميع (GT)",
+    "Status" : "وضع شرعي (GT)",
+    "Data" : "معطيات (GT)",
+    "Participants"  : "المشاركين (GT)",
+    "About" : "حول (GT)"
+  },
+
+  "Filter" : [
+    {
+      "CaseType" : [
+        {
+          "Value0" : "نوع القضية (GT)",
+          "Value1" : "1 الخيار",
+          "Value2" : "2 الخيار",
+          "Value3" : "3 الخيار"
+        }
+      ]
+    }
+  ],
+
+"Cases" : [
+    {
+      "Case1" : [
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+      ],
+      
+      "Case2" : [
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+      ],
+
+      "Case3" : [
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+      ],
+
+      "Case4" : [
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+      ],
+
+      "Case5" : [
+        {
+          "Status" : "True",
+          "Date" : "2014-05-06",
+          "CaseNumber" : "23/ ب / 2014 ",
+          "CaseType" : "استملاك",
+          "Claimant" : "آزاد حلة عمر",
+          "Defendant" : "ڕۆژه‌ كمال احمد حسن",
+          "Participants"  : "آزاد حلة عمر",
+          "Judge" : "آزاد حلة عمر"
+        }
+      ]
+
+    }
+  ],
+
+  "About" : [
+    {
+      "AboutText" : "هذا هو النموذج الأولي للمشروع المحكمة معلومات النظام. في حال كنت تجد شيئا لتحسين، ودفع ردود الفعل على زر أزرق هنا وكتابة التحسينات الخاصة بك. في هذه الطريقة سوف تساعدنا على بناء أداة أفضل بالنسبة لك. (GT)"
+    }
+  ]
+
+}

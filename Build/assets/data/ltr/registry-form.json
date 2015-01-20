@@ -1,0 +1,88 @@
+{
+ "Texts":
+ {
+  "CaseType" : "CaseType",
+  "ClaimValue" : "ClaimValue",
+  "Judge" : "Judge",
+  "Urgent" : "Urgent",
+  "CaseNumber" : "Case number",
+  "Claimant" : "Claimant",
+  "NaturalPerson" : "Natural person",
+  "LegalEntity" : "Legal entity",
+  "ClaimantAddress" : "Claimants address",
+  "claimantId" : "Document number",
+  "Claimant-success" : "This field is success.",
+  "ClaimantPhone" : "Claimants phone",
+  "RepresentedByParent" : "Represented by parent",
+  "Parent" : "Parents full name",
+  "ParentId" : "Parents ID",
+  "ParentsPhone" : "Parents Phone",
+  "Defendant" : "Defendant",
+  "Participants" : "Participants",
+  "NoParticipant" : "NoParticipant",
+  "Witness" : "Witness",
+  "Expert" : "Expert",
+  "ThirdParty" : "Third party",
+  "Other" : "Other",
+  "Document" : "Documents",
+  "Note" : "Notes",
+  "Upload" : "Drop files here to upload",
+  "Upload2" : "or click here",
+  "Cancle" : "CANCLE",
+  "Send" : "SEN TO JUDGE",
+  "Sign" : "SIGN AS JUDGE",
+  "Save" : "SAVE FOR LATER"
+ },
+
+
+
+ "Claimants" : [
+  {
+   "Name" : "Ahmed",
+   "DocumentNumber" : "423878592",
+   "ClaimantsPhone" : "45352356",
+   "Initialized" : [
+      {
+      "Value0" : "No representative",
+      "value1" : "Lawyer",
+      "Value2" : "Parent",
+      "Value3" : "Legal guardian",
+      "Value4" : "Other"
+      }
+   ]
+  }
+ ],
+
+
+
+ "Defendants" : [
+  {
+   "Name" : "Omar",
+   "DocumentNumber" : "D28904344",
+     "Initialized" : [
+      {
+      "Value0" : "No representative",
+      "value1" : "Lawyer",
+      "Value2" : "Parent",
+      "Value3" : "Legal guardian",
+      "Value4" : "Other"
+      }
+   ]
+  }
+ ],
+
+ "Participants" : [
+  {
+      "Initiialized" : [
+        {
+          "Value0" : "No participant",
+          "Value1" : "Witness",
+          "Value2" : "Expert",
+          "Value3" : "Third party",
+          "Value4" : "Other"
+        }
+      ]
+  }
+ ]
+
+}
