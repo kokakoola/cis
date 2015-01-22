@@ -1,21 +1,35 @@
 (function($){
+
+  loadDataTable = function(){
+    $('table.registry').DataTable({
+      searching: false,
+      lengthChange: false,
+      'iDisplayLength': 100,
+       columnDefs: [
+          { "orderable": false, "targets": 0 }
+        ]
+    });
+  };
+
   $(function(){
-    loadDataTable = function(){
-      $('table.registry').DataTable({
-        searching: false,
-        lengthChange: false,
-        'iDisplayLength': 100,
-         columnDefs: [
-            { "orderable": false, "targets": 0 }
-          ]
-      });
-    };
+
     $(".callSlideout").sideNav({edge: 'right', menuWidth: 440, activationWidth: 70});
+
     $('select').material_select();
+
     $(".dropdown-button").dropdown({
       hover: false
     });
+
+    $(".dropdown-button-simplified").dropdown({
+      constrain_width: false,
+      hover: false
+    });
+
     $('.collapsible').collapsible();
+
+    $('#initiate-form .collapse').collapse('show');
+
     $(".button-collapse").sideNav();
 
     // pickadate init with preset Today
